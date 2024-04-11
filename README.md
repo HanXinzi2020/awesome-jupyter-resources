@@ -14,1237 +14,1221 @@
     <a href="https://github.com/HanXinzi-AI/awesome-jupyter-resources/releases" title="最近更新"><img src="https://img.shields.io/github/release-date/HanXinzi-AI/awesome-jupyter-resources?color=green&label=updated"></a>
 </p>
 
-本资源清单包含270个jupyter相关的开源工具资源，这些热门工具总共分成13个不同的子板块，这些项目目前在github上已经收到260K个点赞。所有的工具资源每周会自动从GitHub和工具维护平台采集信息，并更新排行展示。本清单参考[best-of模板](https://github.com/best-of-lists/best-of)完成，内容参考了[awesome-jupyter](https://github.com/markusschanta/awesome-jupyter)，欢迎大家提PR丰富本清单。
-## 目录
+本资源清单包含270个jupyter相关的开源工具资源，这些热门工具总共分成13个不同的子板块，这些项目目前在github上已经收到300K个点赞。所有的工具资源每周会自动从GitHub和工具维护平台采集信息，并更新排行展示。本清单参考[best-of模板](https://github.com/best-of-lists/best-of)完成，内容参考了[awesome-jupyter](https://github.com/markusschanta/awesome-jupyter)，欢迎大家提PR丰富本清单。
+## Contents
 
-- [Notebook环境](#Notebook环境) _13 个项目_
-- [交互式小部件和可视化](#交互式小部件和可视化) _49 个项目_
-- [Jupyter拓展](#Jupyter拓展) _23 个项目_
-- [Jupyter-magic拓展](#Jupyter-magic拓展) _10 个项目_
-- [Jupyter内核](#Jupyter内核) _36 个项目_
-- [Jupyter-Notebook分享与格式转换](#Jupyter-Notebook分享与格式转换) _23 个项目_
-- [Jupyter-Notebook工具](#Jupyter-Notebook工具) _24 个项目_
-- [JupyterLab渲染器](#JupyterLab渲染器) _7 个项目_
-- [JupyterLab主题](#JupyterLab主题) _8 个项目_
-- [JupyterLab扩展](#JupyterLab扩展) _50 个项目_
-- [JupyterHub认证](#JupyterHub认证) _15 个项目_
-- [JupyterHub容器等](#JupyterHub容器等) _8 个项目_
-- [Jupyter组件](#Jupyter组件) _3 个项目_
-- [Others](#Others) _4 个项目_
+- [Notebook Environments](#notebook-environments) _13 projects_
+- [Interactive Widgets & Visualization](#interactive-widgets--visualization) _48 projects_
+- [Jupyter Extensions](#jupyter-extensions) _23 projects_
+- [Jupyter Magic](#jupyter-magic) _10 projects_
+- [Jupyter Kernels](#jupyter-kernels) _36 projects_
+- [Notebook Sharing & Conversion](#notebook-sharing--conversion) _23 projects_
+- [Notebook Tools](#notebook-tools) _24 projects_
+- [JupyterLab Renderer](#jupyterlab-renderer) _7 projects_
+- [JupyterLab Themes](#jupyterlab-themes) _8 projects_
+- [JupyterLab Extensions](#jupyterlab-extensions) _50 projects_
+- [JupyterHub Authenticators](#jupyterhub-authenticators) _15 projects_
+- [JupyterHub Spawners](#jupyterhub-spawners) _8 projects_
+- [Jupyter Components](#jupyter-components) _3 projects_
+- [Others](#others) _4 projects_
 
-## 图标解释
-- 🥇🥈🥉&nbsp; 综合项目质量分
-- ⭐️&nbsp; github上star的数量
-- 🐣&nbsp; 小于6个月的新项目
-- 💤&nbsp; 非活跃项目(6个月未更新)
-- 💀&nbsp; 沉寂项目(12个月未更新)
-- 📈📉&nbsp; 项目趋势(向上or向下)
-- ➕&nbsp; 最近添加的项目
-- ❗️&nbsp; 警告(例如 项目没有license)
-- 👨‍💻&nbsp; 项目的开发贡献者数量
-- 🔀&nbsp; 项目被fork的数量
-- 📋&nbsp; 项目issue的数量
-- ⏱️&nbsp; 项目包上次更新时间
-- 📥&nbsp; 工具库被下载次数
-- 📦&nbsp; 项目依赖的工具库数量
+## Explanation
+- 🥇🥈🥉&nbsp; Combined project-quality score
+- ⭐️&nbsp; Star count from GitHub
+- 🐣&nbsp; New project _(less than 6 months old)_
+- 💤&nbsp; Inactive project _(6 months no activity)_
+- 💀&nbsp; Dead project _(12 months no activity)_
+- 📈📉&nbsp; Project is trending up or down
+- ➕&nbsp; Project was recently added
+- ❗️&nbsp; Warning _(e.g. missing/risky license)_
+- 👨‍💻&nbsp; Contributors count from GitHub
+- 🔀&nbsp; Fork count from GitHub
+- 📋&nbsp; Issue count from GitHub
+- ⏱️&nbsp; Last update timestamp on package manager
+- 📥&nbsp; Download count from package manager
+- 📦&nbsp; Number of dependent projects
 
 <br>
 
-## Notebook环境
+## Notebook Environments
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_支持Jupyter笔记本的开发环境。_
+_Development environments with support for Jupyter Notebooks._
 
-<details><summary><b><a href="https://github.com/jupyter/notebook">Jupyter</a></b> (🥇27 ·  ⭐ 10K · 📉) - Jupyter Interactive Notebook. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter/notebook">Jupyter</a></b> (🥇36 ·  ⭐ 12K · 📈) - Jupyter Interactive Notebook. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/notebook) (👨‍💻 610 · 🔀 3.8K · 📥 8.8K · 📦 10 · 📋 4.5K - 44% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/jupyter/notebook) (👨‍💻 650 · 🔀 4.5K · 📥 17K · 📦 280K · 📋 4.8K - 39% open · ⏱️ 10.04.2024):
 
 	```
 	git clone https://github.com/jupyter/notebook
 	```
-- [PyPi](https://pypi.org/project/notebook) (📥 11M / month):
+- [PyPi](https://pypi.org/project/notebook) (📥 24M / month):
 	```
 	pip install notebook
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyter) (📥 2.3M · ⏱️ 18.11.2021):
+- [Conda](https://anaconda.org/conda-forge/jupyter) (📥 4.1M · ⏱️ 02.10.2023):
 	```
 	conda install -c conda-forge jupyter
 	```
-- [Docker Hub](https://hub.docker.com/r/jupyter/datascience-notebook) (📥 27M · ⭐ 940 · ⏱️ 23.08.2022):
+- [Docker Hub](https://hub.docker.com/r/jupyter/datascience-notebook) (📥 33M · ⭐ 1.1K · ⏱️ 20.10.2023):
 	```
 	docker pull jupyter/datascience-notebook
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/jupyterhub">JupyterHub</a></b> (🥇25 ·  ⭐ 7.1K) - Jupyter笔记本电脑的多用户服务器。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter/docker-stacks">Docker Stacks</a></b> (🥇25 ·  ⭐ 8.2K) - Ready-to-run Docker images containing Jupyter applications. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/jupyterhub) (👨‍💻 280 · 🔀 1.7K · 📦 1.9K · 📋 2.1K - 5% open · ⏱️ 24.08.2022):
-
-	```
-	git clone https://github.com/jupyterhub/jupyterhub
-	```
-- [PyPi](https://pypi.org/project/jupyterhub) (📥 130K / month):
-	```
-	pip install jupyterhub
-	```
-- [Conda](https://anaconda.org/conda-forge/jupyterhub) (📥 650K · ⏱️ 06.06.2022):
-	```
-	conda install -c conda-forge jupyterhub
-	```
-- [Docker Hub](https://hub.docker.com/r/jupyterhub/jupyterhub) (📥 2.7M · ⭐ 310 · ⏱️ 19.08.2022):
-	```
-	docker pull jupyterhub/jupyterhub
-	```
-</details>
-<details><summary><b><a href="https://github.com/nteract/nteract">nteract</a></b> (🥇25 ·  ⭐ 5.9K) - 交互式计算套件<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/nteract/nteract) (👨‍💻 180 · 🔀 530 · 📥 1.4M · 📋 1.7K - 9% open · ⏱️ 23.07.2022):
-
-	```
-	git clone https://github.com/nteract/nteract
-	```
-- [PyPi](https://pypi.org/project/nteract_on_jupyter) (📥 2.4K / month):
-	```
-	pip install nteract_on_jupyter
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter/docker-stacks">Docker Stacks</a></b> (🥈22 ·  ⭐ 7.2K) - 包含Jupyter应用程序的即可运行的Docker映像。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter/docker-stacks) (👨‍💻 220 · 🔀 2.6K · 📋 770 - 5% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/jupyter/docker-stacks) (👨‍💻 240 · 🔀 2.8K · 📦 21 · 📋 880 - 0% open · ⏱️ 03.04.2024):
 
 	```
 	git clone https://github.com/jupyter/docker-stacks
 	```
-- [Docker Hub](https://hub.docker.com/r/jupyter/scipy-notebook) (📥 86M · ⭐ 360 · ⏱️ 23.08.2022):
+- [Docker Hub](https://hub.docker.com/r/jupyter/scipy-notebook) (📥 91M · ⭐ 440 · ⏱️ 20.10.2023):
 	```
 	docker pull jupyter/scipy-notebook
 	```
 </details>
-<details><summary><b><a href="https://github.com/vatlab/sos">sos</a></b> (🥈22 ·  ⭐ 230) - 用于日常数据分析的SoS工作流系统。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/jupyterhub">JupyterHub</a></b> (🥇25 ·  ⭐ 7.9K) - Multi-user server for Jupyter notebooks. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/vatlab/sos) (👨‍💻 36 · 🔀 30 · 📦 2.7K · 📋 1.4K - 4% open · ⏱️ 21.06.2022):
+- [GitHub](https://github.com/jupyterhub/jupyterhub) (👨‍💻 360 · 🔀 1.9K · 📦 2.8K · 📋 2.4K - 6% open · ⏱️ 11.04.2024):
+
+	```
+	git clone https://github.com/jupyterhub/jupyterhub
+	```
+- [PyPi](https://pypi.org/project/jupyterhub) (📥 160K / month):
+	```
+	pip install jupyterhub
+	```
+- [Conda](https://anaconda.org/conda-forge/jupyterhub) (📥 1.1M · ⏱️ 05.04.2024):
+	```
+	conda install -c conda-forge jupyterhub
+	```
+- [Docker Hub](https://hub.docker.com/r/jupyterhub/jupyterhub) (📥 5.2M · ⭐ 330 · ⏱️ 11.04.2024):
+	```
+	docker pull jupyterhub/jupyterhub
+	```
+</details>
+<details><summary><b><a href="https://github.com/nteract/nteract">nteract</a></b> (🥇25 ·  ⭐ 6.1K) - The interactive computing suite for you!. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/nteract/nteract) (👨‍💻 180 · 🔀 540 · 📥 1.5M · 📦 3 · 📋 1.7K - 9% open · ⏱️ 30.12.2023):
+
+	```
+	git clone https://github.com/nteract/nteract
+	```
+- [PyPi](https://pypi.org/project/nteract_on_jupyter) (📥 760 / month):
+	```
+	pip install nteract_on_jupyter
+	```
+</details>
+<details><summary><b><a href="https://github.com/vatlab/sos">sos</a></b> (🥈23 ·  ⭐ 260) - SoS workflow system for daily data analysis. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/vatlab/sos) (👨‍💻 36 · 🔀 42 · 📦 5.6K · 📋 1.5K - 4% open · ⏱️ 11.04.2024):
 
 	```
 	git clone https://github.com/vatlab/SOS
 	```
 </details>
-<details><summary><b><a href="https://github.com/googledatalab/datalab">DataLab</a></b> (🥈21 ·  ⭐ 980 · 💤) - 面向大数据的交互式工具和开发人员经验。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/googledatalab/datalab">DataLab</a></b> (🥈22 ·  ⭐ 970 · 💀) - Interactive tools and developer experiences for Big Data on.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/googledatalab/datalab) (👨‍💻 52 · 🔀 250 · 📋 890 - 25% open · ⏱️ 16.08.2021):
+- [GitHub](https://github.com/googledatalab/datalab) (👨‍💻 53 · 🔀 250 · 📋 890 - 25% open · ⏱️ 02.09.2022):
 
 	```
 	git clone https://github.com/googledatalab/datalab
 	```
-- [PyPi](https://pypi.org/project/datalab) (📥 56K / month):
+- [PyPi](https://pypi.org/project/datalab) (📥 77K / month):
 	```
 	pip install datalab
 	```
 </details>
-<details><summary><b><a href="https://github.com/nteract/hydrogen">Hydrogen</a></b> (🥉19 ·  ⭐ 3.8K) - 交互运行代码，检查数据并作图。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Kaggle/docker-python">docker-python</a></b> (🥉20 ·  ⭐ 2.5K) - Kaggle Python docker image. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/nteract/hydrogen) (👨‍💻 89 · 🔀 320 · 📋 1.3K - 13% open · ⏱️ 25.03.2022):
+- [GitHub](https://github.com/Kaggle/docker-python) (👨‍💻 160 · 🔀 880 · 📋 350 - 9% open · ⏱️ 03.04.2024):
+
+	```
+	git clone https://github.com/kaggle/docker-python
+	```
+- [Docker Hub](https://hub.docker.com/r/kaggle/python) (📥 200K · ⭐ 180 · ⏱️ 03.04.2024):
+	```
+	docker pull kaggle/python
+	```
+</details>
+<details><summary><b><a href="https://github.com/nteract/hydrogen">Hydrogen</a></b> (🥉19 ·  ⭐ 3.9K · 💀) - Run code interactively, inspect data, and plot. All the power of.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/nteract/hydrogen) (👨‍💻 90 · 🔀 320 · 📋 1.3K - 13% open · ⏱️ 10.01.2023):
 
 	```
 	git clone https://github.com/nteract/hydrogen
 	```
 </details>
-<details><summary><b><a href="https://github.com/Kaggle/docker-python">docker-python</a></b> (🥉19 ·  ⭐ 2.2K) - Kaggle Python Docker映像。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/microsoft/vscode-jupyter">VSCode Jupyter</a></b> (🥉19 ·  ⭐ 1.2K) - VS Code Jupyter extension. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/Kaggle/docker-python) (👨‍💻 150 · 🔀 810 · 📋 300 - 4% open · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/kaggle/docker-python
-	```
-- [Docker Hub](https://hub.docker.com/r/kaggle/python) (📥 190K · ⭐ 160 · ⏱️ 23.08.2022):
-	```
-	docker pull kaggle/python
-	```
-</details>
-<details><summary><b><a href="https://github.com/ml-tooling/ml-workspace">ML Workspace</a></b> (🥉18 ·  ⭐ 2.7K · 💤) - 基于Web的多合一IDE，专门用于机器学习和数据任务。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/ml-tooling/ml-workspace) (👨‍💻 11 · 🔀 330 · 📋 87 - 9% open · ⏱️ 22.11.2021):
-
-	```
-	git clone https://github.com/ml-tooling/ml-workspace
-	```
-- [Docker Hub](https://hub.docker.com/r/mltooling/ml-workspace) (📥 510K · ⭐ 24 · ⏱️ 13.07.2021):
-	```
-	docker pull mltooling/ml-workspace
-	```
-</details>
-<details><summary><b><a href="https://github.com/ml-tooling/ml-hub">ML Hub</a></b> (🥉17 ·  ⭐ 250 · 💤) - 机器学习团队的多用户开发平台。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/ml-tooling/ml-hub) (👨‍💻 7 · 🔀 54 · 📥 1.9K · 📋 26 - 57% open · ⏱️ 23.12.2021):
-
-	```
-	git clone https://github.com/ml-tooling/ml-hub
-	```
-- [Docker Hub](https://hub.docker.com/r/mltooling/ml-hub) (📥 44K · ⭐ 5 · ⏱️ 18.02.2020):
-	```
-	docker pull mltooling/ml-hub
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterlab/retrolab">jupyterlab-classic</a></b> (🥉17 ·  ⭐ 240) - 下一代老式笔记本用户UI界面。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterlab/retrolab) (👨‍💻 17 · 🔀 43 · 📥 790 · 📦 80 · 📋 110 - 3% open · ⏱️ 04.05.2022):
-
-	```
-	git clone https://github.com/jtpio/jupyterlab-classic
-	```
-- [PyPi](https://pypi.org/project/jupyterlab-classic) (📥 70 / month):
-	```
-	pip install jupyterlab-classic
-	```
-</details>
-<details><summary><b><a href="https://github.com/microsoft/vscode-jupyter">VSCode Jupyter</a></b> (🥉16 ·  ⭐ 710) - VS Code Jupyter extension. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/microsoft/vscode-jupyter) (👨‍💻 250 · 🔀 150 · 📋 7.7K - 8% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/microsoft/vscode-jupyter) (👨‍💻 270 · 🔀 260 · 📦 3 · 📋 9.7K - 3% open · ⏱️ 11.04.2024):
 
 	```
 	git clone https://github.com/microsoft/vscode-jupyter
 	```
 </details>
-<details><summary><b><a href="https://github.com/iot-salzburg/gpu-jupyter">gpu-jupyter</a></b> (🥉14 ·  ⭐ 390) - 充分利用Jupyterlab的灵活性。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ml-tooling/ml-workspace">ML Workspace</a></b> (🥉18 ·  ⭐ 3.3K) - All-in-one web-based IDE specialized for machine learning and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/iot-salzburg/gpu-jupyter) (👨‍💻 10 · 🔀 140 · 📋 56 - 21% open · ⏱️ 21.07.2022):
+- [GitHub](https://github.com/ml-tooling/ml-workspace) (👨‍💻 12 · 🔀 400 · 📋 93 - 1% open · ⏱️ 14.11.2023):
+
+	```
+	git clone https://github.com/ml-tooling/ml-workspace
+	```
+- [Docker Hub](https://hub.docker.com/r/mltooling/ml-workspace) (📥 550K · ⭐ 26 · ⏱️ 13.07.2021):
+	```
+	docker pull mltooling/ml-workspace
+	```
+</details>
+<details><summary><b><a href="https://github.com/iot-salzburg/gpu-jupyter">gpu-jupyter</a></b> (🥉16 ·  ⭐ 650) - Leverage the flexibility of Jupyterlab through the power of your.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/iot-salzburg/gpu-jupyter) (👨‍💻 15 · 🔀 220 · 📋 91 - 2% open · ⏱️ 09.04.2024):
 
 	```
 	git clone https://github.com/iot-salzburg/gpu-jupyter
 	```
 </details>
+<details><summary><b><a href="https://github.com/ml-tooling/ml-hub">ML Hub</a></b> (🥉16 ·  ⭐ 300 · 💀) - Multi-user development platform for machine learning teams. Simple.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/ml-tooling/ml-hub) (👨‍💻 7 · 🔀 63 · 📥 2.1K · 📋 27 - 59% open · ⏱️ 23.12.2021):
+
+	```
+	git clone https://github.com/ml-tooling/ml-hub
+	```
+- [Docker Hub](https://hub.docker.com/r/mltooling/ml-hub) (📥 45K · ⭐ 5 · ⏱️ 18.02.2020):
+	```
+	docker pull mltooling/ml-hub
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/retrolab">jupyterlab-classic</a></b> (🥉16 ·  ⭐ 280 · 💀) - The next-gen old-school notebook UI. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/retrolab) (👨‍💻 17 · 🔀 45 · 📥 2.8K · 📦 18 · ⏱️ 16.02.2023):
+
+	```
+	git clone https://github.com/jtpio/jupyterlab-classic
+	```
+- [PyPi](https://pypi.org/project/jupyterlab-classic) (📥 130 / month):
+	```
+	pip install jupyterlab-classic
+	```
+</details>
 <br>
 
-## 交互式小部件和可视化
+## Interactive Widgets & Visualization
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_提供交互式UI小部件和可视化工具的扩展。_
+_Extensions that provide interactive UI-widgets and visualization tools._
 
 🔗&nbsp;<b><a href="https://github.com/ml-tooling/best-of-ml-python#data-visualization">best-of-ml-python - Data Visualization</a></b>  - Python-based data visualization libraries.
 
-<details><summary><b><a href="https://github.com/jupyter-widgets/ipywidgets">ipywidgets</a></b> (🥇34 ·  ⭐ 2.6K) - Interactive Widgets for the Jupyter Notebook. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/bokeh/bokeh">bokeh</a></b> (🥇33 ·  ⭐ 19K) - Interactive Data Visualization in the browser, from Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter-widgets/ipywidgets) (👨‍💻 200 · 🔀 830 · 📦 4.7K · 📋 1.8K - 31% open · ⏱️ 23.08.2022):
-
-	```
-	git clone https://github.com/jupyter-widgets/ipywidgets
-	```
-- [PyPi](https://pypi.org/project/ipywidgets) (📥 7.8M / month):
-	```
-	pip install ipywidgets
-	```
-- [Conda](https://anaconda.org/conda-forge/ipywidgets) (📥 5.8M · ⏱️ 19.08.2022):
-	```
-	conda install -c conda-forge ipywidgets
-	```
-- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager) (📥 79K / month):
-	```
-	npm install @jupyter-widgets/jupyterlab-manager
-	```
-</details>
-<details><summary><b><a href="https://github.com/ydataai/pandas-profiling">pandas-profiling</a></b> (🥇33 ·  ⭐ 9.4K) - 从pandas DataFrame创建HTML分析报告。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/ydataai/pandas-profiling) (👨‍💻 92 · 🔀 1.3K · 📦 8.8K · 📋 580 - 19% open · ⏱️ 24.08.2022):
-
-	```
-	git clone https://github.com/pandas-profiling/pandas-profiling
-	```
-- [PyPi](https://pypi.org/project/pandas-profiling) (📥 1.2M / month):
-	```
-	pip install pandas-profiling
-	```
-- [Conda](https://anaconda.org/conda-forge/pandas-profiling) (📥 270K · ⏱️ 02.05.2022):
-	```
-	conda install -c conda-forge pandas-profiling
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter-widgets/ipyleaflet">ipyleaflet</a></b> (🥇30 ·  ⭐ 1.3K) - Jupyter-Leaflet.js桥接。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/jupyter-widgets/ipyleaflet) (👨‍💻 80 · 🔀 320 · 📦 2.6K · 📋 500 - 36% open · ⏱️ 23.08.2022):
-
-	```
-	git clone https://github.com/jupyter-widgets/ipyleaflet
-	```
-- [PyPi](https://pypi.org/project/ipyleaflet) (📥 110K / month):
-	```
-	pip install ipyleaflet
-	```
-- [Conda](https://anaconda.org/conda-forge/ipyleaflet) (📥 870K · ⏱️ 23.08.2022):
-	```
-	conda install -c conda-forge ipyleaflet
-	```
-- [NPM](https://www.npmjs.com/package/jupyter-leaflet) (📥 50K / month):
-	```
-	npm install jupyter-leaflet
-	```
-</details>
-<details><summary><b><a href="https://github.com/bokeh/bokeh">bokeh</a></b> (🥇28 ·  ⭐ 17K) - 浏览器中的Python交互式数据可视化。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/bokeh/bokeh) (👨‍💻 610 · 🔀 3.9K · 📦 150 · 📋 7K - 9% open · ⏱️ 24.08.2022):
+- [GitHub](https://github.com/bokeh/bokeh) (👨‍💻 690 · 🔀 4.1K · 📦 86K · 📋 7.6K - 9% open · ⏱️ 10.04.2024):
 
 	```
 	git clone https://github.com/bokeh/bokeh
 	```
-- [PyPi](https://pypi.org/project/bokeh) (📥 3.6M / month):
+- [PyPi](https://pypi.org/project/bokeh) (📥 5.1M / month):
 	```
 	pip install bokeh
 	```
-- [Conda](https://anaconda.org/conda-forge/bokeh) (📥 8.2M · ⏱️ 15.08.2022):
+- [Conda](https://anaconda.org/conda-forge/bokeh) (📥 14M · ⏱️ 15.03.2024):
 	```
 	conda install -c conda-forge bokeh
 	```
 </details>
-<details><summary><b><a href="https://github.com/man-group/dtale">D-Tale</a></b> (🥇27 ·  ⭐ 3.6K) - Visualizer for Pandas Data Structures. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+<details><summary><b><a href="https://github.com/ydataai/ydata-profiling">pandas-profiling</a></b> (🥇33 ·  ⭐ 12K) - Create HTML profiling reports from pandas DataFrame.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/man-group/dtale) (👨‍💻 27 · 🔀 290 · 📦 460 · 📋 470 - 8% open · ⏱️ 07.08.2022):
+- [GitHub](https://github.com/ydataai/ydata-profiling) (👨‍💻 120 · 🔀 1.6K · 📥 77 · 📦 2.8K · 📋 770 - 27% open · ⏱️ 09.04.2024):
+
+	```
+	git clone https://github.com/pandas-profiling/pandas-profiling
+	```
+- [PyPi](https://pypi.org/project/pandas-profiling) (📥 600K / month):
+	```
+	pip install pandas-profiling
+	```
+- [Conda](https://anaconda.org/conda-forge/pandas-profiling) (📥 420K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge pandas-profiling
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter-widgets/ipyleaflet">ipyleaflet</a></b> (🥇31 ·  ⭐ 1.4K) - A Jupyter - Leaflet.js bridge. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/jupyter-widgets/ipyleaflet) (👨‍💻 88 · 🔀 350 · 📦 8.1K · 📋 580 - 40% open · ⏱️ 01.03.2024):
+
+	```
+	git clone https://github.com/jupyter-widgets/ipyleaflet
+	```
+- [PyPi](https://pypi.org/project/ipyleaflet) (📥 140K / month):
+	```
+	pip install ipyleaflet
+	```
+- [Conda](https://anaconda.org/conda-forge/ipyleaflet) (📥 1.1M · ⏱️ 23.01.2024):
+	```
+	conda install -c conda-forge ipyleaflet
+	```
+- [NPM](https://www.npmjs.com/package/jupyter-leaflet) (📥 8.7K / month):
+	```
+	npm install jupyter-leaflet
+	```
+</details>
+<details><summary><b><a href="https://github.com/man-group/dtale">D-Tale</a></b> (🥇28 ·  ⭐ 4.5K) - Visualizer for Pandas Data Structures. <code><a href="https://tldrlegal.com/search?q=LGPL-2.1">❗️LGPL-2.1</a></code></summary>
+
+- [GitHub](https://github.com/man-group/dtale) (👨‍💻 30 · 🔀 380 · 📦 1.1K · 📋 570 - 11% open · ⏱️ 06.03.2024):
 
 	```
 	git clone https://github.com/man-group/dtale
 	```
-- [PyPi](https://pypi.org/project/dtale) (📥 100K / month):
+- [PyPi](https://pypi.org/project/dtale) (📥 56K / month):
 	```
 	pip install dtale
 	```
-- [Conda](https://anaconda.org/conda-forge/dtale) (📥 150K · ⏱️ 07.08.2022):
+- [Conda](https://anaconda.org/conda-forge/dtale) (📥 270K · ⏱️ 07.03.2024):
 	```
 	conda install -c conda-forge dtale
 	```
 </details>
-<details><summary><b><a href="https://github.com/bqplot/bqplot">bqplot</a></b> (🥇27 ·  ⭐ 3.3K) - 用于IPython / Jupyter笔记本的绘图库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bqplot/bqplot">bqplot</a></b> (🥇28 ·  ⭐ 3.5K) - Plotting library for IPython/Jupyter notebooks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/bqplot/bqplot) (👨‍💻 59 · 🔀 440 · 📦 34 · 📋 570 - 36% open · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/bqplot/bqplot) (👨‍💻 64 · 🔀 450 · 📦 55 · 📋 590 - 37% open · ⏱️ 25.03.2024):
 
 	```
 	git clone https://github.com/bqplot/bqplot
 	```
-- [PyPi](https://pypi.org/project/bqplot) (📥 82K / month):
+- [PyPi](https://pypi.org/project/bqplot) (📥 120K / month):
 	```
 	pip install bqplot
 	```
-- [Conda](https://anaconda.org/conda-forge/bqplot) (📥 1M · ⏱️ 22.08.2022):
+- [Conda](https://anaconda.org/conda-forge/bqplot) (📥 1.3M · ⏱️ 19.02.2024):
 	```
 	conda install -c conda-forge bqplot
 	```
-- [NPM](https://www.npmjs.com/package/bqplot) (📥 9.3K / month):
+- [NPM](https://www.npmjs.com/package/bqplot) (📥 3.4K / month):
 	```
 	npm install bqplot
 	```
 </details>
-<details><summary><b><a href="https://github.com/widgetti/ipyvolume">ipyvolume</a></b> (🥇27 ·  ⭐ 1.8K) - 基于IPython的Jupyter笔记本中用于Python的3d绘图<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nteract/papermill">papermill</a></b> (🥈27 ·  ⭐ 5.6K) - Parameterize, execute, and analyze notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/widgetti/ipyvolume) (👨‍💻 41 · 🔀 220 · 📦 840 · 📋 300 - 56% open · ⏱️ 26.07.2022):
-
-	```
-	git clone https://github.com/maartenbreddels/ipyvolume
-	```
-- [PyPi](https://pypi.org/project/ipyvolume) (📥 56K / month):
-	```
-	pip install ipyvolume
-	```
-- [Conda](https://anaconda.org/conda-forge/ipyvolume) (📥 380K · ⏱️ 20.04.2021):
-	```
-	conda install -c conda-forge ipyvolume
-	```
-- [NPM](https://www.npmjs.com/package/ipyvolume) (📥 2.1K / month):
-	```
-	npm install ipyvolume
-	```
-</details>
-<details><summary><b><a href="https://github.com/matplotlib/ipympl">jupyter-matplotlib</a></b> (🥇27 ·  ⭐ 1.3K) - Matplotlib Jupyter集成。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/matplotlib/ipympl) (👨‍💻 28 · 🔀 190 · 📦 3.7K · 📋 260 - 44% open · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/matplotlib/ipympl
-	```
-- [PyPi](https://pypi.org/project/ipympl) (📥 150K / month):
-	```
-	pip install ipympl
-	```
-- [NPM](https://www.npmjs.com/package/jupyter-matplotlib) (📥 27K / month):
-	```
-	npm install jupyter-matplotlib
-	```
-</details>
-<details><summary><b><a href="https://github.com/plotly/jupyter-dash">jupyter-dash</a></b> (🥇27 ·  ⭐ 800) - 在Jupyter Notebook和JupyterLab中开发Dash应用程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/plotly/jupyter-dash) (👨‍💻 10 · 🔀 210 · 📥 77 · 📦 1.8K · 📋 62 - 62% open · ⏱️ 28.06.2022):
-
-	```
-	git clone https://github.com/plotly/jupyter-dash
-	```
-- [PyPi](https://pypi.org/project/jupyter-dash) (📥 370K / month):
-	```
-	pip install jupyter-dash
-	```
-</details>
-<details><summary><b><a href="https://github.com/nteract/papermill">papermill</a></b> (🥈26 ·  ⭐ 4.8K) - 参数化，执行和分析笔记本。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/nteract/papermill) (👨‍💻 100 · 🔀 360 · 📦 2.4K · 📋 340 - 30% open · ⏱️ 15.08.2022):
+- [GitHub](https://github.com/nteract/papermill) (👨‍💻 120 · 🔀 410 · 📦 5.8K · 📋 390 - 34% open · ⏱️ 04.04.2024):
 
 	```
 	git clone https://github.com/nteract/papermill
 	```
-- [PyPi](https://pypi.org/project/papermill) (📥 870K / month):
+- [PyPi](https://pypi.org/project/papermill) (📥 1.4M / month):
 	```
 	pip install papermill
 	```
-- [Conda](https://anaconda.org/conda-forge/papermill) (📥 300K · ⏱️ 23.01.2022):
+- [Conda](https://anaconda.org/conda-forge/papermill) (📥 570K · ⏱️ 09.04.2024):
 	```
 	conda install -c conda-forge papermill
 	```
 </details>
-<details><summary><b><a href="https://github.com/PAIR-code/facets">facets-overview</a></b> (🥈25 ·  ⭐ 7K · 💀) - 机器学习数据集的可视化。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/matplotlib/ipympl">jupyter-matplotlib</a></b> (🥈27 ·  ⭐ 1.5K) - Matplotlib Jupyter Integration. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/PAIR-code/facets) (👨‍💻 28 · 🔀 850 · 📦 130 · 📋 150 - 50% open · ⏱️ 06.05.2021):
+- [GitHub](https://github.com/matplotlib/ipympl) (👨‍💻 33 · 🔀 220 · 📦 11K · 📋 300 - 46% open · ⏱️ 15.03.2024):
+
+	```
+	git clone https://github.com/matplotlib/ipympl
+	```
+- [PyPi](https://pypi.org/project/ipympl) (📥 290K / month):
+	```
+	pip install ipympl
+	```
+- [NPM](https://www.npmjs.com/package/jupyter-matplotlib) (📥 7.2K / month):
+	```
+	npm install jupyter-matplotlib
+	```
+</details>
+<details><summary><b><a href="https://github.com/PAIR-code/facets">facets-overview</a></b> (🥈26 ·  ⭐ 7.3K · 💤) - Visualizations for machine learning datasets. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/PAIR-code/facets) (👨‍💻 31 · 🔀 880 · 📦 230 · 📋 160 - 49% open · ⏱️ 24.05.2023):
 
 	```
 	git clone https://github.com/pair-code/facets
 	```
-- [PyPi](https://pypi.org/project/facets-overview) (📥 290K / month):
+- [PyPi](https://pypi.org/project/facets-overview) (📥 180K / month):
 	```
 	pip install facets-overview
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-widgets/pythreejs">pythreejs</a></b> (🥈24 ·  ⭐ 830) - Jupyter-Three.js桥接。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter-widgets/ipywidgets">ipywidgets</a></b> (🥈26 ·  ⭐ 3K · 📉) - Interactive Widgets for the Jupyter Notebook. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter-widgets/pythreejs) (👨‍💻 30 · 🔀 170 · 📦 21 · 📋 220 - 23% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/jupyter-widgets/ipywidgets) (👨‍💻 210 · 🔀 910 · 📦 3 · 📋 2K - 34% open · ⏱️ 08.02.2024):
 
 	```
-	git clone https://github.com/jupyter-widgets/pythreejs
+	git clone https://github.com/jupyter-widgets/ipywidgets
 	```
-- [PyPi](https://pypi.org/project/pythreejs) (📥 65K / month):
+- [PyPi](https://pypi.org/project/ipywidgets) (📥 17M / month):
 	```
-	pip install pythreejs
+	pip install ipywidgets
 	```
-- [Conda](https://anaconda.org/conda-forge/pythreejs) (📥 410K · ⏱️ 25.08.2022):
+- [Conda](https://anaconda.org/conda-forge/ipywidgets) (📥 13M · ⏱️ 08.02.2024):
 	```
-	conda install -c conda-forge pythreejs
+	conda install -c conda-forge ipywidgets
 	```
-- [NPM](https://www.npmjs.com/package/jupyter-threejs) (📥 4.6K / month):
+- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager) (📥 68K / month):
 	```
-	npm install jupyter-threejs
+	npm install @jupyter-widgets/jupyterlab-manager
 	```
 </details>
-<details><summary><b><a href="https://github.com/martinRenou/ipycanvas">ipycanvas</a></b> (🥈24 ·  ⭐ 630) - Jupyter中的交互式画布。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/plotly/jupyter-dash">jupyter-dash</a></b> (🥈26 ·  ⭐ 950 · 💤) - Develop Dash apps in the Jupyter Notebook and JupyterLab. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/martinRenou/ipycanvas) (👨‍💻 20 · 🔀 51 · 📦 780 · 📋 110 - 36% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/plotly/jupyter-dash) (👨‍💻 10 · 🔀 240 · 📥 99 · 📦 3.8K · 📋 75 - 61% open · ⏱️ 11.08.2023):
 
 	```
-	git clone https://github.com/martinRenou/ipycanvas
+	git clone https://github.com/plotly/jupyter-dash
 	```
-- [PyPi](https://pypi.org/project/ipycanvas) (📥 26K / month):
+- [PyPi](https://pypi.org/project/jupyter-dash) (📥 170K / month):
 	```
-	pip install ipycanvas
-	```
-- [Conda](https://anaconda.org/conda-forge/ipycanvas) (📥 80K · ⏱️ 19.08.2022):
-	```
-	conda install -c conda-forge ipycanvas
+	pip install jupyter-dash
 	```
 </details>
-<details><summary><b><a href="https://github.com/quantopian/qgrid">qgrid</a></b> (🥈23 ·  ⭐ 2.9K · 💀) - 用于排序，过滤和编辑DataFrame的交互式工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/quantopian/qgrid">qgrid</a></b> (🥈23 ·  ⭐ 3K · 💀) - An interactive grid for sorting, filtering, and editing DataFrames.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/quantopian/qgrid) (👨‍💻 30 · 🔀 390 · 📋 270 - 54% open · ⏱️ 07.04.2020):
+- [GitHub](https://github.com/quantopian/qgrid) (👨‍💻 30 · 🔀 410 · 📦 12 · 📋 290 - 55% open · ⏱️ 07.04.2020):
 
 	```
 	git clone https://github.com/quantopian/qgrid
 	```
-- [PyPi](https://pypi.org/project/qgrid) (📥 69K / month):
+- [PyPi](https://pypi.org/project/qgrid) (📥 44K / month):
 	```
 	pip install qgrid
 	```
-- [Conda](https://anaconda.org/conda-forge/qgrid) (📥 360K · ⏱️ 04.03.2021):
+- [Conda](https://anaconda.org/conda-forge/qgrid) (📥 400K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge qgrid
 	```
-- [NPM](https://www.npmjs.com/package/qgrid) (📥 930 / month):
+- [NPM](https://www.npmjs.com/package/qgrid) (📥 290 / month):
 	```
 	npm install qgrid
 	```
 </details>
-<details><summary><b><a href="https://github.com/maartenbreddels/ipywebrtc">ipywebrtc</a></b> (🥈23 ·  ⭐ 210 · 💀) - 适用于Jupyter笔记本/实验室的WebRTC。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mapbox/mapboxgl-jupyter">Mapbox GL</a></b> (🥈23 ·  ⭐ 650 · 💀) - Use Mapbox GL JS to visualize data in a Python Jupyter notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/maartenbreddels/ipywebrtc) (👨‍💻 9 · 🔀 33 · 📦 570 · 📋 51 - 60% open · ⏱️ 29.03.2021):
-
-	```
-	git clone https://github.com/maartenbreddels/ipywebrtc
-	```
-- [PyPi](https://pypi.org/project/ipywebrtc) (📥 56K / month):
-	```
-	pip install ipywebrtc
-	```
-- [Conda](https://anaconda.org/conda-forge/ipywebrtc) (📥 260K · ⏱️ 29.03.2021):
-	```
-	conda install -c conda-forge ipywebrtc
-	```
-- [NPM](https://www.npmjs.com/package/jupyter-webrtc) (📥 340 / month):
-	```
-	npm install jupyter-webrtc
-	```
-</details>
-<details><summary><b><a href="https://github.com/cytoscape/ipycytoscape">ipycytoscape</a></b> (🥈23 ·  ⭐ 200) - Cytoscape Jupyter小部件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/cytoscape/ipycytoscape) (👨‍💻 32 · 🔀 55 · 📥 3 · 📦 78 · 📋 160 - 37% open · ⏱️ 20.05.2022):
-
-	```
-	git clone https://github.com/QuantStack/ipycytoscape
-	```
-- [Conda](https://anaconda.org/conda-forge/ipycytoscape) (📥 56K · ⏱️ 05.04.2022):
-	```
-	conda install -c conda-forge ipycytoscape
-	```
-</details>
-<details><summary><b><a href="https://github.com/mapbox/mapboxgl-jupyter">Mapbox GL</a></b> (🥈22 ·  ⭐ 620 · 💀) - 使用Mapbox GL JS可视化Python Jupyter笔记本中的数据。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/mapbox/mapboxgl-jupyter) (👨‍💻 21 · 🔀 130 · 📦 140 · 📋 99 - 32% open · ⏱️ 19.04.2021):
+- [GitHub](https://github.com/mapbox/mapboxgl-jupyter) (👨‍💻 22 · 🔀 130 · 📦 190 · 📋 100 - 33% open · ⏱️ 19.04.2021):
 
 	```
 	git clone https://github.com/mapbox/mapboxgl-jupyter
 	```
-- [PyPi](https://pypi.org/project/mapboxgl) (📥 11K / month):
+- [PyPi](https://pypi.org/project/mapboxgl) (📥 15K / month):
 	```
 	pip install mapboxgl
 	```
 </details>
-<details><summary><b><a href="https://github.com/mwouts/itables">itables</a></b> (🥈21 ·  ⭐ 320) - Jupyter中的交互式表格。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/mwouts/itables">itables</a></b> (🥈23 ·  ⭐ 650) - Interactive Tables in Jupyter. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/mwouts/itables) (👨‍💻 4 · 🔀 29 · 📦 140 · 📋 49 - 10% open · ⏱️ 17.08.2022):
+- [GitHub](https://github.com/mwouts/itables) (👨‍💻 6 · 🔀 49 · 📦 470 · 📋 130 - 15% open · ⏱️ 26.03.2024):
 
 	```
 	git clone https://github.com/mwouts/itables
 	```
-- [PyPi](https://pypi.org/project/itables) (📥 13K / month):
+- [PyPi](https://pypi.org/project/itables) (📥 200K / month):
 	```
 	pip install itables
 	```
 </details>
-<details><summary><b><a href="https://github.com/widgetti/ipyvuetify">ipyvuetify</a></b> (🥈21 ·  ⭐ 260) - 基于vuetify UI组件的Jupyter小部件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/InsightSoftwareConsortium/itkwidgets">itkwidgets</a></b> (🥈23 ·  ⭐ 570) - Interactive Jupyter widgets to visualize images, point sets, and.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/widgetti/ipyvuetify) (👨‍💻 10 · 🔀 44 · 📦 4 · 📋 170 - 26% open · ⏱️ 07.02.2022):
-
-	```
-	git clone https://github.com/mariobuikhuizen/ipyvuetify
-	```
-- [PyPi](https://pypi.org/project/ipyvuetify) (📥 66K / month):
-	```
-	pip install ipyvuetify
-	```
-- [Conda](https://anaconda.org/conda-forge/ipyvuetify) (📥 85K · ⏱️ 07.02.2022):
-	```
-	conda install -c conda-forge ipyvuetify
-	```
-</details>
-<details><summary><b><a href="https://github.com/vidartf/ipydatawidgets">ipydatawidgets</a></b> (🥈21 ·  ⭐ 31) - 一组小部件，以帮助促进大型数据集的重用。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/vidartf/ipydatawidgets) (👨‍💻 5 · 🔀 8 · 📦 570 · 📋 10 - 20% open · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/vidartf/ipydatawidgets
-	```
-- [PyPi](https://pypi.org/project/ipydatawidgets) (📥 71K / month):
-	```
-	pip install ipydatawidgets
-	```
-- [Conda](https://anaconda.org/conda-forge/ipydatawidgets) (📥 170K · ⏱️ 24.08.2022):
-	```
-	conda install -c conda-forge ipydatawidgets
-	```
-</details>
-<details><summary><b><a href="https://github.com/InsightSoftwareConsortium/itkwidgets">itkwidgets</a></b> (🥉20 ·  ⭐ 460) - 交互式Jupyter小部件，以可视化图像，点集等。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/InsightSoftwareConsortium/itkwidgets) (👨‍💻 4 · 🔀 61 · 📥 66 · 📋 200 - 43% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/InsightSoftwareConsortium/itkwidgets) (👨‍💻 7 · 🔀 79 · 📥 90 · 📦 300 · 📋 270 - 40% open · ⏱️ 31.03.2024):
 
 	```
 	git clone https://github.com/InsightSoftwareConsortium/itkwidgets
 	```
-- [PyPi](https://pypi.org/project/itkwidgets) (📥 14K / month):
+- [PyPi](https://pypi.org/project/itkwidgets) (📥 13K / month):
 	```
 	pip install itkwidgets
 	```
-- [NPM](https://www.npmjs.com/package/itkwidgets) (📥 1.4K / month):
+- [NPM](https://www.npmjs.com/package/itkwidgets) (📥 270 / month):
 	```
 	npm install itkwidgets
 	```
 </details>
-<details><summary><b><a href="https://github.com/evidentlyai/evidently">evidently</a></b> (🥉19 ·  ⭐ 2.6K) - 交互式报告，可在分析过程中分析机器学习模型。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/cytoscape/ipycytoscape">ipycytoscape</a></b> (🥈23 ·  ⭐ 260 · 💤) - A Cytoscape Jupyter widget. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/evidentlyai/evidently) (👨‍💻 24 · 🔀 270 · 📦 550 · 📋 110 - 20% open · ⏱️ 16.08.2022):
+- [GitHub](https://github.com/cytoscape/ipycytoscape) (👨‍💻 33 · 🔀 61 · 📥 4 · 📦 210 · 📋 160 - 38% open · ⏱️ 23.05.2023):
+
+	```
+	git clone https://github.com/QuantStack/ipycytoscape
+	```
+- [Conda](https://anaconda.org/conda-forge/ipycytoscape) (📥 380K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ipycytoscape
+	```
+</details>
+<details><summary><b><a href="https://github.com/maartenbreddels/ipywebrtc">ipywebrtc</a></b> (🥈23 ·  ⭐ 230) - WebRTC for Jupyter notebook/lab. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/maartenbreddels/ipywebrtc) (👨‍💻 10 · 🔀 39 · 📦 1K · 📋 62 - 54% open · ⏱️ 06.02.2024):
+
+	```
+	git clone https://github.com/maartenbreddels/ipywebrtc
+	```
+- [PyPi](https://pypi.org/project/ipywebrtc) (📥 41K / month):
+	```
+	pip install ipywebrtc
+	```
+- [Conda](https://anaconda.org/conda-forge/ipywebrtc) (📥 340K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ipywebrtc
+	```
+- [NPM](https://www.npmjs.com/package/jupyter-webrtc) (📥 250 / month):
+	```
+	npm install jupyter-webrtc
+	```
+</details>
+<details><summary><b><a href="https://github.com/evidentlyai/evidently">evidently</a></b> (🥈22 ·  ⭐ 4.6K) - Interactive reports to analyze machine learning models during.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/evidentlyai/evidently) (👨‍💻 65 · 🔀 510 · 📥 31 · 📦 3.3K · 📋 350 - 41% open · ⏱️ 09.04.2024):
 
 	```
 	git clone https://github.com/evidentlyai/evidently
 	```
 </details>
-<details><summary><b><a href="https://github.com/PAIR-code/what-if-tool">What-If Tool</a></b> (🥉19 ·  ⭐ 740 · 💤) - What-If工具的源代码/网页/演示。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/widgetti/ipyvolume">ipyvolume</a></b> (🥈22 ·  ⭐ 1.9K · 💤) - 3d plotting for Python in the Jupyter notebook based on IPython.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/PAIR-code/what-if-tool) (👨‍💻 20 · 🔀 140 · 📋 110 - 52% open · ⏱️ 05.01.2022):
+- [GitHub](https://github.com/widgetti/ipyvolume) (👨‍💻 45 · 🔀 230 · 📦 17 · 📋 320 - 58% open · ⏱️ 07.07.2023):
 
 	```
-	git clone https://github.com/PAIR-code/what-if-tool
+	git clone https://github.com/maartenbreddels/ipyvolume
 	```
-- [PyPi](https://pypi.org/project/witwidget) (📥 11K / month):
+- [PyPi](https://pypi.org/project/ipyvolume) (📥 37K / month):
 	```
-	pip install witwidget
+	pip install ipyvolume
 	```
-- [NPM](https://www.npmjs.com/package/wit-widget) (📥 5.9K / month):
+- [Conda](https://anaconda.org/conda-forge/ipyvolume) (📥 460K · ⏱️ 05.06.2023):
 	```
-	npm install wit-widget
+	conda install -c conda-forge ipyvolume
+	```
+- [NPM](https://www.npmjs.com/package/ipyvolume) (📥 740 / month):
+	```
+	npm install ipyvolume
 	```
 </details>
-<details><summary><b><a href="https://github.com/QuantStack/ipysheet">ipysheet</a></b> (🥉19 ·  ⭐ 500 · 💤) - Jupyter Handsontable集成。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-widgets/pythreejs">pythreejs</a></b> (🥈22 ·  ⭐ 920 · 💀) - A Jupyter - Three.js bridge. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/QuantStack/ipysheet) (👨‍💻 10 · 🔀 62 · 📦 3 · 📋 120 - 51% open · ⏱️ 14.12.2021):
+- [GitHub](https://github.com/jupyter-widgets/pythreejs) (👨‍💻 30 · 🔀 180 · 📦 30 · 📋 230 - 25% open · ⏱️ 20.02.2023):
 
 	```
-	git clone https://github.com/QuantStack/ipysheet
+	git clone https://github.com/jupyter-widgets/pythreejs
 	```
-- [PyPi](https://pypi.org/project/ipysheet) (📥 54K / month):
+- [PyPi](https://pypi.org/project/pythreejs) (📥 77K / month):
 	```
-	pip install ipysheet
+	pip install pythreejs
 	```
-- [Conda](https://anaconda.org/conda-forge/ipysheet) (📥 55K · ⏱️ 11.08.2021):
+- [Conda](https://anaconda.org/conda-forge/pythreejs) (📥 530K · ⏱️ 16.06.2023):
 	```
-	conda install -c conda-forge ipysheet
+	conda install -c conda-forge pythreejs
 	```
-- [NPM](https://www.npmjs.com/package/ipysheet) (📥 3.4K / month):
+- [NPM](https://www.npmjs.com/package/jupyter-threejs) (📥 2.3K / month):
 	```
-	npm install ipysheet
+	npm install jupyter-threejs
 	```
 </details>
-<details><summary><b><a href="https://github.com/nicolaskruchten/jupyter_pivottablejs">pivottablejs</a></b> (🥉19 ·  ⭐ 470 · 💀) - Jupyter / IPython Notebook的Dragndrop数据透视表和图表。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/widgetti/ipyvue">ipyvue</a></b> (🥈22 ·  ⭐ 64) - Jupyter widgets base for Vue libraries. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/nicolaskruchten/jupyter_pivottablejs) (👨‍💻 3 · 🔀 62 · 📦 260 · 📋 58 - 29% open · ⏱️ 04.12.2018):
-
-	```
-	git clone https://github.com/nicolaskruchten/jupyter_pivottablejs
-	```
-- [PyPi](https://pypi.org/project/pivottablejs) (📥 14K / month):
-	```
-	pip install pivottablejs
-	```
-</details>
-<details><summary><b><a href="https://github.com/timkpaine/ipydagred3">ipydagred3</a></b> (🥉19 ·  ⭐ 38) - ipywidgets库，用于在其中绘制有向无环图。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/timkpaine/ipydagred3) (👨‍💻 3 · 🔀 5 · 📦 11 · 📋 19 - 15% open · ⏱️ 21.07.2022):
-
-	```
-	git clone https://github.com/timkpaine/ipydagred3
-	```
-- [PyPi](https://pypi.org/project/ipydagred3) (📥 910 / month):
-	```
-	pip install ipydagred3
-	```
-- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager) (📥 79K / month):
-	```
-	npm install @jupyter-widgets/jupyterlab-manager
-	```
-</details>
-<details><summary><b><a href="https://github.com/pbugnion/gmaps">gmaps</a></b> (🥉18 ·  ⭐ 740 · 💀) - Jupyter中的Google地图。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/pbugnion/gmaps) (👨‍💻 16 · 🔀 140 · 📦 1 · 📋 200 - 32% open · ⏱️ 22.07.2019):
-
-	```
-	git clone https://github.com/pbugnion/gmaps
-	```
-- [PyPi](https://pypi.org/project/gmaps) (📥 8.7K / month):
-	```
-	pip install gmaps
-	```
-- [Conda](https://anaconda.org/conda-forge/gmaps) (📥 270K · ⏱️ 02.08.2019):
-	```
-	conda install -c conda-forge gmaps
-	```
-- [NPM](https://www.npmjs.com/package/jupyter-gmaps) (📥 1.8K / month):
-	```
-	npm install jupyter-gmaps
-	```
-</details>
-<details><summary><b><a href="https://github.com/vega/ipyvega">vega</a></b> (🥉18 ·  ⭐ 330) - 适用于Vega和Vega-Lite的IPython / Jupyter笔记本模块。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/vega/ipyvega) (👨‍💻 11 · 🔀 55 · 📋 95 - 13% open · ⏱️ 01.08.2022):
-
-	```
-	git clone https://github.com/vega/ipyvega
-	```
-- [PyPi](https://pypi.org/project/vega) (📥 7.3K / month):
-	```
-	pip install vega
-	```
-- [Conda](https://anaconda.org/conda-forge/vega) (📥 500K · ⏱️ 10.02.2022):
-	```
-	conda install -c conda-forge vega
-	```
-</details>
-<details><summary><b><a href="https://github.com/QuantStack/ipytree">ipytree</a></b> (🥉18 ·  ⭐ 93) - 使用Jupyter-widgets协议和jsTree的Tree Widget。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/QuantStack/ipytree) (👨‍💻 8 · 🔀 25 · 📋 31 - 48% open · ⏱️ 23.08.2022):
-
-	```
-	git clone https://github.com/QuantStack/ipytree
-	```
-- [PyPi](https://pypi.org/project/ipytree) (📥 34K / month):
-	```
-	pip install ipytree
-	```
-- [Conda](https://anaconda.org/conda-forge/ipytree) (📥 45K · ⏱️ 23.08.2022):
-	```
-	conda install -c conda-forge ipytree
-	```
-</details>
-<details><summary><b><a href="https://github.com/widgetti/ipyvue">ipyvue</a></b> (🥉18 ·  ⭐ 40 · 💤) - Vue库的Jupyter小部件基础。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/widgetti/ipyvue) (👨‍💻 3 · 🔀 11 · 📦 20 · 📋 7 - 28% open · ⏱️ 10.12.2021):
+- [GitHub](https://github.com/widgetti/ipyvue) (👨‍💻 6 · 🔀 17 · 📦 780 · 📋 14 - 35% open · ⏱️ 27.02.2024):
 
 	```
 	git clone https://github.com/mariobuikhuizen/ipyvue
 	```
-- [PyPi](https://pypi.org/project/ipyvue) (📥 66K / month):
+- [PyPi](https://pypi.org/project/ipyvue) (📥 110K / month):
 	```
 	pip install ipyvue
 	```
-- [Conda](https://anaconda.org/conda-forge/ipyvue) (📥 55K · ⏱️ 28.10.2021):
+- [Conda](https://anaconda.org/conda-forge/ipyvue) (📥 120K · ⏱️ 28.02.2024):
 	```
 	conda install -c conda-forge ipyvue
 	```
 </details>
-<details><summary><b><a href="https://github.com/g2nb/igv-jupyter">igv.js widget</a></b> (🥉17 ·  ⭐ 150) - 集成了igv.js的Jupyter Notebook扩展。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nicolaskruchten/jupyter_pivottablejs">pivottablejs</a></b> (🥉20 ·  ⭐ 650 · 💀) - Dragndrop Pivot Tables and Charts for Jupyter/IPython.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/g2nb/igv-jupyter) (👨‍💻 5 · 🔀 15 · 📦 12 · ⏱️ 14.06.2022):
+- [GitHub](https://github.com/nicolaskruchten/jupyter_pivottablejs) (👨‍💻 3 · 🔀 82 · 📦 420 · 📋 64 - 35% open · ⏱️ 04.12.2018):
 
 	```
-	git clone https://github.com/igvteam/igv-jupyter
+	git clone https://github.com/nicolaskruchten/jupyter_pivottablejs
 	```
-- [PyPi](https://pypi.org/project/igv-jupyter) (📥 270 / month):
+- [PyPi](https://pypi.org/project/pivottablejs) (📥 36K / month):
 	```
-	pip install igv-jupyter
+	pip install pivottablejs
 	```
 </details>
-<details><summary><b><a href="https://github.com/spacetelescope/jdaviz">jdaviz</a></b> (🥉17 ·  ⭐ 73) - Jupyter平台中的JWST天文数据分析工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/vega/ipyvega">vega</a></b> (🥉20 ·  ⭐ 370) - IPython/Jupyter notebook module for Vega and Vega-Lite. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/spacetelescope/jdaviz) (👨‍💻 29 · 🔀 35 · 📋 690 - 38% open · ⏱️ 24.08.2022):
+- [GitHub](https://github.com/vega/ipyvega) (👨‍💻 15 · 🔀 61 · 📦 4 · 📋 100 - 10% open · ⏱️ 01.04.2024):
+
+	```
+	git clone https://github.com/vega/ipyvega
+	```
+- [PyPi](https://pypi.org/project/vega) (📥 15K / month):
+	```
+	pip install vega
+	```
+- [Conda](https://anaconda.org/conda-forge/vega) (📥 580K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge vega
+	```
+</details>
+<details><summary><b><a href="https://github.com/vidartf/ipydatawidgets">ipydatawidgets</a></b> (🥉20 ·  ⭐ 39 · 💤) - A set of widgets to help facilitate reuse of large.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/vidartf/ipydatawidgets) (👨‍💻 5 · 🔀 9 · 📦 1.1K · 📋 13 - 23% open · ⏱️ 14.06.2023):
+
+	```
+	git clone https://github.com/vidartf/ipydatawidgets
+	```
+- [PyPi](https://pypi.org/project/ipydatawidgets) (📥 73K / month):
+	```
+	pip install ipydatawidgets
+	```
+- [Conda](https://anaconda.org/conda-forge/ipydatawidgets) (📥 260K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ipydatawidgets
+	```
+</details>
+<details><summary><b><a href="https://github.com/PAIR-code/what-if-tool">What-If Tool</a></b> (🥉19 ·  ⭐ 880) - Source code/webpage/demos for the What-If Tool. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/PAIR-code/what-if-tool) (👨‍💻 20 · 🔀 160 · 📦 2 · 📋 120 - 54% open · ⏱️ 01.02.2024):
+
+	```
+	git clone https://github.com/PAIR-code/what-if-tool
+	```
+- [PyPi](https://pypi.org/project/witwidget) (📥 4.6K / month):
+	```
+	pip install witwidget
+	```
+- [NPM](https://www.npmjs.com/package/wit-widget) (📥 1.2K / month):
+	```
+	npm install wit-widget
+	```
+</details>
+<details><summary><b><a href="https://github.com/pbugnion/gmaps">gmaps</a></b> (🥉19 ·  ⭐ 760 · 💀) - Google maps for Jupyter notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/pbugnion/gmaps) (👨‍💻 16 · 🔀 150 · 📦 4 · 📋 210 - 35% open · ⏱️ 22.07.2019):
+
+	```
+	git clone https://github.com/pbugnion/gmaps
+	```
+- [PyPi](https://pypi.org/project/gmaps) (📥 5.5K / month):
+	```
+	pip install gmaps
+	```
+- [Conda](https://anaconda.org/conda-forge/gmaps) (📥 310K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge gmaps
+	```
+- [NPM](https://www.npmjs.com/package/jupyter-gmaps) (📥 630 / month):
+	```
+	npm install jupyter-gmaps
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter-widgets-contrib/ipysheet">ipysheet</a></b> (🥉19 ·  ⭐ 540) - Jupyter handsontable integration. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/jupyter-widgets-contrib/ipysheet) (👨‍💻 14 · 🔀 67 · 📦 7 · 📋 120 - 51% open · ⏱️ 04.01.2024):
+
+	```
+	git clone https://github.com/QuantStack/ipysheet
+	```
+- [PyPi](https://pypi.org/project/ipysheet) (📥 120K / month):
+	```
+	pip install ipysheet
+	```
+- [Conda](https://anaconda.org/conda-forge/ipysheet) (📥 110K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ipysheet
+	```
+- [NPM](https://www.npmjs.com/package/ipysheet) (📥 650 / month):
+	```
+	npm install ipysheet
+	```
+</details>
+<details><summary><b><a href="https://github.com/medialab/ipysigma">ipysigma</a></b> (🥉18 ·  ⭐ 170) - A custom Jupyter widget library to display graphs using sigma.js. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/medialab/ipysigma) (👨‍💻 6 · 🔀 13 · 📦 29 · 📋 200 - 24% open · ⏱️ 20.10.2023):
+
+	```
+	git clone https://github.com/Yomguithereal/ipysigma
+	```
+- [PyPi](https://pypi.org/project/ipysigma) (📥 920 / month):
+	```
+	pip install ipysigma
+	```
+- [NPM](https://www.npmjs.com/package/ipysigma) (📥 340 / month):
+	```
+	npm install ipysigma
+	```
+</details>
+<details><summary><b><a href="https://github.com/spacetelescope/jdaviz">jdaviz</a></b> (🥉18 ·  ⭐ 120) - JWST astronomical data analysis tools in the Jupyter platform. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/spacetelescope/jdaviz) (👨‍💻 32 · 🔀 58 · 📦 42 · 📋 980 - 32% open · ⏱️ 10.04.2024):
 
 	```
 	git clone https://github.com/spacetelescope/jdaviz
 	```
-- [PyPi](https://pypi.org/project/jdaviz) (📥 1.7K / month):
+- [PyPi](https://pypi.org/project/jdaviz) (📥 1.1K / month):
 	```
 	pip install jdaviz
 	```
 </details>
-<details><summary><b><a href="https://github.com/altair-viz/altair_viewer">Altair Viewer</a></b> (🥉17 ·  ⭐ 52 · 💤) - 用于Altair和Vega-Lite可视化的查看器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-widgets-contrib/ipytree">ipytree</a></b> (🥉17 ·  ⭐ 120 · 💀) - A Tree Widget using Jupyter-widgets protocol and jsTree. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/altair-viz/altair_viewer) (👨‍💻 3 · 🔀 8 · 📋 7 - 42% open · ⏱️ 14.01.2022):
+- [GitHub](https://github.com/jupyter-widgets-contrib/ipytree) (👨‍💻 9 · 🔀 29 · 📋 40 - 50% open · ⏱️ 23.11.2022):
 
 	```
-	git clone https://github.com/altair-viz/altair_viewer
+	git clone https://github.com/QuantStack/ipytree
 	```
-- [PyPi](https://pypi.org/project/altair_viewer) (📥 570K / month):
+- [PyPi](https://pypi.org/project/ipytree) (📥 69K / month):
 	```
-	pip install altair_viewer
+	pip install ipytree
+	```
+- [Conda](https://anaconda.org/conda-forge/ipytree) (📥 100K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ipytree
 	```
 </details>
-<details><summary><b><a href="https://github.com/jpmorganchase/ipyregulartable">ipyregulartable</a></b> (🥉16 ·  ⭐ 66) - Jupyter中的高性能，可编辑，可样式化的数据表。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/finos/ipyregulartable">ipyregulartable</a></b> (🥉17 ·  ⭐ 99) - High performance, editable, stylable datagrids in jupyter.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jpmorganchase/ipyregulartable) (👨‍💻 5 · 🔀 13 · 📦 9 · 📋 25 - 40% open · ⏱️ 20.07.2022):
+- [GitHub](https://github.com/finos/ipyregulartable) (👨‍💻 5 · 🔀 14 · 📦 13 · 📋 27 - 37% open · ⏱️ 05.02.2024):
 
 	```
 	git clone https://github.com/jpmorganchase/ipyregulartable
 	```
-- [PyPi](https://pypi.org/project/ipyregulartable) (📥 230 / month):
+- [PyPi](https://pypi.org/project/ipyregulartable) (📥 99 / month):
 	```
 	pip install ipyregulartable
 	```
-- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager) (📥 79K / month):
+- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager) (📥 68K / month):
 	```
 	npm install @jupyter-widgets/jupyterlab-manager
 	```
 </details>
-<details><summary><b><a href="https://github.com/vidartf/ipyscales">ipyscales</a></b> (🥉16 ·  ⭐ 13 · 💀) - 用于度量的小部件库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/altair-viz/altair_viewer">Altair Viewer</a></b> (🥉17 ·  ⭐ 82) - Viewer for Altair and Vega-Lite visualizations. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/vidartf/ipyscales) (👨‍💻 4 · 🔀 3 · 📦 53 · 📋 6 - 33% open · ⏱️ 05.01.2021):
+- [GitHub](https://github.com/altair-viz/altair_viewer) (👨‍💻 4 · 🔀 11 · ⏱️ 30.03.2024):
 
 	```
-	git clone https://github.com/vidartf/ipyscales
+	git clone https://github.com/altair-viz/altair_viewer
 	```
-- [PyPi](https://pypi.org/project/ipyscales) (📥 60 / month):
+- [PyPi](https://pypi.org/project/altair_viewer) (📥 37K / month):
 	```
-	pip install ipyscales
-	```
-- [Conda](https://anaconda.org/conda-forge/ipyscales) (📥 54K · ⏱️ 06.01.2021):
-	```
-	conda install -c conda-forge ipyscales
+	pip install altair_viewer
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenGeoscience/geonotebook">geonotebook</a></b> (🥉15 ·  ⭐ 1.1K · 💀) - Jupyter笔记本扩展，用于地理空间可视化。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/timkpaine/ipydagred3">ipydagred3</a></b> (🥉17 ·  ⭐ 68) - ipywidgets library for drawing directed acyclic graphs in.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/timkpaine/ipydagred3) (👨‍💻 3 · 🔀 6 · 📦 3 · 📋 24 - 20% open · ⏱️ 05.02.2024):
+
+	```
+	git clone https://github.com/timkpaine/ipydagred3
+	```
+- [PyPi](https://pypi.org/project/ipydagred3) (📥 320 / month):
+	```
+	pip install ipydagred3
+	```
+- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-manager) (📥 68K / month):
+	```
+	npm install @jupyter-widgets/jupyterlab-manager
+	```
+</details>
+<details><summary><b><a href="https://github.com/g2nb/igv-jupyter">igv.js widget</a></b> (🥉16 ·  ⭐ 150 · 💀) - Extension for Jupyter Notebook which integrates igv.js. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/g2nb/igv-jupyter) (👨‍💻 5 · 🔀 14 · 📦 14 · 📋 42 - 2% open · ⏱️ 03.01.2023):
+
+	```
+	git clone https://github.com/igvteam/igv-jupyter
+	```
+- [PyPi](https://pypi.org/project/igv-jupyter) (📥 150 / month):
+	```
+	pip install igv-jupyter
+	```
+</details>
+<details><summary><b><a href="https://github.com/OpenGeoscience/geonotebook">geonotebook</a></b> (🥉15 ·  ⭐ 1.1K · 💀) - A Jupyter notebook extension for geospatial visualization.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
 - [GitHub](https://github.com/OpenGeoscience/geonotebook) (👨‍💻 9 · 🔀 140 · 📋 83 - 44% open · ⏱️ 21.01.2019):
 
 	```
 	git clone https://github.com/OpenGeoscience/geonotebook
 	```
-- [Docker Hub](https://hub.docker.com/r/geonotebook/geonotebook) (📥 130K · ⭐ 7 · ⏱️ 21.01.2019):
+- [Docker Hub](https://hub.docker.com/r/geonotebook/geonotebook) (📥 130K · ⭐ 9 · ⏱️ 21.01.2019):
 	```
 	docker pull geonotebook/geonotebook
 	```
 </details>
-<details><summary><b><a href="https://github.com/nipy/niwidgets">niwidgets</a></b> (🥉15 ·  ⭐ 76 · 💀) - 适用于Jupyter笔记本的Neuroimaging小部件。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/lgpage/nbtutor">nbtutor</a></b> (🥉15 ·  ⭐ 450 · 💤) - Visualize Python code execution (line-by-line) in Jupyter.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/nipy/niwidgets) (👨‍💻 16 · 🔀 33 · 📦 28 · 📋 34 - 50% open · ⏱️ 24.03.2020):
-
-	```
-	git clone https://github.com/nipy/niwidgets
-	```
-- [PyPi](https://pypi.org/project/niwidgets) (📥 72 / month):
-	```
-	pip install niwidgets
-	```
-</details>
-<details><summary><b><a href="https://github.com/lgpage/nbtutor">nbtutor</a></b> (🥉14 ·  ⭐ 400) - 可视化Jupyter Notebook单元中的Python代码执行（逐行）。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/lgpage/nbtutor) (👨‍💻 3 · 🔀 38 · 📦 28 · 📋 34 - 29% open · ⏱️ 04.04.2022):
+- [GitHub](https://github.com/lgpage/nbtutor) (👨‍💻 4 · 🔀 39 · 📦 39 · 📋 37 - 35% open · ⏱️ 14.04.2023):
 
 	```
 	git clone https://github.com/lgpage/nbtutor
 	```
-- [Conda](https://anaconda.org/conda-forge/nbtutor) (📥 110K · ⏱️ 19.04.2022):
+- [Conda](https://anaconda.org/conda-forge/nbtutor) (📥 140K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge nbtutor
 	```
 </details>
-<details><summary><b><a href="https://github.com/maartenbreddels/ipymaterialui">ipymaterialui</a></b> (🥉13 ·  ⭐ 83 · 💀) - 基于React Material UI组件的Jupyter小部件。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/vidartf/ipyscales">ipyscales</a></b> (🥉15 ·  ⭐ 13 · 💀) - A widget library for scales. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/maartenbreddels/ipymaterialui) (👨‍💻 3 · 🔀 14 · 📦 5 · 📋 10 - 70% open · ⏱️ 29.10.2019):
+- [GitHub](https://github.com/vidartf/ipyscales) (👨‍💻 4 · 🔀 4 · 📦 58 · 📋 6 - 33% open · ⏱️ 01.09.2022):
 
 	```
-	git clone https://github.com/maartenbreddels/ipymaterialui
+	git clone https://github.com/vidartf/ipyscales
 	```
-- [PyPi](https://pypi.org/project/ipymaterialui) (📥 47 / month):
+- [PyPi](https://pypi.org/project/ipyscales) (📥 17 / month):
 	```
-	pip install ipymaterialui
+	pip install ipyscales
 	```
-- [NPM](https://www.npmjs.com/package/jupyter-materialui) (📥 86 / month):
+- [Conda](https://anaconda.org/conda-forge/ipyscales) (📥 63K · ⏱️ 16.06.2023):
 	```
-	npm install jupyter-materialui
+	conda install -c conda-forge ipyscales
 	```
 </details>
-<details><summary><b><a href="https://github.com/medialab/ipysigma">ipysigma</a></b> (🥉13 ·  ⭐ 38) - 一个自定义的Jupyter小部件库，用于使用sigma.js显示图形。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/CermakM/jupyter-datatables">Jupyter DataTables</a></b> (🥉14 ·  ⭐ 230 · 💀) - Jupyter Notebook extension leveraging pandas DataFrames.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/medialab/ipysigma) (👨‍💻 3 · 🔀 6 · 📋 100 - 43% open · ⏱️ 10.06.2022):
-
-	```
-	git clone https://github.com/Yomguithereal/ipysigma
-	```
-- [PyPi](https://pypi.org/project/ipysigma) (📥 110 / month):
-	```
-	pip install ipysigma
-	```
-- [NPM](https://www.npmjs.com/package/ipysigma) (📥 280 / month):
-	```
-	npm install ipysigma
-	```
-</details>
-<details><summary><b><a href="https://github.com/CermakM/jupyter-datatables">Jupyter DataTables</a></b> (🥉11 ·  ⭐ 140 · 💀) - 利用pandas DataFrames的Jupyter Notebook扩展。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/CermakM/jupyter-datatables) (👨‍💻 4 · 🔀 15 · 📋 28 - 46% open · ⏱️ 11.12.2019):
+- [GitHub](https://github.com/CermakM/jupyter-datatables) (👨‍💻 4 · 🔀 27 · 📋 28 - 46% open · ⏱️ 11.12.2019):
 
 	```
 	git clone https://github.com/CermakM/jupyter-datatables
 	```
-- [PyPi](https://pypi.org/project/jupyter-datatables) (📥 550 / month):
+- [PyPi](https://pypi.org/project/jupyter-datatables) (📥 2.2K / month):
 	```
 	pip install jupyter-datatables
 	```
 </details>
-<details><summary><b><a href="https://github.com/leifwalsh/perfume">perfume</a></b> (🥉11 ·  ⭐ 33 · 💀) - Jupyter中的交互式性能基准测试。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/nipy/niwidgets">niwidgets</a></b> (🥉14 ·  ⭐ 83 · 💀) - Neuroimaging widgets for jupyter notebooks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/leifwalsh/perfume) (👨‍💻 3 · 🔀 4 · 📋 6 - 33% open · ⏱️ 31.10.2020):
+- [GitHub](https://github.com/nipy/niwidgets) (👨‍💻 16 · 🔀 33 · 📦 32 · 📋 34 - 50% open · ⏱️ 24.03.2020):
+
+	```
+	git clone https://github.com/nipy/niwidgets
+	```
+- [PyPi](https://pypi.org/project/niwidgets) (📥 110 / month):
+	```
+	pip install niwidgets
+	```
+</details>
+<details><summary><b><a href="https://github.com/martinRenou/ipycanvas">ipycanvas</a></b> (🥉12 · 💤) - Interactive Canvas in Jupyter. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/martinRenou/ipycanvas) (👨‍💻 21 · 📦 8 · ⏱️ 20.07.2023):
+
+	```
+	git clone https://github.com/martinRenou/ipycanvas
+	```
+- [PyPi](https://pypi.org/project/ipycanvas) (📥 43K / month):
+	```
+	pip install ipycanvas
+	```
+- [Conda](https://anaconda.org/conda-forge/ipycanvas) (📥 200K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ipycanvas
+	```
+</details>
+<details><summary><b><a href="https://github.com/maartenbreddels/ipymaterialui">ipymaterialui</a></b> (🥉11 ·  ⭐ 85 · 💀) - Jupyter Widgets based on React Material UI components. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/maartenbreddels/ipymaterialui) (👨‍💻 3 · 🔀 14 · 📦 8 · 📋 10 - 70% open · ⏱️ 29.10.2019):
+
+	```
+	git clone https://github.com/maartenbreddels/ipymaterialui
+	```
+- [PyPi](https://pypi.org/project/ipymaterialui) (📥 13 / month):
+	```
+	pip install ipymaterialui
+	```
+- [NPM](https://www.npmjs.com/package/jupyter-materialui) (📥 5 / month):
+	```
+	npm install jupyter-materialui
+	```
+</details>
+<details><summary><b><a href="https://github.com/leifwalsh/perfume">perfume</a></b> (🥉11 ·  ⭐ 33) - Interactive performance benchmarking in Jupyter. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/leifwalsh/perfume) (👨‍💻 3 · 🔀 4 · 📋 6 - 33% open · ⏱️ 16.03.2024):
 
 	```
 	git clone https://github.com/leifwalsh/perfume
 	```
-- [PyPi](https://pypi.org/project/perfume-bench) (📥 33 / month):
+- [PyPi](https://pypi.org/project/perfume-bench) (📥 37 / month):
 	```
 	pip install perfume-bench
 	```
 </details>
-<details><summary><b><a href="https://github.com/jtpio/ipyp5">ipyp5</a></b> (🥉10 ·  ⭐ 33 · 💀) - p5.j​​s Jupyter小部件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/timkpaine/tributary">tributary</a></b> (🥉11 ·  ⭐ 21) - Streaming reactive and dataflow graphs in Python. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jtpio/ipyp5) (👨‍💻 2 · 🔀 5 · ⏱️ 16.10.2020):
-
-	```
-	git clone https://github.com/jtpio/ipyp5
-	```
-- [PyPi](https://pypi.org/project/ipyp5) (📥 22 / month):
-	```
-	pip install ipyp5
-	```
-</details>
-<details><summary><b><a href="https://github.com/timkpaine/tributary">tributary</a></b> (🥉10 ·  ⭐ 3) - 在Python中流式反应图和数据流图。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/timkpaine/tributary) (👨‍💻 7 · ⏱️ 05.07.2022):
+- [GitHub](https://github.com/timkpaine/tributary) (👨‍💻 7 · 🔀 1 · ⏱️ 10.02.2024):
 
 	```
 	git clone https://github.com/timkpaine/tributary
 	```
-- [PyPi](https://pypi.org/project/tributary) (📥 61 / month):
+- [PyPi](https://pypi.org/project/tributary) (📥 180 / month):
 	```
 	pip install tributary
 	```
-- [Conda](https://anaconda.org/conda-forge/tributary) (📥 21K · ⏱️ 17.05.2022):
+- [Conda](https://anaconda.org/conda-forge/tributary) (📥 35K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge tributary
 	```
 </details>
-<details><summary><b><a href="https://github.com/GianniBalistreri/easyexplore">easyexplore</a></b> (🥉10 ·  ⭐ 3) - 用于在Python中轻松有效地进行数据探索的工具箱。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/asvcode/Vision_UI">Vision UI</a></b> (🥉9 ·  ⭐ 250 · 💀) - UI visual interface for fastai - now compatible with Google.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/GianniBalistreri/easyexplore) (👨‍💻 4 · 🔀 2 · 📦 1 · 📋 24 - 33% open · ⏱️ 08.06.2022):
-
-	```
-	git clone https://github.com/GianniBalistreri/easyexplore
-	```
-- [PyPi](https://pypi.org/project/easyexplore) (📥 300 / month):
-	```
-	pip install easyexplore
-	```
-</details>
-<details><summary><b><a href="https://github.com/asvcode/Vision_UI">Vision UI</a></b> (🥉9 ·  ⭐ 250 · 💀) - Fastai的UI视觉界面-现在与Google兼容。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/asvcode/Vision_UI) (👨‍💻 3 · 🔀 32 · 📋 3 - 33% open · ⏱️ 05.07.2020):
+- [GitHub](https://github.com/asvcode/Vision_UI) (👨‍💻 3 · 🔀 34 · 📋 3 - 33% open · ⏱️ 05.07.2020):
 
 	```
 	git clone https://github.com/asvcode/Vision_UI
 	```
 </details>
-<details><summary><b><a href="https://github.com/ipyannotate/ipyannotate">ipyannotate</a></b> (🥉9 ·  ⭐ 120 · 💀) - Jupyter Widget，用于数据标注。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ipyannotate/ipyannotate">ipyannotate</a></b> (🥉9 ·  ⭐ 140 · 💀) - Jupyter Widget for data annotation. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/ipyannotate/ipyannotate) (👨‍💻 3 · 🔀 10 · ⏱️ 20.09.2020):
+- [GitHub](https://github.com/ipyannotate/ipyannotate) (👨‍💻 4 · 🔀 13 · ⏱️ 20.09.2020):
 
 	```
 	git clone https://github.com/ipyannotate/ipyannotate
 	```
-- [PyPi](https://pypi.org/project/ipyannotate) (📥 24 / month):
+- [PyPi](https://pypi.org/project/ipyannotate) (📥 510 / month):
 	```
 	pip install ipyannotate
 	```
-- [NPM](https://www.npmjs.com/package/ipyannotate) (📥 51 / month):
+- [NPM](https://www.npmjs.com/package/ipyannotate) (📥 10 / month):
 	```
 	npm install ipyannotate
 	```
 </details>
-<details><summary><b><a href="https://github.com/DGothrek/ipyaggrid">ipyaggrid</a></b> (🥉9 ·  ⭐ 10 · 💀) - Jupyter小部件-Notebook中的Ag-grid。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/DGothrek/ipyaggrid">ipyaggrid</a></b> (🥉9 ·  ⭐ 11 · 💀) - Jupyter widget - ag-grid in the notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/DGothrek/ipyaggrid) (👨‍💻 2 · ⏱️ 06.05.2019):
 
 	```
 	git clone https://github.com/DGothrek/ipyaggrid
 	```
-- [PyPi](https://pypi.org/project/ipyaggrid) (📥 2.7K / month):
+- [PyPi](https://pypi.org/project/ipyaggrid) (📥 6.7K / month):
 	```
 	pip install ipyaggrid
 	```
-- [NPM](https://www.npmjs.com/package/ipyaggrid) (📥 3.1K / month):
+- [NPM](https://www.npmjs.com/package/ipyaggrid) (📥 450 / month):
 	```
 	npm install ipyaggrid
 	```
 </details>
+<details><summary><b><a href="https://github.com/jtpio/ipyp5">ipyp5</a></b> (🥉8 ·  ⭐ 39 · 💀) - p5.js Jupyter Widget. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jtpio/ipyp5) (👨‍💻 2 · 🔀 5 · 📦 1 · ⏱️ 16.10.2020):
+
+	```
+	git clone https://github.com/jtpio/ipyp5
+	```
+- [PyPi](https://pypi.org/project/ipyp5) (📥 6 / month):
+	```
+	pip install ipyp5
+	```
+</details>
+<details><summary><b><a href="https://github.com/GianniBalistreri/easyexplore">easyexplore</a></b> (🥉8 ·  ⭐ 5 · 💤) - Toolbox for easy and effective data exploration in Python. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/GianniBalistreri/easyexplore) (👨‍💻 4 · 🔀 2 · 📦 2 · 📋 24 - 33% open · ⏱️ 01.04.2023):
+
+	```
+	git clone https://github.com/GianniBalistreri/easyexplore
+	```
+- [PyPi](https://pypi.org/project/easyexplore) (📥 72 / month):
+	```
+	pip install easyexplore
+	```
+</details>
 <br>
 
-## Jupyter拓展
+## Jupyter Extensions
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_扩展Jupyter自身功能的应用程序插件。_
+_Application plugins that extend the functionality of Jupyter itself._
 
-<details><summary><b><a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">Contrib NBextensions</a></b> (🥇21 ·  ⭐ 4.9K · 📈) - Jupyter的各种笔记本扩展的集合。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/ipython-contrib/jupyter_contrib_nbextensions">Contrib NBextensions</a></b> (🥇25 ·  ⭐ 5.2K · 💀) - A collection of various notebook extensions for.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) (👨‍💻 130 · 🔀 770 · 📋 770 - 41% open · ⏱️ 17.07.2022):
+- [GitHub](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) (👨‍💻 140 · 🔀 790 · 📦 20 · 📋 810 - 42% open · ⏱️ 21.12.2022):
 
 	```
 	git clone https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 	```
-- [PyPi](https://pypi.org/project/jupyter_contrib_nbextensions) (📥 300K / month):
+- [PyPi](https://pypi.org/project/jupyter_contrib_nbextensions) (📥 520K / month):
 	```
 	pip install jupyter_contrib_nbextensions
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-server/jupyter-resource-usage">Resource Usage</a></b> (🥇21 ·  ⭐ 330) - Jupyter Notebook Extension，用于监视您自己的资源。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter/nbgrader">nbgrader</a></b> (🥇25 ·  ⭐ 1.3K) - A system for assigning and grading notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter-server/jupyter-resource-usage) (👨‍💻 24 · 🔀 73 · 📥 73 · 📋 58 - 53% open · ⏱️ 24.08.2022):
-
-	```
-	git clone https://github.com/jupyter-server/jupyter-resource-usage
-	```
-- [PyPi](https://pypi.org/project/jupyter-resource-usage) (📥 27K / month):
-	```
-	pip install jupyter-resource-usage
-	```
-- [Conda](https://anaconda.org/conda-forge/nbresuse) (📥 500K · ⏱️ 23.11.2020):
-	```
-	conda install -c conda-forge nbresuse
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterhub/nbgitpuller">nbgitpuller</a></b> (🥇21 ·  ⭐ 170) - Jupyter服务器扩展，可将git存储库单向同步。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterhub/nbgitpuller) (👨‍💻 25 · 🔀 61 · 📦 500 · 📋 130 - 39% open · ⏱️ 22.06.2022):
-
-	```
-	git clone https://github.com/jupyterhub/nbgitpuller
-	```
-- [PyPi](https://pypi.org/project/nbgitpuller) (📥 7.7K / month):
-	```
-	pip install nbgitpuller
-	```
-- [Conda](https://anaconda.org/conda-forge/nbgitpuller) (📥 40K · ⏱️ 20.03.2022):
-	```
-	conda install -c conda-forge nbgitpuller
-	```
-</details>
-<details><summary><b><a href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a></b> (🥈20 ·  ⭐ 9.2K) - Custom Jupyter Notebook Themes. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/dunovank/jupyter-themes) (👨‍💻 43 · 🔀 1K · 📋 390 - 48% open · ⏱️ 03.02.2022):
-
-	```
-	git clone https://github.com/dunovank/jupyter-themes
-	```
-- [PyPi](https://pypi.org/project/jupyterthemes) (📥 35K / month):
-	```
-	pip install jupyterthemes
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter/nbgrader">nbgrader</a></b> (🥈20 ·  ⭐ 1.1K) - 用于在Notebook分配(任务/作业)和评分的系统。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter/nbgrader) (👨‍💻 97 · 🔀 290 · 📥 34 · 📋 810 - 24% open · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/jupyter/nbgrader) (👨‍💻 100 · 🔀 290 · 📥 340 · 📦 530 · 📋 900 - 26% open · ⏱️ 28.03.2024):
 
 	```
 	git clone https://github.com/jupyter/nbgrader
 	```
-- [PyPi](https://pypi.org/project/nbgrader) (📥 3.4K / month):
+- [PyPi](https://pypi.org/project/nbgrader) (📥 10K / month):
 	```
 	pip install nbgrader
 	```
-- [Conda](https://anaconda.org/conda-forge/nbgrader) (📥 120K · ⏱️ 23.06.2022):
+- [Conda](https://anaconda.org/conda-forge/nbgrader) (📥 160K · ⏱️ 27.03.2024):
 	```
 	conda install -c conda-forge nbgrader
 	```
 </details>
-<details><summary><b><a href="https://github.com/oschuett/appmode">Appmode</a></b> (🥈20 ·  ⭐ 400 · 💀) - Jupyter扩展，可将笔记本变成Web应用程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-server/jupyter-resource-usage">Resource Usage</a></b> (🥇24 ·  ⭐ 440) - Jupyter Notebook Extension for monitoring your own Resource.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/oschuett/appmode) (👨‍💻 8 · 🔀 63 · 📦 320 · 📋 53 - 7% open · ⏱️ 26.04.2021):
+- [GitHub](https://github.com/jupyter-server/jupyter-resource-usage) (👨‍💻 34 · 🔀 98 · 📥 270 · 📦 600 · 📋 90 - 47% open · ⏱️ 10.04.2024):
 
 	```
-	git clone https://github.com/oschuett/appmode
+	git clone https://github.com/jupyter-server/jupyter-resource-usage
 	```
-- [PyPi](https://pypi.org/project/appmode) (📥 2.1K / month):
+- [PyPi](https://pypi.org/project/jupyter-resource-usage) (📥 58K / month):
 	```
-	pip install appmode
+	pip install jupyter-resource-usage
 	```
-- [Conda](https://anaconda.org/conda-forge/appmode) (📥 170K · ⏱️ 16.11.2021):
+- [Conda](https://anaconda.org/conda-forge/nbresuse) (📥 560K · ⏱️ 16.06.2023):
 	```
-	conda install -c conda-forge appmode
+	conda install -c conda-forge nbresuse
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/jupyter-server-proxy">jupyter-server-proxy</a></b> (🥈20 ·  ⭐ 250) - Jupyter笔记本服务器扩展到代理Web服务。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a></b> (🥈23 ·  ⭐ 9.7K) - Custom Jupyter Notebook Themes. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/jupyter-server-proxy) (👨‍💻 64 · 🔀 110 · 📦 4 · 📋 160 - 39% open · ⏱️ 08.07.2022):
+- [GitHub](https://github.com/dunovank/jupyter-themes) (👨‍💻 43 · 🔀 1.1K · 📦 21 · 📋 400 - 48% open · ⏱️ 18.10.2023):
 
 	```
-	git clone https://github.com/jupyterhub/jupyter-server-proxy
+	git clone https://github.com/dunovank/jupyter-themes
 	```
-- [PyPi](https://pypi.org/project/jupyter-server-proxy) (📥 110K / month):
+- [PyPi](https://pypi.org/project/jupyterthemes) (📥 150K / month):
 	```
-	pip install jupyter-server-proxy
-	```
-- [Conda](https://anaconda.org/conda-forge/jupyter-server-proxy) (📥 810K · ⏱️ 25.01.2022):
-	```
-	conda install -c conda-forge jupyter-server-proxy
+	pip install jupyterthemes
 	```
 </details>
-<details><summary><b><a href="https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator">NBextensions Configurator</a></b> (🥈19 ·  ⭐ 910 · 📈) - A jupyter notebook serverextension providing config.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator">NBextensions Configurator</a></b> (🥈23 ·  ⭐ 960 · 💤) - A jupyter notebook serverextension providing config.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) (👨‍💻 20 · 🔀 110 · 📋 82 - 60% open · ⏱️ 09.07.2022):
+- [GitHub](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) (👨‍💻 24 · 🔀 120 · 📦 580 · 📋 100 - 64% open · ⏱️ 29.09.2023):
 
 	```
 	git clone https://github.com/jupyter-contrib/jupyter_nbextensions_configurator
 	```
-- [PyPi](https://pypi.org/project/jupyter_nbextensions_configurator) (📥 320K / month):
+- [PyPi](https://pypi.org/project/jupyter_nbextensions_configurator) (📥 610K / month):
 	```
 	pip install jupyter_nbextensions_configurator
 	```
 </details>
-<details><summary><b><a href="https://github.com/mamba-org/gator">gator</a></b> (🥈18 ·  ⭐ 220) - Jupyter内部的Conda环境和包管理扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/oschuett/appmode">Appmode</a></b> (🥈21 ·  ⭐ 430) - A Jupyter extensions that turns notebooks into web applications. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/mamba-org/gator) (👨‍💻 25 · 🔀 23 · 📥 2 · 📦 1 · 📋 53 - 26% open · ⏱️ 25.07.2022):
+- [GitHub](https://github.com/oschuett/appmode) (👨‍💻 10 · 🔀 67 · 📦 360 · 📋 59 - 5% open · ⏱️ 07.04.2024):
 
 	```
-	git clone https://github.com/mamba-org/gator
+	git clone https://github.com/oschuett/appmode
 	```
-- [Conda](https://anaconda.org/conda-forge/mamba_gator) (📥 18K · ⏱️ 26.07.2022):
+- [PyPi](https://pypi.org/project/appmode) (📥 1.8K / month):
 	```
-	conda install -c conda-forge mamba_gator
+	pip install appmode
 	```
-- [NPM](https://www.npmjs.com/package/@mamba-org/gator-lab) (📥 140 / month):
+- [Conda](https://anaconda.org/conda-forge/appmode) (📥 220K · ⏱️ 05.02.2024):
 	```
-	npm install @mamba-org/gator-lab
+	conda install -c conda-forge appmode
 	```
 </details>
-<details><summary><b><a href="https://github.com/8080labs/pyforest">pyforest</a></b> (🥉17 ·  ⭐ 980 · 💀) - pyforest-自动化导入工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/nbgitpuller">nbgitpuller</a></b> (🥈21 ·  ⭐ 200) - Jupyter server extension to sync a git repository one-way to a.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/8080labs/pyforest) (👨‍💻 13 · 🔀 180 · 📋 23 - 39% open · ⏱️ 14.06.2021):
+- [GitHub](https://github.com/jupyterhub/nbgitpuller) (👨‍💻 31 · 🔀 78 · 📦 770 · 📋 160 - 42% open · ⏱️ 29.03.2024):
 
 	```
-	git clone https://github.com/8080labs/pyforest
+	git clone https://github.com/jupyterhub/nbgitpuller
 	```
-- [PyPi](https://pypi.org/project/pyforest) (📥 6.9K / month):
+- [PyPi](https://pypi.org/project/nbgitpuller) (📥 28K / month):
 	```
-	pip install pyforest
+	pip install nbgitpuller
+	```
+- [Conda](https://anaconda.org/conda-forge/nbgitpuller) (📥 86K · ⏱️ 29.03.2024):
+	```
+	conda install -c conda-forge nbgitpuller
 	```
 </details>
-<details><summary><b><a href="https://github.com/krishnan-r/sparkmonitor">Spark Monitor</a></b> (🥉17 ·  ⭐ 170) - 从Jupyter Notebook监控Apache Spark。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/jupyter-server-proxy">jupyter-server-proxy</a></b> (🥈20 ·  ⭐ 320) - Jupyter notebook server extension to proxy web services. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/krishnan-r/sparkmonitor) (👨‍💻 3 · 🔀 50 · 📥 2.4K · 📋 22 - 68% open · ⏱️ 16.05.2022):
+- [GitHub](https://github.com/jupyterhub/jupyter-server-proxy) (👨‍💻 71 · 🔀 140 · 📦 4 · 📋 200 - 33% open · ⏱️ 04.04.2024):
 
 	```
-	git clone https://github.com/krishnan-r/sparkmonitor
+	git clone https://github.com/jupyterhub/jupyter-server-proxy
 	```
-- [PyPi](https://pypi.org/project/sparkmonitor) (📥 1.4K / month):
+- [PyPi](https://pypi.org/project/jupyter-server-proxy) (📥 200K / month):
 	```
-	pip install sparkmonitor
+	pip install jupyter-server-proxy
 	```
-- [Docker Hub](https://hub.docker.com/r/krishnanr/sparkmonitor) (📥 920 · ⏱️ 04.10.2019):
+- [Conda](https://anaconda.org/conda-forge/jupyter-server-proxy) (📥 1.5M · ⏱️ 19.03.2024):
 	```
-	docker pull krishnanr/sparkmonitor
+	conda install -c conda-forge jupyter-server-proxy
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/jupyter-rsession-proxy">Rsession Proxy</a></b> (🥉17 ·  ⭐ 94) - 用于运行RStudio rsession代理的Jupyter扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/jupyter-rsession-proxy">Rsession Proxy</a></b> (🥈18 ·  ⭐ 110) - Jupyter extensions for running an RStudio rsession proxy. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/jupyter-rsession-proxy) (👨‍💻 20 · 🔀 68 · 📦 41 · 📋 71 - 36% open · ⏱️ 16.06.2022):
+- [GitHub](https://github.com/jupyterhub/jupyter-rsession-proxy) (👨‍💻 23 · 🔀 79 · 📦 49 · 📋 82 - 40% open · ⏱️ 03.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/jupyter-rsession-proxy
 	```
-- [PyPi](https://pypi.org/project/jupyter-rsession-proxy) (📥 2.6K / month):
+- [PyPi](https://pypi.org/project/jupyter-rsession-proxy) (📥 13K / month):
 	```
 	pip install jupyter-rsession-proxy
 	```
 </details>
-<details><summary><b><a href="https://github.com/Anaconda-Platform/nb_conda">nb_conda</a></b> (🥉16 ·  ⭐ 130 · 💀) - Jupyter内部的Conda环境和包管理扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/8080labs/pyforest">pyforest</a></b> (🥉17 ·  ⭐ 1.1K · 💀) - pyforest - feel the bliss of automated imports. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/Anaconda-Platform/nb_conda) (👨‍💻 14 · 🔀 29 · 📋 63 - 55% open · ⏱️ 11.09.2020):
+- [GitHub](https://github.com/8080labs/pyforest) (👨‍💻 13 · 🔀 200 · 📋 27 - 48% open · ⏱️ 14.06.2021):
 
 	```
-	git clone https://github.com/Anaconda-Platform/nb_conda
+	git clone https://github.com/8080labs/pyforest
 	```
-- [Conda](https://anaconda.org/conda-forge/nb_conda) (📥 390K · ⏱️ 05.06.2022):
+- [PyPi](https://pypi.org/project/pyforest) (📥 3.8K / month):
 	```
-	conda install -c conda-forge nb_conda
+	pip install pyforest
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab-contrib/jupyter-archive">jupyter-archive</a></b> (🥉16 ·  ⭐ 56) - Jupyter / Jupyterlab扩展，用于制作，下载和提取。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mamba-org/gator">gator</a></b> (🥉17 ·  ⭐ 260) - Conda environment and package management extension from within Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab-contrib/jupyter-archive) (👨‍💻 9 · 🔀 10 · 📥 3.3K · 📋 33 - 3% open · ⏱️ 20.07.2022):
+- [GitHub](https://github.com/mamba-org/gator) (👨‍💻 26 · 🔀 27 · 📥 2 · 📦 5 · 📋 57 - 24% open · ⏱️ 27.02.2024):
+
+	```
+	git clone https://github.com/mamba-org/gator
+	```
+- [Conda](https://anaconda.org/conda-forge/mamba_gator) (📥 40K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge mamba_gator
+	```
+- [NPM](https://www.npmjs.com/package/@mamba-org/gator-lab) (📥 26 / month):
+	```
+	npm install @mamba-org/gator-lab
+	```
+</details>
+<details><summary><b><a href="https://github.com/krishnan-r/sparkmonitor">Spark Monitor</a></b> (🥉17 ·  ⭐ 170 · 💀) - Monitor Apache Spark from Jupyter Notebook. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/krishnan-r/sparkmonitor) (👨‍💻 3 · 🔀 49 · 📥 2.5K · 📋 22 - 68% open · ⏱️ 16.05.2022):
+
+	```
+	git clone https://github.com/krishnan-r/sparkmonitor
+	```
+- [PyPi](https://pypi.org/project/sparkmonitor) (📥 1.8K / month):
+	```
+	pip install sparkmonitor
+	```
+- [Docker Hub](https://hub.docker.com/r/krishnanr/sparkmonitor) (📥 960 · ⏱️ 04.10.2019):
+	```
+	docker pull krishnanr/sparkmonitor
+	```
+</details>
+<details><summary><b><a href="https://github.com/data-8/nbzip">nbzip</a></b> (🥉17 ·  ⭐ 86 · 💀) - Zips and downloads all the contents of a jupyter notebook. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/data-8/nbzip) (👨‍💻 6 · 🔀 18 · 📦 400 · 📋 14 - 64% open · ⏱️ 22.11.2019):
+
+	```
+	git clone https://github.com/data-8/nbzip
+	```
+- [PyPi](https://pypi.org/project/nbzip) (📥 21K / month):
+	```
+	pip install nbzip
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab-contrib/jupyter-archive">jupyter-archive</a></b> (🥉17 ·  ⭐ 71) - A Jupyter/Jupyterlab extension to make, download and extract.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab-contrib/jupyter-archive) (👨‍💻 10 · 🔀 14 · 📥 3.3K · 📦 160 · 📋 39 - 7% open · ⏱️ 21.02.2024):
 
 	```
 	git clone https://github.com/jupyterlab-contrib/jupyter-archive
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyter-archive) (📥 27K · ⏱️ 08.04.2022):
+- [Conda](https://anaconda.org/conda-forge/jupyter-archive) (📥 61K · ⏱️ 16.08.2023):
 	```
 	conda install -c conda-forge jupyter-archive
 	```
 </details>
-<details><summary><b><a href="https://github.com/lspvic/jupyter_tensorboard">jupyter-tensorboard</a></b> (🥉15 ·  ⭐ 460 · 💀) - 在Jupyter Notebook中启动Tensorboard。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Anaconda-Platform/nb_conda">nb_conda</a></b> (🥉16 ·  ⭐ 140 · 💀) - Conda environment and package access extension from within Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/Anaconda-Platform/nb_conda) (👨‍💻 14 · 🔀 30 · 📋 63 - 55% open · ⏱️ 11.09.2020):
+
+	```
+	git clone https://github.com/Anaconda-Platform/nb_conda
+	```
+- [Conda](https://anaconda.org/conda-forge/nb_conda) (📥 620K · ⏱️ 09.01.2024):
+	```
+	conda install -c conda-forge nb_conda
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter-incubator/contentmanagement">Content Management</a></b> (🥉16 ·  ⭐ 77 · 💀) - Jupyter Content Management Extensions. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyter-incubator/contentmanagement) (👨‍💻 8 · 🔀 26 · 📦 16 · 📋 27 - 25% open · ⏱️ 11.06.2018):
+
+	```
+	git clone https://github.com/jupyter-incubator/contentmanagement
+	```
+- [PyPi](https://pypi.org/project/jupyter_cms) (📥 72 / month):
+	```
+	pip install jupyter_cms
+	```
+- [Conda](https://anaconda.org/conda-forge/jupyter_cms) (📥 96K · ⏱️ 06.10.2023):
+	```
+	conda install -c conda-forge jupyter_cms
+	```
+</details>
+<details><summary><b><a href="https://github.com/googlecolab/jupyter_http_over_ws">HTTP-over-WebSocket</a></b> (🥉15 ·  ⭐ 270 · 💀) - Jupyter support for HTTP-over-ws. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/googlecolab/jupyter_http_over_ws) (👨‍💻 3 · 🔀 51 · 📋 30 - 70% open · ⏱️ 30.08.2021):
+
+	```
+	git clone https://github.com/googlecolab/jupyter_http_over_ws
+	```
+- [PyPi](https://pypi.org/project/jupyter_http_over_ws) (📥 56K / month):
+	```
+	pip install jupyter_http_over_ws
+	```
+</details>
+<details><summary><b><a href="https://github.com/mozilla/jupyter-spark">Jupyter Spark</a></b> (🥉15 ·  ⭐ 190 · 💀) - Jupyter Notebook extension for Apache Spark integration. <code><a href="http://bit.ly/3postzC">MPL-2.0</a></code></summary>
+
+- [GitHub](https://github.com/mozilla/jupyter-spark) (👨‍💻 12 · 🔀 30 · 📦 19 · 📋 27 - 48% open · ⏱️ 01.12.2020):
+
+	```
+	git clone https://github.com/mozilla/jupyter-spark
+	```
+- [PyPi](https://pypi.org/project/jupyter-spark) (📥 860 / month):
+	```
+	pip install jupyter-spark
+	```
+</details>
+<details><summary><b><a href="https://github.com/lspvic/jupyter_tensorboard">jupyter-tensorboard</a></b> (🥉14 ·  ⭐ 460 · 💀) - Start Tensorboard in Jupyter Notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/lspvic/jupyter_tensorboard) (👨‍💻 4 · 🔀 70 · 📋 69 - 57% open · ⏱️ 16.02.2020):
 
 	```
 	git clone https://github.com/lspvic/jupyter_tensorboard
 	```
-- [PyPi](https://pypi.org/project/jupyter-tensorboard) (📥 2.5K / month):
+- [PyPi](https://pypi.org/project/jupyter-tensorboard) (📥 6.9K / month):
 	```
 	pip install jupyter-tensorboard
 	```
 </details>
-<details><summary><b><a href="https://github.com/googlecolab/jupyter_http_over_ws">HTTP-over-WebSocket</a></b> (🥉15 ·  ⭐ 230 · 💤) - Jupyter对ws-over-ws的支持。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/thoth-station/jupyter-nbrequirements">jupyter-nbrequirements</a></b> (🥉11 ·  ⭐ 17 · 💤) - Dependency management and optimization in Jupyter.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/googlecolab/jupyter_http_over_ws) (👨‍💻 3 · 🔀 38 · 📋 29 - 72% open · ⏱️ 30.08.2021):
-
-	```
-	git clone https://github.com/googlecolab/jupyter_http_over_ws
-	```
-- [PyPi](https://pypi.org/project/jupyter_http_over_ws) (📥 52K / month):
-	```
-	pip install jupyter_http_over_ws
-	```
-</details>
-<details><summary><b><a href="https://github.com/mozilla/jupyter-spark">Jupyter Spark</a></b> (🥉15 ·  ⭐ 190 · 💀) - 利用pandas DataFrames的Jupyter Notebook扩展。<code><a href="http://bit.ly/3postzC">MPL-2.0</a></code></summary>
-
-- [GitHub](https://github.com/mozilla/jupyter-spark) (👨‍💻 12 · 🔀 29 · 📦 16 · 📋 27 - 48% open · ⏱️ 01.12.2020):
-
-	```
-	git clone https://github.com/mozilla/jupyter-spark
-	```
-- [PyPi](https://pypi.org/project/jupyter-spark) (📥 560 / month):
-	```
-	pip install jupyter-spark
-	```
-</details>
-<details><summary><b><a href="https://github.com/data-8/nbzip">nbzip</a></b> (🥉15 ·  ⭐ 80 · 💀) - 压缩并下载jupyter笔记本的所有内容。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/data-8/nbzip) (👨‍💻 6 · 🔀 15 · 📦 290 · 📋 14 - 64% open · ⏱️ 22.11.2019):
-
-	```
-	git clone https://github.com/data-8/nbzip
-	```
-- [PyPi](https://pypi.org/project/nbzip) (📥 720 / month):
-	```
-	pip install nbzip
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter-incubator/contentmanagement">Content Management</a></b> (🥉14 ·  ⭐ 76 · 💀) - Jupyter内容管理扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter-incubator/contentmanagement) (👨‍💻 8 · 🔀 25 · 📋 27 - 25% open · ⏱️ 11.06.2018):
-
-	```
-	git clone https://github.com/jupyter-incubator/contentmanagement
-	```
-- [PyPi](https://pypi.org/project/jupyter_cms) (📥 150 / month):
-	```
-	pip install jupyter_cms
-	```
-- [Conda](https://anaconda.org/conda-forge/jupyter_cms) (📥 77K · ⏱️ 17.11.2021):
-	```
-	conda install -c conda-forge jupyter_cms
-	```
-</details>
-<details><summary><b><a href="https://github.com/thoth-station/jupyter-nbrequirements">jupyter-nbrequirements</a></b> (🥉12 ·  ⭐ 14 · 💤) - Jupyter中的依赖关系管理和优化。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/thoth-station/jupyter-nbrequirements) (👨‍💻 12 · 🔀 4 · ⏱️ 21.10.2021):
+- [GitHub](https://github.com/thoth-station/jupyter-nbrequirements) (👨‍💻 13 · 🔀 6 · 📋 33 - 3% open · ⏱️ 29.05.2023):
 
 	```
 	git clone https://github.com/thoth-station/jupyter-nbrequirements
 	```
 </details>
-<details><summary><b><a href="https://github.com/paypal/PPExtensions">PPExtensions</a></b> (🥉9 ·  ⭐ 48 · 💀) - 一组iPython和Jupyter扩展。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/drillan/jupyter-black">Jupyter Black</a></b> (🥉9 ·  ⭐ 440 · 💀) - Black formatter for Jupyter Notebook. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/paypal/PPExtensions) (👨‍💻 9 · 🔀 27 · 📦 1 · 📋 38 - 42% open · ⏱️ 07.12.2018):
-
-	```
-	git clone https://github.com/paypal/PPExtensions
-	```
-- [PyPi](https://pypi.org/project/ppextensions) (📥 55 / month):
-	```
-	pip install ppextensions
-	```
-</details>
-<details><summary><b><a href="https://github.com/drillan/jupyter-black">Jupyter Black</a></b> (🥉8 ·  ⭐ 400 · 💀) - Jupyter Notebook的黑色格式化程序。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/drillan/jupyter-black) (👨‍💻 2 · 🔀 20 · 📋 21 - 42% open · ⏱️ 01.02.2020):
+- [GitHub](https://github.com/drillan/jupyter-black) (👨‍💻 2 · 🔀 24 · 📋 25 - 44% open · ⏱️ 01.02.2020):
 
 	```
 	git clone https://github.com/drillan/jupyter-black
 	```
 </details>
-<details><summary><b><a href="https://github.com/willkessler/jupyterterminals">jupyterterminals</a></b> (🥉7 ·  ⭐ 8 · 💀) - Jupyter插件可支持嵌入式终端外壳。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/paypal/PPExtensions">PPExtensions</a></b> (🥉8 ·  ⭐ 50 · 💀) - Set of iPython and Jupyter extensions to improve user.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/willkessler/jupyterterminals) (👨‍💻 2 · 🔀 2 · 📦 1 · ⏱️ 17.05.2021):
+- [GitHub](https://github.com/paypal/PPExtensions) (👨‍💻 9 · 🔀 28 · 📦 1 · 📋 38 - 42% open · ⏱️ 07.12.2018):
+
+	```
+	git clone https://github.com/paypal/PPExtensions
+	```
+- [PyPi](https://pypi.org/project/ppextensions) (📥 17 / month):
+	```
+	pip install ppextensions
+	```
+</details>
+<details><summary><b><a href="https://github.com/willkessler/jupyterterminals">jupyterterminals</a></b> (🥉7 ·  ⭐ 10 · 💀) - Jupyter plugin to support inline terminal shells along with.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/willkessler/jupyterterminals) (👨‍💻 2 · 🔀 3 · 📦 2 · ⏱️ 05.01.2023):
 
 	```
 	git clone https://github.com/willkessler/jupyterterminals
@@ -1252,133 +1236,121 @@ _扩展Jupyter自身功能的应用程序插件。_
 </details>
 <br>
 
-## Jupyter-magic拓展
+## Jupyter Magic
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_提供magic命令以访问笔记本中方便功能的扩展。_
+_Extensions that provide magic commands to access convenient functionality within a notebook._
 
-<details><summary><b><a href="https://github.com/catherinedevlin/ipython-sql">ipython-sql</a></b> (🥇27 ·  ⭐ 1.6K) - %%sql magic for IPython, hopefully evolving into full SQL client. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/catherinedevlin/ipython-sql">ipython-sql</a></b> (🥇28 ·  ⭐ 1.8K · 💤) - %%sql magic for IPython, hopefully evolving into full SQL client. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/catherinedevlin/ipython-sql) (👨‍💻 53 · 🔀 250 · 📦 3.4K · 📋 140 - 71% open · ⏱️ 12.06.2022):
+- [GitHub](https://github.com/catherinedevlin/ipython-sql) (👨‍💻 55 · 🔀 270 · 📦 6.2K · 📋 150 - 71% open · ⏱️ 21.04.2023):
 
 	```
 	git clone https://github.com/catherinedevlin/ipython-sql
 	```
-- [PyPi](https://pypi.org/project/ipython-sql) (📥 110K / month):
+- [PyPi](https://pypi.org/project/ipython-sql) (📥 190K / month):
 	```
 	pip install ipython-sql
 	```
-- [Conda](https://anaconda.org/conda-forge/ipython-sql) (📥 160K · ⏱️ 13.11.2021):
+- [Conda](https://anaconda.org/conda-forge/ipython-sql) (📥 250K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge ipython-sql
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-incubator/sparkmagic">sparkmagic</a></b> (🥇26 ·  ⭐ 1.2K) - Jupyter魔术和内核，可用于远程Spark集群。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter-incubator/sparkmagic">sparkmagic</a></b> (🥇25 ·  ⭐ 1.3K) - Jupyter magics and kernels for working with remote Spark.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/jupyter-incubator/sparkmagic) (👨‍💻 57 · 🔀 380 · 📦 250 · 📋 400 - 32% open · ⏱️ 02.05.2022):
+- [GitHub](https://github.com/jupyter-incubator/sparkmagic) (👨‍💻 64 · 🔀 410 · 📦 340 · 📋 430 - 30% open · ⏱️ 13.03.2024):
 
 	```
 	git clone https://github.com/jupyter-incubator/sparkmagic
 	```
-- [PyPi](https://pypi.org/project/sparkmagic) (📥 36K / month):
+- [PyPi](https://pypi.org/project/sparkmagic) (📥 51K / month):
 	```
 	pip install sparkmagic
 	```
-- [Conda](https://anaconda.org/conda-forge/sparkmagic) (📥 51K · ⏱️ 09.05.2022):
+- [Conda](https://anaconda.org/conda-forge/sparkmagic) (📥 120K · ⏱️ 23.09.2023):
 	```
 	conda install -c conda-forge sparkmagic
 	```
 </details>
-<details><summary><b><a href="https://github.com/rasbt/watermark">watermark</a></b> (🥈23 ·  ⭐ 710) - 一个IPython魔术扩展，用于打印日期和时间戳版本。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/rasbt/watermark">watermark</a></b> (🥈22 ·  ⭐ 860 · 💤) - An IPython magic extension for printing date and time stamps,.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/rasbt/watermark) (👨‍💻 19 · 🔀 81 · 📦 1.6K · 📋 44 - 36% open · ⏱️ 27.05.2022):
+- [GitHub](https://github.com/rasbt/watermark) (👨‍💻 19 · 🔀 88 · 📦 2.3K · 📋 46 - 39% open · ⏱️ 02.07.2023):
 
 	```
 	git clone https://github.com/rasbt/watermark
 	```
-- [PyPi](https://pypi.org/project/watermark) (📥 28K / month):
+- [PyPi](https://pypi.org/project/watermark) (📥 31K / month):
 	```
 	pip install watermark
 	```
-- [Conda](https://anaconda.org/conda-forge/watermark) (📥 220K · ⏱️ 30.05.2022):
+- [Conda](https://anaconda.org/conda-forge/watermark) (📥 280K · ⏱️ 02.07.2023):
 	```
 	conda install -c conda-forge watermark
 	```
 </details>
-<details><summary><b><a href="https://github.com/csurfer/pyheatmagic">heat</a></b> (🥈16 ·  ⭐ 990 · 💤) - IPython魔术命令：格式化单元格中的python代码。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/csurfer/pyheatmagic">heat</a></b> (🥈16 ·  ⭐ 1K · 💀) - IPython magic command to profile and view your python code as a heat map. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/csurfer/pyheatmagic) (👨‍💻 3 · 🔀 22 · 📦 29 · 📋 5 - 40% open · ⏱️ 10.09.2021):
+- [GitHub](https://github.com/csurfer/pyheatmagic) (👨‍💻 3 · 🔀 22 · 📦 43 · 📋 5 - 40% open · ⏱️ 10.09.2021):
 
 	```
 	git clone https://github.com/csurfer/pyheatmagic
 	```
-- [PyPi](https://pypi.org/project/py-heat-magic) (📥 1.2K / month):
+- [PyPi](https://pypi.org/project/py-heat-magic) (📥 520 / month):
 	```
 	pip install py-heat-magic
 	```
 </details>
-<details><summary><b><a href="https://github.com/ShopRunner/jupyter-notify">jupyter-notify</a></b> (🥈16 ·  ⭐ 560 · 💀) - A Jupyter Notebook magic for browser notifications of cell.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/csurfer/blackcellmagic">blackcellmagic</a></b> (🥈16 ·  ⭐ 300 · 💀) - IPython magic command to format python code in cell using.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/ShopRunner/jupyter-notify) (👨‍💻 11 · 🔀 34 · 📋 23 - 47% open · ⏱️ 27.04.2021):
-
-	```
-	git clone https://github.com/ShopRunner/jupyter-notify
-	```
-- [PyPi](https://pypi.org/project/jupyternotify) (📥 2.3K / month):
-	```
-	pip install jupyternotify
-	```
-</details>
-<details><summary><b><a href="https://github.com/csurfer/blackcellmagic">blackcellmagic</a></b> (🥉15 ·  ⭐ 300 · 💤) - IPython魔术命令：格式化单元格中的python代码。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/csurfer/blackcellmagic) (👨‍💻 3 · 🔀 12 · 📦 160 · 📋 9 - 44% open · ⏱️ 18.09.2021):
+- [GitHub](https://github.com/csurfer/blackcellmagic) (👨‍💻 3 · 🔀 13 · 📦 230 · 📋 10 - 50% open · ⏱️ 18.09.2021):
 
 	```
 	git clone https://github.com/csurfer/blackcellmagic
 	```
-- [PyPi](https://pypi.org/project/blackcellmagic) (📥 2.9K / month):
+- [PyPi](https://pypi.org/project/blackcellmagic) (📥 1.2K / month):
 	```
 	pip install blackcellmagic
 	```
 </details>
-<details><summary><b><a href="https://github.com/ResidentMario/py_d3">py_d3</a></b> (🥉12 ·  ⭐ 440) - D3 block magic for Jupyter notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ShopRunner/jupyter-notify">jupyter-notify</a></b> (🥉15 ·  ⭐ 580 · 💀) - A Jupyter Notebook magic for browser notifications of cell.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/ResidentMario/py_d3) (👨‍💻 4 · 🔀 39 · 📋 16 - 6% open · ⏱️ 20.02.2022):
+- [GitHub](https://github.com/ShopRunner/jupyter-notify) (👨‍💻 11 · 🔀 38 · 📋 25 - 52% open · ⏱️ 27.04.2021):
 
 	```
-	git clone https://github.com/ResidentMario/py_d3
+	git clone https://github.com/ShopRunner/jupyter-notify
 	```
-- [PyPi](https://pypi.org/project/py_d3) (📥 97 / month):
+- [PyPi](https://pypi.org/project/jupyternotify) (📥 1.2K / month):
 	```
-	pip install py_d3
+	pip install jupyternotify
 	```
 </details>
-<details><summary><b><a href="https://github.com/tmthyjames/SQLCell">SQLCell</a></b> (🥉12 ·  ⭐ 150 · 💀) - SQLCell：Jupyter Notebook的魔术函数。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/tmthyjames/SQLCell) (👨‍💻 14 · 🔀 10 · 📦 1 · 📋 84 - 71% open · ⏱️ 06.10.2020):
-
-	```
-	git clone https://github.com/tmthyjames/SQLCell
-	```
-- [PyPi](https://pypi.org/project/sqlcell) (📥 12 / month):
-	```
-	pip install sqlcell
-	```
-</details>
-<details><summary><b><a href="https://github.com/nteract/pick">pick</a></b> (🥉12 ·  ⭐ 31 · 💀) - 在启动时自定义您的内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/nteract/pick">pick</a></b> (🥉13 ·  ⭐ 32 · 💀) - Customize your kernels on Launch!. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/nteract/pick) (👨‍💻 5 · 🔀 7 · 📋 9 - 44% open · ⏱️ 04.11.2020):
 
 	```
 	git clone https://github.com/nteract/pick
 	```
-- [PyPi](https://pypi.org/project/pick) (📥 49K / month):
+- [PyPi](https://pypi.org/project/pick) (📥 110K / month):
 	```
 	pip install pick
 	```
 </details>
-<details><summary><b><a href="https://github.com/krassowski/jupyter-manim">jupyter-manim</a></b> (🥉11 ·  ⭐ 180 · 💤) - manim单元魔术，用于IPython / Jupyter显示输出视频。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/ResidentMario/py_d3">py_d3</a></b> (🥉12 ·  ⭐ 450 · 💀) - D3 block magic for Jupyter notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/ResidentMario/py_d3) (👨‍💻 4 · 🔀 40 · 📋 16 - 6% open · ⏱️ 20.02.2022):
+
+	```
+	git clone https://github.com/ResidentMario/py_d3
+	```
+- [PyPi](https://pypi.org/project/py_d3) (📥 42 / month):
+	```
+	pip install py_d3
+	```
+</details>
+<details><summary><b><a href="https://github.com/krassowski/jupyter-manim">jupyter-manim</a></b> (🥉11 ·  ⭐ 190 · 💀) - manim cell magic for IPython/Jupyter to show the output video. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/krassowski/jupyter-manim) (👨‍💻 5 · 🔀 11 · 📋 25 - 24% open · ⏱️ 02.01.2022):
 
@@ -1386,437 +1358,449 @@ _提供magic命令以访问笔记本中方便功能的扩展。_
 	git clone https://github.com/krassowski/jupyter-manim
 	```
 </details>
-<br>
+<details><summary><b><a href="https://github.com/tmthyjames/SQLCell">SQLCell</a></b> (🥉11 ·  ⭐ 150 · 💀) - SQLCell is a magic function for the Jupyter Notebook that executes.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-## Jupyter内核
-
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
-
-_Jupyter内核以给定的语言运行和内省用户的代码。_
-
-<details><summary><b><a href="https://github.com/gopherdata/gophernotes">gophernotes</a></b> (🥇22 ·  ⭐ 3.4K) - 适用于Jupyter笔记本电脑和nteract的Go内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/gopherdata/gophernotes) (👨‍💻 29 · 🔀 220 · 📥 40 · 📦 8 · 📋 170 - 28% open · ⏱️ 08.07.2022):
+- [GitHub](https://github.com/tmthyjames/SQLCell) (👨‍💻 14 · 🔀 11 · 📦 1 · 📋 84 - 71% open · ⏱️ 06.10.2020):
 
 	```
-	git clone https://github.com/gopherdata/gophernotes
+	git clone https://github.com/tmthyjames/SQLCell
 	```
-- [Docker Hub](https://hub.docker.com/r/gopherdata/gophernotes) (📥 86K · ⭐ 7 · ⏱️ 22.12.2018):
+- [PyPi](https://pypi.org/project/sqlcell) (📥 13 / month):
 	```
-	docker pull gopherdata/gophernotes
+	pip install sqlcell
 	```
 </details>
-<details><summary><b><a href="https://github.com/ipython/ipykernel">IPython Kernel</a></b> (🥇22 ·  ⭐ 500 · 📉) - IPython Kernel for Jupyter. <code>❗Unlicensed</code></summary>
+<br>
 
-- [GitHub](https://github.com/ipython/ipykernel) (👨‍💻 160 · 🔀 300 · 📥 520 · 📋 420 - 51% open · ⏱️ 22.08.2022):
+## Jupyter Kernels
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+
+_Jupyter kernels that run and introspect the user's code in a given language._
+
+<details><summary><b><a href="https://github.com/ipython/ipykernel">IPython Kernel</a></b> (🥇34 ·  ⭐ 610 · 📈) - IPython Kernel for Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/ipython/ipykernel) (👨‍💻 180 · 🔀 350 · 📥 2.2K · 📦 350K · 📋 490 - 50% open · ⏱️ 08.04.2024):
 
 	```
 	git clone https://github.com/ipython/ipykernel
 	```
-- [PyPi](https://pypi.org/project/ipykernel) (📥 10M / month):
+- [PyPi](https://pypi.org/project/ipykernel) (📥 26M / month):
 	```
 	pip install ipykernel
 	```
-- [Conda](https://anaconda.org/anaconda/ipykernel) (📥 380K · ⏱️ 02.05.2022):
+- [Conda](https://anaconda.org/anaconda/ipykernel) (📥 880K · ⏱️ 22.01.2024):
 	```
 	conda install -c anaconda ipykernel
 	```
 </details>
-<details><summary><b><a href="https://github.com/IRkernel/IRkernel">IRkernel</a></b> (🥇21 ·  ⭐ 1.6K) - Jupyter的R内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/Calysto/metakernel">Metakernel</a></b> (🥇24 ·  ⭐ 330) - Jupyter/IPython Kernel Tools. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/IRkernel/IRkernel) (👨‍💻 41 · 🔀 290 · 📋 570 - 9% open · ⏱️ 24.06.2022):
-
-	```
-	git clone https://github.com/IRkernel/IRkernel
-	```
-- [Conda](https://anaconda.org/r/r-irkernel) (📥 82K · ⏱️ 31.05.2022):
-	```
-	conda install -c r r-irkernel
-	```
-- [Docker Hub](https://hub.docker.com/r/jupyter/r-notebook) (📥 1.3M · ⭐ 44 · ⏱️ 23.08.2022):
-	```
-	docker pull jupyter/r-notebook
-	```
-</details>
-<details><summary><b><a href="https://github.com/Calysto/octave_kernel">Octave Kernel</a></b> (🥇20 ·  ⭐ 410) - 用于IPython的Octave内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/Calysto/octave_kernel) (👨‍💻 18 · 🔀 60 · 📥 50 · 📋 170 - 16% open · ⏱️ 21.08.2022):
-
-	```
-	git clone https://github.com/calysto/octave_kernel
-	```
-- [PyPi](https://pypi.org/project/octave_kernel) (📥 13K / month):
-	```
-	pip install octave_kernel
-	```
-</details>
-<details><summary><b><a href="https://github.com/Calysto/metakernel">Metakernel</a></b> (🥇20 ·  ⭐ 290) - Jupyter/IPython内核工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/Calysto/metakernel) (👨‍💻 31 · 🔀 78 · 📥 42 · 📋 140 - 19% open · ⏱️ 09.08.2022):
+- [GitHub](https://github.com/Calysto/metakernel) (👨‍💻 34 · 🔀 85 · 📥 170 · 📦 870 · 📋 150 - 20% open · ⏱️ 04.04.2024):
 
 	```
 	git clone https://github.com/Calysto/metakernel
 	```
-- [PyPi](https://pypi.org/project/metakernel) (📥 71K / month):
+- [PyPi](https://pypi.org/project/metakernel) (📥 27K / month):
 	```
 	pip install metakernel
 	```
-- [Conda](https://anaconda.org/conda-forge/metakernel) (📥 600K · ⏱️ 09.08.2022):
+- [Conda](https://anaconda.org/conda-forge/metakernel) (📥 770K · ⏱️ 26.03.2024):
 	```
 	conda install -c conda-forge metakernel
 	```
 </details>
-<details><summary><b><a href="https://github.com/JuliaLang/IJulia.jl">IJulia.jl</a></b> (🥈19 ·  ⭐ 2.5K) - Jupyter的Julia内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/takluyver/bash_kernel">Bash Kernel</a></b> (🥇23 ·  ⭐ 670 · 📈) - A bash kernel for IPython. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/JuliaLang/IJulia.jl) (👨‍💻 100 · 🔀 380 · 📋 790 - 12% open · ⏱️ 23.06.2022):
+- [GitHub](https://github.com/takluyver/bash_kernel) (👨‍💻 20 · 🔀 120 · 📦 230 · 📋 100 - 35% open · ⏱️ 24.11.2023):
+
+	```
+	git clone https://github.com/takluyver/bash_kernel
+	```
+- [PyPi](https://pypi.org/project/bash_kernel) (📥 36K / month):
+	```
+	pip install bash_kernel
+	```
+</details>
+<details><summary><b><a href="https://github.com/gopherdata/gophernotes">gophernotes</a></b> (🥇21 ·  ⭐ 3.8K) - The Go kernel for Jupyter notebooks and nteract. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/gopherdata/gophernotes) (👨‍💻 29 · 🔀 250 · 📥 44 · 📦 16 · 📋 180 - 28% open · ⏱️ 03.11.2023):
+
+	```
+	git clone https://github.com/gopherdata/gophernotes
+	```
+- [Docker Hub](https://hub.docker.com/r/gopherdata/gophernotes) (📥 87K · ⭐ 7 · ⏱️ 22.12.2018):
+	```
+	docker pull gopherdata/gophernotes
+	```
+</details>
+<details><summary><b><a href="https://github.com/n-riesco/ijavascript">IJavascript</a></b> (🥇21 ·  ⭐ 2.1K · 💀) - IJavascript is a javascript kernel for the Jupyter.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/n-riesco/ijavascript) (👨‍💻 17 · 🔀 150 · 📦 85 · 📋 240 - 22% open · ⏱️ 28.12.2022):
+
+	```
+	git clone https://github.com/n-riesco/ijavascript
+	```
+- [NPM](https://www.npmjs.com/package/ijavascript) (📥 2K / month):
+	```
+	npm install ijavascript
+	```
+</details>
+<details><summary><b><a href="https://github.com/IRkernel/IRkernel">IRkernel</a></b> (🥇21 ·  ⭐ 1.7K · 💀) - R kernel for Jupyter. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/IRkernel/IRkernel) (👨‍💻 43 · 🔀 280 · 📋 580 - 10% open · ⏱️ 06.03.2023):
+
+	```
+	git clone https://github.com/IRkernel/IRkernel
+	```
+- [Conda](https://anaconda.org/r/r-irkernel) (📥 150K · ⏱️ 16.01.2024):
+	```
+	conda install -c r r-irkernel
+	```
+- [Docker Hub](https://hub.docker.com/r/jupyter/r-notebook) (📥 1.9M · ⭐ 59 · ⏱️ 20.10.2023):
+	```
+	docker pull jupyter/r-notebook
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter-server/kernel_gateway">Kernel Gateway</a></b> (🥇21 ·  ⭐ 480) - Jupyter Kernel Gateway. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/jupyter-server/kernel_gateway) (👨‍💻 47 · 🔀 120 · 📥 180 · 📦 360 · 📋 190 - 9% open · ⏱️ 12.03.2024):
+
+	```
+	git clone https://github.com/jupyter/kernel_gateway
+	```
+- [PyPi](https://pypi.org/project/jupyter-kernel-gateway) (📥 40K / month):
+	```
+	pip install jupyter-kernel-gateway
+	```
+</details>
+<details><summary><b><a href="https://github.com/SciRuby/iruby">IRuby</a></b> (🥈20 ·  ⭐ 830) - Official gem repository: Ruby kernel for Jupyter/IPython Notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/SciRuby/iruby) (👨‍💻 47 · 🔀 23 · 📥 15 · 📦 230 · 📋 190 - 23% open · ⏱️ 11.04.2024):
+
+	```
+	git clone https://github.com/SciRuby/iruby
+	```
+- [Docker Hub](https://hub.docker.com/r/rubydata/datascience-notebook) (📥 2.1K · ⭐ 5 · ⏱️ 03.02.2023):
+	```
+	docker pull rubydata/datascience-notebook
+	```
+</details>
+<details><summary><b><a href="https://github.com/apache/incubator-toree">Apache Toree</a></b> (🥈19 ·  ⭐ 730) - Jupyter kernel for Apache Spark. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/apache/incubator-toree) (👨‍💻 110 · 🔀 220 · ⏱️ 26.03.2024):
+
+	```
+	git clone https://github.com/apache/incubator-toree
+	```
+- [PyPi](https://pypi.org/project/toree) (📥 7.2K / month):
+	```
+	pip install toree
+	```
+</details>
+<details><summary><b><a href="https://github.com/Anaconda-Platform/nb_conda_kernels">nb_conda_kernels</a></b> (🥈19 ·  ⭐ 560) - Package for managing conda environment-based kernels inside.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/Anaconda-Platform/nb_conda_kernels) (👨‍💻 18 · 🔀 68 · 📋 150 - 4% open · ⏱️ 24.03.2024):
+
+	```
+	git clone https://github.com/Anaconda-Platform/nb_conda_kernels
+	```
+- [Conda](https://anaconda.org/conda-forge/nb_conda_kernels) (📥 1.3M · ⏱️ 20.02.2024):
+	```
+	conda install -c conda-forge nb_conda_kernels
+	```
+</details>
+<details><summary><b><a href="https://github.com/Calysto/octave_kernel">Octave Kernel</a></b> (🥈19 ·  ⭐ 440 · 💀) - An Octave kernel for IPython. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/Calysto/octave_kernel) (👨‍💻 20 · 🔀 65 · 📥 170 · 📦 72 · 📋 180 - 18% open · ⏱️ 18.12.2022):
+
+	```
+	git clone https://github.com/calysto/octave_kernel
+	```
+- [PyPi](https://pypi.org/project/octave_kernel) (📥 10K / month):
+	```
+	pip install octave_kernel
+	```
+</details>
+<details><summary><b><a href="https://github.com/JuliaLang/IJulia.jl">IJulia.jl</a></b> (🥈18 ·  ⭐ 2.7K) - Julia kernel for Jupyter. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/JuliaLang/IJulia.jl) (👨‍💻 110 · 🔀 400 · 📋 840 - 15% open · ⏱️ 08.03.2024):
 
 	```
 	git clone https://github.com/JuliaLang/IJulia.jl
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-xeus/xeus-cling">xeus-cling</a></b> (🥈19 ·  ⭐ 2.3K · 💤) - 适用于C++编程语言的Jupyter内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/almond-sh/almond">almond</a></b> (🥈18 ·  ⭐ 1.6K) - A Scala kernel for Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter-xeus/xeus-cling) (👨‍💻 20 · 🔀 240 · 📋 250 - 53% open · ⏱️ 17.01.2022):
-
-	```
-	git clone https://github.com/jupyter-xeus/xeus-cling
-	```
-- [Conda](https://anaconda.org/conda-forge/xeus-cling) (📥 160K · ⏱️ 08.03.2022):
-	```
-	conda install -c conda-forge xeus-cling
-	```
-</details>
-<details><summary><b><a href="https://github.com/n-riesco/ijavascript">IJavascript</a></b> (🥈19 ·  ⭐ 1.9K · 💤) - Jupyter笔记本的JavaScript内核。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/n-riesco/ijavascript) (👨‍💻 15 · 🔀 150 · 📦 63 · 📋 230 - 23% open · ⏱️ 24.01.2022):
-
-	```
-	git clone https://github.com/n-riesco/ijavascript
-	```
-- [NPM](https://www.npmjs.com/package/ijavascript) (📥 2.4K / month):
-	```
-	npm install ijavascript
-	```
-</details>
-<details><summary><b><a href="https://github.com/almond-sh/almond">almond</a></b> (🥈19 ·  ⭐ 1.5K) - Jupyter的Scala内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/almond-sh/almond) (👨‍💻 36 · 🔀 220 · 📥 1.3K · 📋 300 - 32% open · ⏱️ 24.08.2022):
+- [GitHub](https://github.com/almond-sh/almond) (👨‍💻 40 · 🔀 230 · 📥 2.3K · 📋 320 - 35% open · ⏱️ 23.02.2024):
 
 	```
 	git clone https://github.com/almond-sh/almond
 	```
-- [Docker Hub](https://hub.docker.com/r/almondsh/almond) (📥 15K · ⭐ 6 · ⏱️ 16.08.2022):
+- [Docker Hub](https://hub.docker.com/r/almondsh/almond) (📥 19K · ⭐ 6 · ⏱️ 19.10.2023):
 	```
 	docker pull almondsh/almond
 	```
 </details>
-<details><summary><b><a href="https://github.com/apache/incubator-toree">Apache Toree</a></b> (🥈19 ·  ⭐ 700) - 适用于Apache Spark的Jupyter内核。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/akabe/ocaml-jupyter">OCaml Kernel</a></b> (🥈18 ·  ⭐ 280 · 💤) - An OCaml kernel for Jupyter (IPython) notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/apache/incubator-toree) (👨‍💻 100 · 🔀 210 · ⏱️ 15.03.2022):
-
-	```
-	git clone https://github.com/apache/incubator-toree
-	```
-- [PyPi](https://pypi.org/project/toree) (📥 13K / month):
-	```
-	pip install toree
-	```
-</details>
-<details><summary><b><a href="https://github.com/IHaskell/IHaskell">IHaskell</a></b> (🥈18 ·  ⭐ 2.4K) - 用于IPython的Haskell内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/IHaskell/IHaskell) (👨‍💻 110 · 🔀 240 · 📦 4 · 📋 740 - 4% open · ⏱️ 22.07.2022):
-
-	```
-	git clone https://github.com/gibiansky/IHaskell
-	```
-- [NPM](https://www.npmjs.com/package/ihaskell_jupyterlab) (📥 13 / month):
-	```
-	npm install ihaskell_jupyterlab
-	```
-</details>
-<details><summary><b><a href="https://github.com/SciRuby/iruby">IRuby</a></b> (🥈18 ·  ⭐ 720) - 官方gem仓库：Jupyter/IPython Notebook的Ruby内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/SciRuby/iruby) (👨‍💻 44 · 🔀 18 · 📥 15 · 📦 160 · 📋 190 - 24% open · ⏱️ 05.07.2022):
-
-	```
-	git clone https://github.com/SciRuby/iruby
-	```
-- [Docker Hub](https://hub.docker.com/r/rubydata/datascience-notebook) (📥 1.7K · ⭐ 3 · ⏱️ 07.06.2022):
-	```
-	docker pull rubydata/datascience-notebook
-	```
-</details>
-<details><summary><b><a href="https://github.com/Anaconda-Platform/nb_conda_kernels">nb_conda_kernels</a></b> (🥈18 ·  ⭐ 470 · 💀) - Package for managing conda environment-based kernels.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/Anaconda-Platform/nb_conda_kernels) (👨‍💻 14 · 🔀 56 · 📋 130 - 26% open · ⏱️ 30.11.2020):
-
-	```
-	git clone https://github.com/Anaconda-Platform/nb_conda_kernels
-	```
-- [Conda](https://anaconda.org/conda-forge/nb_conda_kernels) (📥 710K · ⏱️ 14.02.2022):
-	```
-	conda install -c conda-forge nb_conda_kernels
-	```
-</details>
-<details><summary><b><a href="https://github.com/akabe/ocaml-jupyter">OCaml Kernel</a></b> (🥈18 ·  ⭐ 230) - Jupyter（IPython）笔记本的OCaml内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/akabe/ocaml-jupyter) (👨‍💻 18 · 🔀 29 · 📥 70K · 📋 71 - 4% open · ⏱️ 10.04.2022):
+- [GitHub](https://github.com/akabe/ocaml-jupyter) (👨‍💻 23 · 🔀 39 · 📥 120K · 📋 80 - 8% open · ⏱️ 11.08.2023):
 
 	```
 	git clone https://github.com/akabe/ocaml-jupyter
 	```
 </details>
-<details><summary><b><a href="https://github.com/sassoftware/sas_kernel">SAS Kernel</a></b> (🥈18 ·  ⭐ 190) - 用于SAS的Jupyter内核。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/vericast/spylon-kernel">Spylon Kernel</a></b> (🥈18 ·  ⭐ 180 · 💀) - Jupyter kernel for scala and spark. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/sassoftware/sas_kernel) (👨‍💻 9 · 🔀 72 · 📋 57 - 5% open · ⏱️ 01.06.2022):
-
-	```
-	git clone https://github.com/sassoftware/sas_kernel
-	```
-- [PyPi](https://pypi.org/project/sas_kernel) (📥 2K / month):
-	```
-	pip install sas_kernel
-	```
-</details>
-<details><summary><b><a href="https://github.com/vericast/spylon-kernel">Spylon Kernel</a></b> (🥈18 ·  ⭐ 160 · 💀) - Jupyter kernel for scala and spark. <code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/vericast/spylon-kernel) (👨‍💻 6 · 🔀 28 · 📦 88 · 📋 35 - 48% open · ⏱️ 20.09.2018):
+- [GitHub](https://github.com/vericast/spylon-kernel) (👨‍💻 6 · 🔀 34 · 📦 160 · 📋 42 - 52% open · ⏱️ 20.09.2018):
 
 	```
 	git clone https://github.com/Valassis-Digital-Media/spylon-kernel
 	```
-- [PyPi](https://pypi.org/project/spylon-kernel) (📥 2.3K / month):
+- [PyPi](https://pypi.org/project/spylon-kernel) (📥 2.9K / month):
 	```
 	pip install spylon-kernel
 	```
-- [Conda](https://anaconda.org/conda-forge/spylon-kernel) (📥 95K · ⏱️ 05.10.2018):
+- [Conda](https://anaconda.org/conda-forge/spylon-kernel) (📥 130K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge spylon-kernel
 	```
 </details>
-<details><summary><b><a href="https://github.com/SpencerPark/IJava">IJava</a></b> (🥉17 ·  ⭐ 820 · 💀) - 用于执行Java代码的Jupyter内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-xeus/xeus-cling">xeus-cling</a></b> (🥉17 ·  ⭐ 2.9K · 💤) - Jupyter kernel for the C++ programming language. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/SpencerPark/IJava) (👨‍💻 4 · 🔀 160 · 📥 89K · 📋 130 - 54% open · ⏱️ 08.12.2019):
+- [GitHub](https://github.com/jupyter-xeus/xeus-cling) (👨‍💻 26 · 🔀 280 · 📋 300 - 56% open · ⏱️ 05.08.2023):
+
+	```
+	git clone https://github.com/jupyter-xeus/xeus-cling
+	```
+- [Conda](https://anaconda.org/conda-forge/xeus-cling) (📥 240K · ⏱️ 11.11.2023):
+	```
+	conda install -c conda-forge xeus-cling
+	```
+</details>
+<details><summary><b><a href="https://github.com/IHaskell/IHaskell">IHaskell</a></b> (🥉17 ·  ⭐ 2.5K) - A Haskell kernel for IPython. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/IHaskell/IHaskell) (👨‍💻 110 · 🔀 250 · 📋 780 - 5% open · ⏱️ 08.04.2024):
+
+	```
+	git clone https://github.com/gibiansky/IHaskell
+	```
+- [NPM](https://www.npmjs.com/package/ihaskell_jupyterlab) (📥 3 / month):
+	```
+	npm install ihaskell_jupyterlab
+	```
+</details>
+<details><summary><b><a href="https://github.com/SpencerPark/IJava">IJava</a></b> (🥉17 ·  ⭐ 1K · 💀) - A Jupyter kernel for executing Java code. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/SpencerPark/IJava) (👨‍💻 4 · 🔀 190 · 📥 170K · 📋 140 - 58% open · ⏱️ 08.12.2019):
 
 	```
 	git clone https://github.com/SpencerPark/IJava
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-server/kernel_gateway">Kernel Gateway</a></b> (🥉17 ·  ⭐ 400) - Jupyter内核网关。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter-server/enterprise_gateway">Enterprise Gateway</a></b> (🥉17 ·  ⭐ 610) - A lightweight, multi-tenant, scalable and secure.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/jupyter-server/kernel_gateway) (👨‍💻 44 · 🔀 110 · 📥 100 · 📋 180 - 7% open · ⏱️ 12.03.2022):
-
-	```
-	git clone https://github.com/jupyter/kernel_gateway
-	```
-- [PyPi](https://pypi.org/project/jupyter-kernel-gateway) (📥 14K / month):
-	```
-	pip install jupyter-kernel-gateway
-	```
-</details>
-<details><summary><b><a href="https://github.com/scijava/scijava-jupyter-kernel">SciJava Kernel</a></b> (🥉17 ·  ⭐ 180) - 在Jupyter笔记本中编写SciJava脚本。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/scijava/scijava-jupyter-kernel) (👨‍💻 9 · 🔀 42 · 📥 86 · ⏱️ 03.02.2022):
-
-	```
-	git clone https://github.com/scijava/scijava-jupyter-kernel
-	```
-- [Conda](https://anaconda.org/conda-forge/scijava-jupyter-kernel) (📥 81K · ⏱️ 03.03.2018):
-	```
-	conda install -c conda-forge scijava-jupyter-kernel
-	```
-</details>
-<details><summary><b><a href="https://github.com/clojupyter/clojupyter">clojupyter</a></b> (🥉16 ·  ⭐ 740 · 💤) - 用于Clojure的Jupyter内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/clojupyter/clojupyter) (👨‍💻 26 · 🔀 75 · 📋 97 - 18% open · ⏱️ 29.12.2021):
-
-	```
-	git clone https://github.com/clojupyter/clojupyter
-	```
-- [Conda](https://anaconda.org/simplect/clojupyter) (📥 3K · ⏱️ 02.03.2020):
-	```
-	conda install -c simplect clojupyter
-	```
-- [Docker Hub](https://hub.docker.com/r/simplect/clojupyter) (📥 390 · ⏱️ 25.04.2019):
-	```
-	docker pull simplect/clojupyter
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter-server/enterprise_gateway">Enterprise Gateway</a></b> (🥉16 ·  ⭐ 520) - 轻量级，多租户，可扩展和安全的网关。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/jupyter-server/enterprise_gateway) (👨‍💻 100 · 🔀 180 · 📥 20K · 📋 520 - 9% open · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/jupyter-server/enterprise_gateway) (👨‍💻 120 · 🔀 210 · 📥 35K · 📋 570 - 12% open · ⏱️ 09.03.2024):
 
 	```
 	git clone https://github.com/jupyter/enterprise_gateway
 	```
-- [PyPi](https://pypi.org/project/jupyter_enterprise_gateway) (📥 1.3K / month):
+- [PyPi](https://pypi.org/project/jupyter_enterprise_gateway) (📥 3.1K / month):
 	```
 	pip install jupyter_enterprise_gateway
 	```
 </details>
-<details><summary><b><a href="https://github.com/Calysto/matlab_kernel">Matlab Kernel</a></b> (🥉16 ·  ⭐ 440) - Jupyter的Matlab内核。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/scijava/scijava-jupyter-kernel">SciJava Kernel</a></b> (🥉17 ·  ⭐ 180 · 💀) - Write SciJava scripts in Jupyter notebook!. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/Calysto/matlab_kernel) (👨‍💻 18 · 🔀 73 · 📋 130 - 19% open · ⏱️ 09.05.2022):
+- [GitHub](https://github.com/scijava/scijava-jupyter-kernel) (👨‍💻 9 · 🔀 41 · 📥 110 · ⏱️ 03.02.2022):
+
+	```
+	git clone https://github.com/scijava/scijava-jupyter-kernel
+	```
+- [Conda](https://anaconda.org/conda-forge/scijava-jupyter-kernel) (📥 100K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge scijava-jupyter-kernel
+	```
+</details>
+<details><summary><b><a href="https://github.com/Cadair/jupyter_environment_kernels">Kernel Detection</a></b> (🥉17 ·  ⭐ 150 · 💀) - An Jupyter plugin to enable the automatic detection of.. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+
+- [GitHub](https://github.com/Cadair/jupyter_environment_kernels) (👨‍💻 8 · 🔀 17 · 📦 5 · 📋 30 - 23% open · ⏱️ 23.11.2022):
+
+	```
+	git clone https://github.com/Cadair/jupyter_environment_kernels
+	```
+- [PyPi](https://pypi.org/project/environment_kernels) (📥 32K / month):
+	```
+	pip install environment_kernels
+	```
+</details>
+<details><summary><b><a href="https://github.com/lfortran/lfortran">LFortran</a></b> (🥉16 ·  ⭐ 860) - Official mirror of https://gitlab.com/lfortran/lfortran. Please.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/lfortran/lfortran) (👨‍💻 76 · 🔀 120 · 📥 870 · 📋 1.9K - 55% open · ⏱️ 11.04.2024):
+
+	```
+	git clone https://github.com/lfortran/lfortran
+	```
+- [PyPi](https://pypi.org/project/lfortran) (📥 64 / month):
+	```
+	pip install lfortran
+	```
+- [Conda](https://anaconda.org/conda-forge/lfortran) (📥 81K · ⏱️ 24.03.2024):
+	```
+	conda install -c conda-forge lfortran
+	```
+</details>
+<details><summary><b><a href="https://github.com/clojupyter/clojupyter">clojupyter</a></b> (🥉16 ·  ⭐ 810) - a Jupyter kernel for Clojure. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/clojupyter/clojupyter) (👨‍💻 26 · 🔀 78 · 📋 100 - 13% open · ⏱️ 29.12.2023):
+
+	```
+	git clone https://github.com/clojupyter/clojupyter
+	```
+- [Conda](https://anaconda.org/simplect/clojupyter) (📥 3.5K · ⏱️ 20.07.2023):
+	```
+	conda install -c simplect clojupyter
+	```
+- [Docker Hub](https://hub.docker.com/r/simplect/clojupyter) (📥 420 · ⏱️ 25.04.2019):
+	```
+	docker pull simplect/clojupyter
+	```
+</details>
+<details><summary><b><a href="https://github.com/ansible/ansible-jupyter-kernel">Ansible Kernel</a></b> (🥉16 ·  ⭐ 530 · 💀) - Jupyter Notebook Kernel for running Ansible Tasks and.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/ansible/ansible-jupyter-kernel) (👨‍💻 10 · 🔀 58 · 📦 13 · 📋 46 - 36% open · ⏱️ 11.02.2022):
+
+	```
+	git clone https://github.com/ansible/ansible-jupyter-kernel
+	```
+- [PyPi](https://pypi.org/project/ansible-kernel) (📥 160 / month):
+	```
+	pip install ansible-kernel
+	```
+- [Conda](https://anaconda.org/conda-forge/ansible-kernel) (📥 15K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge ansible-kernel
+	```
+- [Docker Hub](https://hub.docker.com/r/benthomasson/ansible-jupyter-kernel) (📥 67K · ⭐ 2 · ⏱️ 12.12.2018):
+	```
+	docker pull benthomasson/ansible-jupyter-kernel
+	```
+</details>
+<details><summary><b><a href="https://github.com/pprzetacznik/IElixir">IElixir</a></b> (🥉16 ·  ⭐ 360) - Jupyter's kernel for Elixir programming language. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/pprzetacznik/IElixir) (👨‍💻 20 · 🔀 41 · 📋 31 - 35% open · ⏱️ 28.03.2024):
+
+	```
+	git clone https://github.com/pprzetacznik/IElixir
+	```
+- [Docker Hub](https://hub.docker.com/r/pprzetacznik/ielixir) (📥 360 · ⭐ 1 · ⏱️ 29.03.2024):
+	```
+	docker pull pprzetacznik/ielixir
+	```
+</details>
+<details><summary><b><a href="https://github.com/Calysto/matlab_kernel">Matlab Kernel</a></b> (🥉15 ·  ⭐ 470 · 💀) - Jupyter Kernel for Matlab. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/Calysto/matlab_kernel) (👨‍💻 18 · 🔀 76 · 📋 130 - 19% open · ⏱️ 09.05.2022):
 
 	```
 	git clone https://github.com/calysto/matlab_kernel
 	```
-- [PyPi](https://pypi.org/project/matlab_kernel) (📥 3.9K / month):
+- [PyPi](https://pypi.org/project/matlab_kernel) (📥 2.2K / month):
 	```
 	pip install matlab_kernel
 	```
 </details>
-<details><summary><b><a href="https://github.com/WolframResearch/WolframLanguageForJupyter">Wolfram Kernel</a></b> (🥉15 ·  ⭐ 750) - 适用于Jupyter的Wolfram语言内核。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/sassoftware/sas_kernel">SAS Kernel</a></b> (🥉15 ·  ⭐ 200 · 💀) - A Jupyter kernel for SAS. This opens up all the data.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/WolframResearch/WolframLanguageForJupyter) (👨‍💻 7 · 🔀 91 · 📥 6.1K · 📋 96 - 31% open · ⏱️ 19.02.2022):
+- [GitHub](https://github.com/sassoftware/sas_kernel) (👨‍💻 11 · 🔀 82 · 📋 59 - 1% open · ⏱️ 13.01.2023):
+
+	```
+	git clone https://github.com/sassoftware/sas_kernel
+	```
+- [PyPi](https://pypi.org/project/sas_kernel) (📥 3.1K / month):
+	```
+	pip install sas_kernel
+	```
+</details>
+<details><summary><b><a href="https://github.com/WolframResearch/WolframLanguageForJupyter">Wolfram Kernel</a></b> (🥉14 ·  ⭐ 970 · 💀) - Wolfram Language kernel for Jupyter notebooks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/WolframResearch/WolframLanguageForJupyter) (👨‍💻 7 · 🔀 110 · 📥 9.5K · 📋 110 - 32% open · ⏱️ 19.02.2022):
 
 	```
 	git clone https://github.com/WolframResearch/WolframLanguageForJupyter
 	```
 </details>
-<details><summary><b><a href="https://github.com/takluyver/bash_kernel">Bash Kernel</a></b> (🥉15 ·  ⭐ 600) - IPython的bash内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/yunabe/lgo">lgo</a></b> (🥉13 ·  ⭐ 2.4K · 💀) - Interactive Go programming with Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/takluyver/bash_kernel) (👨‍💻 14 · 🔀 100 · 📋 94 - 37% open · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/takluyver/bash_kernel
-	```
-- [PyPi](https://pypi.org/project/bash_kernel) (📥 6K / month):
-	```
-	pip install bash_kernel
-	```
-</details>
-<details><summary><b><a href="https://github.com/ansible/ansible-jupyter-kernel">Ansible Kernel</a></b> (🥉15 ·  ⭐ 500) - Jupyter笔记本内核，用于运行Ansible任务。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/ansible/ansible-jupyter-kernel) (👨‍💻 10 · 🔀 54 · 📦 9 · 📋 44 - 34% open · ⏱️ 11.02.2022):
-
-	```
-	git clone https://github.com/ansible/ansible-jupyter-kernel
-	```
-- [PyPi](https://pypi.org/project/ansible-kernel) (📥 280 / month):
-	```
-	pip install ansible-kernel
-	```
-- [Conda](https://anaconda.org/conda-forge/ansible-kernel) (📥 11K · ⏱️ 12.02.2022):
-	```
-	conda install -c conda-forge ansible-kernel
-	```
-- [Docker Hub](https://hub.docker.com/r/benthomasson/ansible-jupyter-kernel) (📥 66K · ⭐ 2 · ⏱️ 12.12.2018):
-	```
-	docker pull benthomasson/ansible-jupyter-kernel
-	```
-</details>
-<details><summary><b><a href="https://github.com/lfortran/lfortran">LFortran</a></b> (🥉14 ·  ⭐ 370) - https://gitlab.com/lfortran/lfortran的官方镜像。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/lfortran/lfortran) (👨‍💻 38 · 🔀 38 · 📋 470 - 95% open · ⏱️ 25.08.2022):
-
-	```
-	git clone https://github.com/lfortran/lfortran
-	```
-- [PyPi](https://pypi.org/project/lfortran) (📥 110 / month):
-	```
-	pip install lfortran
-	```
-- [Conda](https://anaconda.org/conda-forge/lfortran) (📥 40K · ⏱️ 23.09.2021):
-	```
-	conda install -c conda-forge lfortran
-	```
-</details>
-<details><summary><b><a href="https://github.com/pprzetacznik/IElixir">IElixir</a></b> (🥉14 ·  ⭐ 340 · 💀) - Jupyter的Elixir编程语言内核。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/pprzetacznik/IElixir) (👨‍💻 19 · 🔀 39 · 📋 30 - 33% open · ⏱️ 20.03.2021):
-
-	```
-	git clone https://github.com/pprzetacznik/IElixir
-	```
-- [Docker Hub](https://hub.docker.com/r/pprzetacznik/ielixir) (📥 340 · ⭐ 1 · ⏱️ 20.03.2021):
-	```
-	docker pull pprzetacznik/ielixir
-	```
-</details>
-<details><summary><b><a href="https://github.com/Cadair/jupyter_environment_kernels">Kernel Detection</a></b> (🥉14 ·  ⭐ 140 · 💀) - 一个Jupyter插件，用于自动检测。<code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
-
-- [GitHub](https://github.com/Cadair/jupyter_environment_kernels) (👨‍💻 6 · 🔀 16 · 📋 29 - 24% open · ⏱️ 12.02.2018):
-
-	```
-	git clone https://github.com/Cadair/jupyter_environment_kernels
-	```
-- [PyPi](https://pypi.org/project/environment_kernels) (📥 2.6K / month):
-	```
-	pip install environment_kernels
-	```
-</details>
-<details><summary><b><a href="https://github.com/yunabe/lgo">lgo</a></b> (🥉13 ·  ⭐ 2.3K · 💀) - 使用Jupyter进行交互式Go编程。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/yunabe/lgo) (👨‍💻 9 · 🔀 110 · 📋 76 - 30% open · ⏱️ 09.07.2019):
+- [GitHub](https://github.com/yunabe/lgo) (👨‍💻 9 · 🔀 120 · 📋 76 - 28% open · ⏱️ 09.07.2019):
 
 	```
 	git clone https://github.com/yunabe/lgo
 	```
 </details>
-<details><summary><b><a href="https://github.com/fsprojects/IfSharp">F# Kernel</a></b> (🥉12 ·  ⭐ 430) - F# for Jupyter Notebooks. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/fsprojects/IfSharp">F# Kernel</a></b> (🥉12 ·  ⭐ 440 · 💀) - F# for Jupyter Notebooks. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/fsprojects/IfSharp) (👨‍💻 28 · 🔀 67 · 📥 5.4K · 📋 140 - 9% open · ⏱️ 17.03.2022):
+- [GitHub](https://github.com/fsprojects/IfSharp) (👨‍💻 28 · 🔀 66 · 📥 5.6K · 📋 140 - 9% open · ⏱️ 17.03.2022):
 
 	```
 	git clone https://github.com/fsprojects/IfSharp
 	```
-- [Docker Hub](https://hub.docker.com/r/fsprojects/ifsharp) (📥 680 · ⏱️ 26.03.2019):
+- [Docker Hub](https://hub.docker.com/r/fsprojects/ifsharp) (📥 720 · ⏱️ 26.03.2019):
 	```
 	docker pull fsprojects/ifsharp
 	```
 </details>
-<details><summary><b><a href="https://github.com/zabirauf/icsharp">ICSharp</a></b> (🥉12 ·  ⭐ 270 · 💀) - Jupyter的C＃内核。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/NII-cloud-operation/sshkernel">SSH Kernel</a></b> (🥉12 ·  ⭐ 67 · 💀) - SSH Kernel for Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/zabirauf/icsharp) (👨‍💻 10 · 🔀 57 · 📋 46 - 71% open · ⏱️ 23.09.2018):
+- [GitHub](https://github.com/NII-cloud-operation/sshkernel) (👨‍💻 4 · 🔀 14 · 📦 7 · 📋 9 - 22% open · ⏱️ 04.11.2021):
+
+	```
+	git clone https://github.com/NII-cloud-operation/sshkernel
+	```
+- [PyPi](https://pypi.org/project/sshkernel) (📥 150 / month):
+	```
+	pip install sshkernel
+	```
+</details>
+<details><summary><b><a href="https://github.com/zabirauf/icsharp">ICSharp</a></b> (🥉11 ·  ⭐ 280 · 💀) - C# kernel for Jupyter. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/zabirauf/icsharp) (👨‍💻 11 · 🔀 58 · 📋 46 - 60% open · ⏱️ 23.09.2018):
 
 	```
 	git clone https://github.com/zabirauf/icsharp
 	```
 </details>
-<details><summary><b><a href="https://github.com/NII-cloud-operation/sshkernel">SSH Kernel</a></b> (🥉12 ·  ⭐ 53 · 💤) - Jupyter的SSH内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-xeus/xeus-sqlite">xeus-sqlite</a></b> (🥉10 ·  ⭐ 160) - Jupyter kernel for SQLite. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/NII-cloud-operation/sshkernel) (👨‍💻 4 · 🔀 12 · 📦 6 · 📋 8 - 25% open · ⏱️ 04.11.2021):
-
-	```
-	git clone https://github.com/NII-cloud-operation/sshkernel
-	```
-- [PyPi](https://pypi.org/project/sshkernel) (📥 79 / month):
-	```
-	pip install sshkernel
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter-xeus/xeus-sqlite">xeus-sqlite</a></b> (🥉11 ·  ⭐ 140) - 适用于SQLite的Jupyter内核。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter-xeus/xeus-sqlite) (👨‍💻 12 · 🔀 21 · 📋 41 - 26% open · ⏱️ 15.03.2022):
+- [GitHub](https://github.com/jupyter-xeus/xeus-sqlite) (👨‍💻 13 · 🔀 25 · 📋 47 - 34% open · ⏱️ 08.12.2023):
 
 	```
 	git clone https://github.com/jupyter-xeus/xeus-sqlite
 	```
 </details>
-<details><summary><b><a href="https://github.com/tdaff/remote_ikernel">remote_ikernel</a></b> (🥉10 ·  ⭐ 12 · 💀) - All your Jupyter kernels, on all your machines, in one place. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+<details><summary><b><a href="https://github.com/tdaff/remote_ikernel">remote_ikernel</a></b> (🥉10 ·  ⭐ 15 · 💀) - All your Jupyter kernels, on all your machines, in one place. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
 
-- [GitHub](https://github.com/tdaff/remote_ikernel) (👨‍💻 7 · 🔀 11 · 📋 27 - 33% open · ⏱️ 08.11.2020):
+- [GitHub](https://github.com/tdaff/remote_ikernel) (👨‍💻 7 · 🔀 13 · 📋 29 - 37% open · ⏱️ 08.11.2020):
 
 	```
 	git clone https://github.com/tdaff/remote_ikernel
 	```
-- [PyPi](https://pypi.org/project/remote_ikernel) (📥 160 / month):
+- [PyPi](https://pypi.org/project/remote_ikernel) (📥 290 / month):
 	```
 	pip install remote_ikernel
 	```
 </details>
-<details><summary><b><a href="https://github.com/bernhard-42/ssh_ipykernel">ssh_ipykernel</a></b> (🥉7 ·  ⭐ 8 · 💀) - A remote jupyter kernel via ssh. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/bernhard-42/ssh_ipykernel">ssh_ipykernel</a></b> (🥉9 ·  ⭐ 12 · 💀) - A remote jupyter kernel via ssh. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/bernhard-42/ssh_ipykernel) (👨‍💻 2 · 🔀 2 · ⏱️ 28.06.2021):
+- [GitHub](https://github.com/bernhard-42/ssh_ipykernel) (🔀 4 · 📦 3 · ⏱️ 28.06.2021):
 
 	```
 	git clone https://github.com/bernhard-42/ssh_ipykernel
 	```
 </details>
-<details><summary><b><a href="https://github.com/nteract/kernel-relay">kernel-relay</a></b> (🥉6 ·  ⭐ 11 · 💀) - kernel-relay是与之接口的GraphQL服务。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/nteract/kernel-relay">kernel-relay</a></b> (🥉6 ·  ⭐ 12 · 💀) - kernel-relay is a GraphQL service for interfacing with.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/nteract/kernel-relay) (👨‍💻 3 · 🔀 5 · 📋 12 - 83% open · ⏱️ 10.07.2019):
+- [GitHub](https://github.com/nteract/kernel-relay) (👨‍💻 3 · 🔀 5 · 📦 3 · 📋 12 - 83% open · ⏱️ 10.07.2019):
 
 	```
 	git clone https://github.com/nteract/kernel-relay
@@ -1824,136 +1808,188 @@ _Jupyter内核以给定的语言运行和内省用户的代码。_
 </details>
 <br>
 
-## Jupyter-Notebook分享与格式转换
+## Notebook Sharing & Conversion
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_与笔记本文件共享、转换和简化协作的工具（例如，通过git）。_
+_Tools to share, convert and simplify collaboration (e.g., via git) with notebook files._
 
-<details><summary><b><a href="https://github.com/jupyter/nbconvert">nbconvert</a></b> (🥇31 ·  ⭐ 1.4K) - Jupyter Notebook Conversion. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter/nbconvert">nbconvert</a></b> (🥇34 ·  ⭐ 1.7K) - Jupyter Notebook Conversion. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/nbconvert) (👨‍💻 250 · 🔀 480 · 📦 160K · 📋 1K - 42% open · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/jupyter/nbconvert) (👨‍💻 270 · 🔀 530 · 📥 1.1K · 📦 270K · 📋 1.2K - 44% open · ⏱️ 08.04.2024):
 
 	```
 	git clone https://github.com/jupyter/nbconvert
 	```
-- [PyPi](https://pypi.org/project/nbconvert) (📥 12M / month):
+- [PyPi](https://pypi.org/project/nbconvert) (📥 25M / month):
 	```
 	pip install nbconvert
 	```
-- [Conda](https://anaconda.org/conda-forge/nbconvert) (📥 7.9M · ⏱️ 23.08.2022):
+- [Conda](https://anaconda.org/conda-forge/nbconvert) (📥 17M · ⏱️ 10.04.2024):
 	```
 	conda install -c conda-forge nbconvert
 	```
 </details>
-<details><summary><b><a href="https://github.com/getnikola/nikola">nikola</a></b> (🥇29 ·  ⭐ 2.3K) - 静态网站和博客生成器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/executablebooks/jupyter-book">Jupyter Book</a></b> (🥇31 ·  ⭐ 3.7K · 📈) - Build interactive, publication-quality documents from.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/getnikola/nikola) (👨‍💻 230 · 🔀 350 · 📦 440 · 📋 2.1K - 2% open · ⏱️ 02.08.2022):
-
-	```
-	git clone https://github.com/getnikola/nikola
-	```
-- [PyPi](https://pypi.org/project/nikola) (📥 1.9K / month):
-	```
-	pip install nikola
-	```
-</details>
-<details><summary><b><a href="https://github.com/mwouts/jupytext">Jupytext</a></b> (🥇27 ·  ⭐ 5.5K) - Jupyter Notebooks作为Markdown文档，Julia，Python或R脚本的工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/mwouts/jupytext) (👨‍💻 72 · 🔀 350 · 📦 3.2K · 📋 530 - 12% open · ⏱️ 29.07.2022):
-
-	```
-	git clone https://github.com/mwouts/jupytext
-	```
-- [PyPi](https://pypi.org/project/jupytext) (📥 260K / month):
-	```
-	pip install jupytext
-	```
-- [Conda](https://anaconda.org/conda-forge/jupytext) (📥 380K · ⏱️ 03.07.2022):
-	```
-	conda install -c conda-forge jupytext
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-jupytext) (📥 6.5K / month):
-	```
-	npm install jupyterlab-jupytext
-	```
-</details>
-<details><summary><b><a href="https://github.com/voila-dashboards/voila">Voila</a></b> (🥈26 ·  ⭐ 4.3K) - Voil将Jupyter笔记本变成独立的Web应用程序。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/voila-dashboards/voila) (👨‍💻 61 · 🔀 420 · 📥 290 · 📦 7.2K · 📋 610 - 40% open · ⏱️ 11.08.2022):
-
-	```
-	git clone https://github.com/voila-dashboards/voila
-	```
-- [PyPi](https://pypi.org/project/voila) (📥 54K / month):
-	```
-	pip install voila
-	```
-- [Conda](https://anaconda.org/conda-forge/voila) (📥 200K · ⏱️ 18.07.2022):
-	```
-	conda install -c conda-forge voila
-	```
-- [NPM](https://www.npmjs.com/package/@jupyter-voila/jupyterlab-preview) (📥 3.2K / month):
-	```
-	npm install @jupyter-voila/jupyterlab-preview
-	```
-</details>
-<details><summary><b><a href="https://github.com/damianavila/RISE">RISE</a></b> (🥈24 ·  ⭐ 3.3K) - 实时Reveal.js Jupyter/IPython幻灯片扩展。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/damianavila/RISE) (👨‍💻 41 · 🔀 380 · 📦 2K · 📋 430 - 33% open · ⏱️ 28.03.2022):
-
-	```
-	git clone https://github.com/damianavila/RISE
-	```
-- [PyPi](https://pypi.org/project/RISE) (📥 5.9K / month):
-	```
-	pip install RISE
-	```
-- [Conda](https://anaconda.org/conda-forge/rise) (📥 220K · ⏱️ 16.11.2021):
-	```
-	conda install -c conda-forge rise
-	```
-</details>
-<details><summary><b><a href="https://github.com/executablebooks/jupyter-book">Jupyter Book</a></b> (🥈24 ·  ⭐ 3K) - 从Jupyter构建交互式的，具有出版质量的文档。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/executablebooks/jupyter-book) (👨‍💻 110 · 🔀 500 · 📋 1.1K - 41% open · ⏱️ 21.08.2022):
+- [GitHub](https://github.com/executablebooks/jupyter-book) (👨‍💻 140 · 🔀 610 · 📦 13K · 📋 1.3K - 44% open · ⏱️ 11.03.2024):
 
 	```
 	git clone https://github.com/executablebooks/jupyter-book
 	```
-- [PyPi](https://pypi.org/project/jupyter-book) (📥 52K / month):
+- [PyPi](https://pypi.org/project/jupyter-book) (📥 84K / month):
 	```
 	pip install jupyter-book
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter/nbdime">nbdime</a></b> (🥈23 ·  ⭐ 2.3K) - 区分和合并Jupyter笔记本的工具。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/mwouts/jupytext">Jupytext</a></b> (🥇29 ·  ⭐ 6.4K) - Jupyter Notebooks as Markdown Documents, Julia, Python or R scripts. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/nbdime) (👨‍💻 40 · 🔀 130 · 📦 79 · 📋 280 - 22% open · ⏱️ 05.07.2022):
+- [GitHub](https://github.com/mwouts/jupytext) (👨‍💻 85 · 🔀 380 · 📦 7.1K · 📋 660 - 18% open · ⏱️ 24.03.2024):
+
+	```
+	git clone https://github.com/mwouts/jupytext
+	```
+- [PyPi](https://pypi.org/project/jupytext) (📥 570K / month):
+	```
+	pip install jupytext
+	```
+- [Conda](https://anaconda.org/conda-forge/jupytext) (📥 770K · ⏱️ 13.01.2024):
+	```
+	conda install -c conda-forge jupytext
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-jupytext) (📥 6.3K / month):
+	```
+	npm install jupyterlab-jupytext
+	```
+</details>
+<details><summary><b><a href="https://github.com/getnikola/nikola">nikola</a></b> (🥇29 ·  ⭐ 2.5K) - A static website and blog generator. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/getnikola/nikola) (👨‍💻 240 · 🔀 380 · 📥 100 · 📦 510 · 📋 2.2K - 2% open · ⏱️ 09.04.2024):
+
+	```
+	git clone https://github.com/getnikola/nikola
+	```
+- [PyPi](https://pypi.org/project/nikola) (📥 2K / month):
+	```
+	pip install nikola
+	```
+</details>
+<details><summary><b><a href="https://github.com/voila-dashboards/voila">Voila</a></b> (🥈26 ·  ⭐ 5.2K) - Voil turns Jupyter notebooks into standalone web applications. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/voila-dashboards/voila) (👨‍💻 68 · 🔀 480 · 📥 1.1K · 📦 11K · 📋 720 - 40% open · ⏱️ 06.04.2024):
+
+	```
+	git clone https://github.com/voila-dashboards/voila
+	```
+- [PyPi](https://pypi.org/project/voila) (📥 85K / month):
+	```
+	pip install voila
+	```
+- [Conda](https://anaconda.org/conda-forge/voila) (📥 330K · ⏱️ 02.04.2024):
+	```
+	conda install -c conda-forge voila
+	```
+- [NPM](https://www.npmjs.com/package/@jupyter-voila/jupyterlab-preview) (📥 180 / month):
+	```
+	npm install @jupyter-voila/jupyterlab-preview
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter/nbdime">nbdime</a></b> (🥈26 ·  ⭐ 2.6K) - Tools for diffing and merging of Jupyter notebooks. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/jupyter/nbdime) (👨‍💻 50 · 🔀 150 · 📥 130 · 📦 140 · 📋 340 - 22% open · ⏱️ 21.11.2023):
 
 	```
 	git clone https://github.com/jupyter/nbdime
 	```
-- [PyPi](https://pypi.org/project/nbdime) (📥 260K / month):
+- [PyPi](https://pypi.org/project/nbdime) (📥 230K / month):
 	```
 	pip install nbdime
 	```
-- [Conda](https://anaconda.org/conda-forge/nbdime) (📥 610K · ⏱️ 26.10.2021):
+- [Conda](https://anaconda.org/conda-forge/nbdime) (📥 980K · ⏱️ 21.11.2023):
 	```
 	conda install -c conda-forge nbdime
 	```
-- [NPM](https://www.npmjs.com/package/nbdime-jupyterlab) (📥 140K / month):
+- [NPM](https://www.npmjs.com/package/nbdime-jupyterlab) (📥 31K / month):
 	```
 	npm install nbdime-jupyterlab
 	```
 </details>
-<details><summary><b><a href="https://github.com/stencila/stencila">Stencila</a></b> (🥈23 ·  ⭐ 650) - 用于可复制研究的在线文档。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/damianavila/RISE">RISE</a></b> (🥈23 ·  ⭐ 3.6K) - RISE: Live Reveal.js Jupyter/IPython Slideshow Extension. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/stencila/stencila) (👨‍💻 34 · 🔀 34 · 📥 3.1K · 📦 17 · 📋 560 - 11% open · ⏱️ 29.07.2022):
+- [GitHub](https://github.com/damianavila/RISE) (👨‍💻 44 · 🔀 400 · 📦 2.8K · 📋 450 - 34% open · ⏱️ 29.10.2023):
+
+	```
+	git clone https://github.com/damianavila/RISE
+	```
+- [PyPi](https://pypi.org/project/RISE) (📥 12K / month):
+	```
+	pip install RISE
+	```
+- [Conda](https://anaconda.org/conda-forge/rise) (📥 290K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge rise
+	```
+</details>
+<details><summary><b><a href="https://github.com/airbnb/knowledge-repo">Knowledge Repo</a></b> (🥈22 ·  ⭐ 5.4K · 💤) - A next-generation curated knowledge sharing platform.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/airbnb/knowledge-repo) (👨‍💻 73 · 🔀 660 · 📦 21 · 📋 290 - 42% open · ⏱️ 17.04.2023):
+
+	```
+	git clone https://github.com/airbnb/knowledge-repo
+	```
+- [PyPi](https://pypi.org/project/knowledge-repo) (📥 580 / month):
+	```
+	pip install knowledge-repo
+	```
+</details>
+<details><summary><b><a href="https://github.com/danielfrg/mkdocs-jupyter">mkdocs-jupyter</a></b> (🥈22 ·  ⭐ 330) - Use Jupyter Notebook in mkdocs. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/danielfrg/mkdocs-jupyter) (👨‍💻 24 · 🔀 42 · 📦 2.2K · 📋 110 - 19% open · ⏱️ 09.04.2024):
+
+	```
+	git clone https://github.com/danielfrg/mkdocs-jupyter
+	```
+- [PyPi](https://pypi.org/project/mkdocs-jupyter) (📥 140K / month):
+	```
+	pip install mkdocs-jupyter
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter/nbviewer">nbviewer</a></b> (🥉20 ·  ⭐ 2.2K · 💀) - nbconvert as a web service: Render Jupyter Notebooks as static web.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyter/nbviewer) (👨‍💻 96 · 🔀 530 · 📦 18 · 📋 590 - 30% open · ⏱️ 27.01.2023):
+
+	```
+	git clone https://github.com/jupyter/nbviewer
+	```
+- [Docker Hub](https://hub.docker.com/r/jupyter/nbviewer) (📥 2.8M · ⭐ 33 · ⏱️ 27.01.2023):
+	```
+	docker pull jupyter/nbviewer
+	```
+</details>
+<details><summary><b><a href="https://github.com/aaren/notedown">notedown</a></b> (🥉19 ·  ⭐ 850 · 💀) - Markdown = IPython Notebook. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
+
+- [GitHub](https://github.com/aaren/notedown) (👨‍💻 7 · 🔀 93 · 📦 260 · 📋 69 - 57% open · ⏱️ 16.11.2017):
+
+	```
+	git clone https://github.com/aaren/notedown
+	```
+- [PyPi](https://pypi.org/project/notedown) (📥 4.6K / month):
+	```
+	pip install notedown
+	```
+- [Conda](https://anaconda.org/conda-forge/notedown) (📥 36K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge notedown
+	```
+</details>
+<details><summary><b><a href="https://github.com/stencila/stencila">Stencila</a></b> (🥉19 ·  ⭐ 760 · 📉) - Living documents for reproducible research. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/stencila/stencila) (👨‍💻 44 · 🔀 42 · 📥 4.3K · 📦 20 · 📋 730 - 13% open · ⏱️ 10.04.2024):
 
 	```
 	git clone https://github.com/stencila/stencila
 	```
-- [NPM](https://www.npmjs.com/package/stencila) (📥 360 / month):
+- [NPM](https://www.npmjs.com/package/stencila) (📥 9 / month):
 	```
 	npm install stencila
 	```
@@ -1962,169 +1998,117 @@ _与笔记本文件共享、转换和简化协作的工具（例如，通过git�
 	docker pull stencila/cloud
 	```
 </details>
-<details><summary><b><a href="https://github.com/airbnb/knowledge-repo">Knowledge Repo</a></b> (🥈21 ·  ⭐ 5.2K) - 下一代知识共享平台<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/nteract/scrapbook">scrapbook</a></b> (🥉18 ·  ⭐ 270 · 💀) - A library for recording and reading data in notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/airbnb/knowledge-repo) (👨‍💻 68 · 🔀 650 · 📋 290 - 42% open · ⏱️ 17.08.2022):
-
-	```
-	git clone https://github.com/airbnb/knowledge-repo
-	```
-- [PyPi](https://pypi.org/project/knowledge-repo) (📥 280 / month):
-	```
-	pip install knowledge-repo
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter/nbviewer">nbviewer</a></b> (🥉19 ·  ⭐ 2K) - nbconvert作为Web服务：将Jupyter Notebooks渲染为静态Web。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter/nbviewer) (👨‍💻 91 · 🔀 490 · 📦 7 · 📋 570 - 28% open · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/jupyter/nbviewer
-	```
-- [Docker Hub](https://hub.docker.com/r/jupyter/nbviewer) (📥 2.8M · ⭐ 29 · ⏱️ 22.08.2022):
-	```
-	docker pull jupyter/nbviewer
-	```
-</details>
-<details><summary><b><a href="https://github.com/nteract/bookstore">bookstore</a></b> (🥉19 ·  ⭐ 180 · 💀) - 面向大众的笔记本存储和发布工作流程。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/nteract/bookstore) (👨‍💻 7 · 🔀 19 · 📦 11 · 📋 73 - 46% open · ⏱️ 09.12.2019):
-
-	```
-	git clone https://github.com/nteract/bookstore
-	```
-- [PyPi](https://pypi.org/project/bookstore) (📥 29K / month):
-	```
-	pip install bookstore
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterhub/binderhub">BinderHub</a></b> (🥉18 ·  ⭐ 2.2K) - 在云端运行您的代码。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterhub/binderhub) (👨‍💻 84 · 🔀 320 · 📦 6 · 📋 630 - 28% open · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/jupyterhub/binderhub
-	```
-</details>
-<details><summary><b><a href="https://github.com/aaren/notedown">notedown</a></b> (🥉18 ·  ⭐ 830 · 💀) - Markdown = IPython Notebook. <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code></summary>
-
-- [GitHub](https://github.com/aaren/notedown) (👨‍💻 7 · 🔀 91 · 📦 180 · 📋 68 - 57% open · ⏱️ 16.11.2017):
-
-	```
-	git clone https://github.com/aaren/notedown
-	```
-- [PyPi](https://pypi.org/project/notedown) (📥 3.8K / month):
-	```
-	pip install notedown
-	```
-- [Conda](https://anaconda.org/conda-forge/notedown) (📥 34K · ⏱️ 07.06.2018):
-	```
-	conda install -c conda-forge notedown
-	```
-</details>
-<details><summary><b><a href="https://github.com/nteract/scrapbook">scrapbook</a></b> (🥉18 ·  ⭐ 250) - 一个用于在笔记本中记录和读取数据的库。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/nteract/scrapbook) (👨‍💻 11 · 🔀 26 · 📦 150 · 📋 48 - 47% open · ⏱️ 13.04.2022):
+- [GitHub](https://github.com/nteract/scrapbook) (👨‍💻 11 · 🔀 26 · 📦 340 · 📋 50 - 48% open · ⏱️ 13.04.2022):
 
 	```
 	git clone https://github.com/nteract/scrapbook
 	```
-- [PyPi](https://pypi.org/project/nteract-scrapbook) (📥 81K / month):
+- [PyPi](https://pypi.org/project/nteract-scrapbook) (📥 13K / month):
 	```
 	pip install nteract-scrapbook
 	```
 </details>
-<details><summary><b><a href="https://github.com/executablebooks/thebe">ThebeLab</a></b> (🥉17 ·  ⭐ 300 · 💤) - ThebeLab：将静态HTML页面转换为实时文档。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/SamLau95/nbinteract">nbinteract</a></b> (🥉17 ·  ⭐ 230) - Create interactive webpages from Jupyter Notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/executablebooks/thebe) (👨‍💻 26 · 🔀 57 · 📦 5 · 📋 150 - 42% open · ⏱️ 19.11.2021):
+- [GitHub](https://github.com/SamLau95/nbinteract) (👨‍💻 8 · 🔀 22 · 📦 4 · 📋 70 - 40% open · ⏱️ 13.02.2024):
+
+	```
+	git clone https://github.com/SamLau95/nbinteract
+	```
+- [PyPi](https://pypi.org/project/nbinteract) (📥 2.8K / month):
+	```
+	pip install nbinteract
+	```
+</details>
+<details><summary><b><a href="https://github.com/executablebooks/thebe">ThebeLab</a></b> (🥉16 ·  ⭐ 370) - ThebeLab: turning static HTML pages into live documents. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/executablebooks/thebe) (👨‍💻 31 · 🔀 67 · 📦 10 · 📋 230 - 44% open · ⏱️ 15.03.2024):
 
 	```
 	git clone https://github.com/executablebooks/thebe
 	```
 </details>
-<details><summary><b><a href="https://github.com/nteract/commuter">commuter</a></b> (🥉16 ·  ⭐ 440) - 笔记本共享中心。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/nteract/bookstore">bookstore</a></b> (🥉16 ·  ⭐ 200 · 💀) - Notebook storage and publishing workflows for the masses. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/nteract/commuter) (👨‍💻 27 · 🔀 63 · 📦 3 · 📋 91 - 57% open · ⏱️ 28.04.2022):
+- [GitHub](https://github.com/nteract/bookstore) (👨‍💻 7 · 🔀 20 · 📦 17 · 📋 73 - 46% open · ⏱️ 09.12.2019):
 
 	```
-	git clone https://github.com/nteract/commuter
+	git clone https://github.com/nteract/bookstore
 	```
-- [NPM](https://www.npmjs.com/package/@nteract/commuter) (📥 640 / month):
+- [PyPi](https://pypi.org/project/bookstore) (📥 100 / month):
 	```
-	npm install @nteract/commuter
+	pip install bookstore
 	```
 </details>
-<details><summary><b><a href="https://github.com/SamLau95/nbinteract">nbinteract</a></b> (🥉15 ·  ⭐ 220 · 💀) - 从Jupyter Notebooks创建交互式网页。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/binderhub">BinderHub</a></b> (🥉15 ·  ⭐ 2.5K) - Run your code in the cloud, with technology so advanced, it feels.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/SamLau95/nbinteract) (👨‍💻 8 · 🔀 20 · 📦 1 · 📋 70 - 41% open · ⏱️ 15.04.2021):
+- [GitHub](https://github.com/jupyterhub/binderhub) (👨‍💻 95 · 🔀 370 · 📦 9 · 📋 690 - 29% open · ⏱️ 02.04.2024):
 
 	```
-	git clone https://github.com/SamLau95/nbinteract
-	```
-- [PyPi](https://pypi.org/project/nbinteract) (📥 1.5K / month):
-	```
-	pip install nbinteract
+	git clone https://github.com/jupyterhub/binderhub
 	```
 </details>
-<details><summary><b><a href="https://github.com/danielfrg/mkdocs-jupyter">mkdocs-jupyter</a></b> (🥉15 ·  ⭐ 150 · 📈) - 在mkdocs中使用Jupyter Notebook。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/ideonate/cdsdashboards">cdsdashboards</a></b> (🥉15 ·  ⭐ 200) - JupyterHub extension for ContainDS Dashboards. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/danielfrg/mkdocs-jupyter) (👨‍💻 13 · 🔀 21 · 📋 57 - 22% open · ⏱️ 04.05.2022):
-
-	```
-	git clone https://github.com/danielfrg/mkdocs-jupyter
-	```
-- [PyPi](https://pypi.org/project/mkdocs-jupyter) (📥 24K / month):
-	```
-	pip install mkdocs-jupyter
-	```
-</details>
-<details><summary><b><a href="https://github.com/ideonate/cdsdashboards">cdsdashboards</a></b> (🥉14 ·  ⭐ 170) - 用于ContainDS仪表板的JupyterHub扩展。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/ideonate/cdsdashboards) (👨‍💻 13 · 🔀 33 · 📋 88 - 35% open · ⏱️ 29.04.2022):
+- [GitHub](https://github.com/ideonate/cdsdashboards) (👨‍💻 14 · 🔀 38 · 📋 94 - 37% open · ⏱️ 10.04.2024):
 
 	```
 	git clone https://github.com/ideonate/cdsdashboards
 	```
-- [PyPi](https://pypi.org/project/cdsdashboards) (📥 260 / month):
+- [PyPi](https://pypi.org/project/cdsdashboards) (📥 310 / month):
 	```
 	pip install cdsdashboards
 	```
-- [Conda](https://anaconda.org/conda-forge/cdsdashboards) (📥 30K · ⏱️ 29.04.2022):
+- [Conda](https://anaconda.org/conda-forge/cdsdashboards) (📥 57K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge cdsdashboards
 	```
 </details>
-<details><summary><b><a href="https://github.com/elehcimd/pynb">pynb</a></b> (🥉13 ·  ⭐ 240 · 💀) - Jupyter Notebooks是带有嵌入式Markdown文本的纯Python代码。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/nbgallery/nbgallery">nbgallery</a></b> (🥉15 ·  ⭐ 150) - Enterprise Jupyter notebook sharing and collaboration app. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/elehcimd/pynb) (👨‍💻 8 · 🔀 6 · 📦 21 · ⏱️ 07.07.2020):
-
-	```
-	git clone https://github.com/elehcimd/pynb
-	```
-</details>
-<details><summary><b><a href="https://github.com/nbgallery/nbgallery">nbgallery</a></b> (🥉13 ·  ⭐ 140) - 企业Jupyter笔记本共享和协作应用程序。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/nbgallery/nbgallery) (👨‍💻 19 · 🔀 23 · 📋 380 - 18% open · ⏱️ 19.08.2022):
+- [GitHub](https://github.com/nbgallery/nbgallery) (👨‍💻 25 · 🔀 35 · 📋 490 - 6% open · ⏱️ 29.02.2024):
 
 	```
 	git clone https://github.com/nbgallery/nbgallery
 	```
-- [Docker Hub](https://hub.docker.com/r/nbgallery/nbgallery) (📥 160K · ⭐ 3 · ⏱️ 19.08.2022):
+- [Docker Hub](https://hub.docker.com/r/nbgallery/nbgallery) (📥 170K · ⭐ 5 · ⏱️ 29.02.2024):
 	```
 	docker pull nbgallery/nbgallery
 	```
 </details>
-<details><summary><b><a href="https://github.com/danielfrg/jupyter-flex">jupyter-flex</a></b> (🥉11 ·  ⭐ 260) - 使用Jupyter Notebook构建仪表板。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/nteract/commuter">commuter</a></b> (🥉14 ·  ⭐ 480 · 💀) - Notebook sharing hub. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/danielfrg/jupyter-flex) (👨‍💻 4 · 🔀 46 · 📦 1 · 📋 56 - 21% open · ⏱️ 22.06.2022):
+- [GitHub](https://github.com/nteract/commuter) (👨‍💻 27 · 🔀 65 · 📦 2 · 📋 92 - 57% open · ⏱️ 28.04.2022):
+
+	```
+	git clone https://github.com/nteract/commuter
+	```
+- [NPM](https://www.npmjs.com/package/@nteract/commuter) (📥 85 / month):
+	```
+	npm install @nteract/commuter
+	```
+</details>
+<details><summary><b><a href="https://github.com/danielfrg/jupyter-flex">jupyter-flex</a></b> (🥉14 ·  ⭐ 310) - Build dashboards using Jupyter Notebooks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/danielfrg/jupyter-flex) (👨‍💻 4 · 🔀 54 · 📦 46 · 📋 63 - 19% open · ⏱️ 03.04.2024):
 
 	```
 	git clone https://github.com/danielfrg/jupyter-flex
 	```
 </details>
-<details><summary><b><a href="https://github.com/line/jnotebook_reader">jnotebook-reader</a></b> (🥉11 ·  ⭐ 99) - 一款很棒的查看器，用于浏览和渲染Jupyter。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/elehcimd/pynb">pynb</a></b> (🥉13 ·  ⭐ 250 · 💀) - Jupyter Notebooks as plain Python code with embedded Markdown text. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/line/jnotebook_reader) (👨‍💻 6 · 🔀 15 · ⏱️ 01.07.2022):
+- [GitHub](https://github.com/elehcimd/pynb) (👨‍💻 8 · 🔀 6 · 📦 22 · ⏱️ 07.07.2020):
+
+	```
+	git clone https://github.com/elehcimd/pynb
+	```
+</details>
+<details><summary><b><a href="https://github.com/line/jnotebook_reader">jnotebook-reader</a></b> (🥉10 ·  ⭐ 100 · 💀) - An awesome viewer to browse and render Jupyter.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/line/jnotebook_reader) (👨‍💻 7 · 🔀 16 · 📋 5 - 20% open · ⏱️ 06.12.2022):
 
 	```
 	git clone https://github.com/line/jnotebook_reader
@@ -2132,100 +2116,140 @@ _与笔记本文件共享、转换和简化协作的工具（例如，通过git�
 </details>
 <br>
 
-## Jupyter-Notebook工具
+## Notebook Tools
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_与笔记本文件一起工作或可以在笔记本文件中使用的库和工具。_
+_Libraries and tools that work with or can be used within notebook files._
 
-<details><summary><b><a href="https://github.com/jupyter/nbclient">nbclient</a></b> (🥇26 ·  ⭐ 100) - 用于执行笔记本的客户端库。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter/nbformat">nbformat</a></b> (🥇32 ·  ⭐ 240 · 📈) - Reference implementation of the Jupyter Notebook format. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/nbclient) (👨‍💻 33 · 🔀 45 · 📥 88 · 📦 67K · 📋 91 - 31% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/jupyter/nbformat) (👨‍💻 80 · 🔀 150 · 📥 260 · 📦 280K · 📋 140 - 42% open · ⏱️ 04.04.2024):
+
+	```
+	git clone https://github.com/jupyter/nbformat
+	```
+- [PyPi](https://pypi.org/project/nbformat) (📥 25M / month):
+	```
+	pip install nbformat
+	```
+- [Conda](https://anaconda.org/conda-forge/nbformat) (📥 22M · ⏱️ 04.04.2024):
+	```
+	conda install -c conda-forge nbformat
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyter/nbclient">nbclient</a></b> (🥇29 ·  ⭐ 140) - A client library for executing notebooks. Formally nbconvert's.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyter/nbclient) (👨‍💻 38 · 🔀 51 · 📥 440 · 📦 160K · 📋 100 - 32% open · ⏱️ 13.03.2024):
 
 	```
 	git clone https://github.com/jupyter/nbclient
 	```
-- [PyPi](https://pypi.org/project/nbclient) (📥 9.5M / month):
+- [PyPi](https://pypi.org/project/nbclient) (📥 20M / month):
 	```
 	pip install nbclient
 	```
-- [Conda](https://anaconda.org/conda-forge/nbclient) (📥 5.1M · ⏱️ 23.08.2022):
+- [Conda](https://anaconda.org/conda-forge/nbclient) (📥 14M · ⏱️ 13.03.2024):
 	```
 	conda install -c conda-forge nbclient
 	```
 </details>
-<details><summary><b><a href="https://github.com/pixiedust/pixiedust">PixieDust</a></b> (🥇25 ·  ⭐ 1K · 💀) - 适用于Jupyter Notebook的Python Helper库。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/pixiedust/pixiedust">PixieDust</a></b> (🥇25 ·  ⭐ 1K · 💀) - Python Helper library for Jupyter Notebooks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/pixiedust/pixiedust) (👨‍💻 33 · 🔀 160 · 📦 240 · 📋 420 - 38% open · ⏱️ 16.02.2021):
+- [GitHub](https://github.com/pixiedust/pixiedust) (👨‍💻 33 · 🔀 160 · 📦 260 · 📋 420 - 38% open · ⏱️ 16.02.2021):
 
 	```
 	git clone https://github.com/pixiedust/pixiedust
 	```
-- [PyPi](https://pypi.org/project/pixiedust) (📥 11K / month):
+- [PyPi](https://pypi.org/project/pixiedust) (📥 9.2K / month):
 	```
 	pip install pixiedust
 	```
-- [Conda](https://anaconda.org/conda-forge/pixiedust) (📥 39K · ⏱️ 06.02.2021):
+- [Conda](https://anaconda.org/conda-forge/pixiedust) (📥 49K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge pixiedust
 	```
 </details>
-<details><summary><b><a href="https://github.com/fastai/nbdev">nbdev</a></b> (🥇24 ·  ⭐ 3.6K) - 使用Jupyter Notebook创建python项目。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter/jupyter-sphinx">Jupyter Sphinx</a></b> (🥇25 ·  ⭐ 180) - Sphinx extension for rendering of Jupyter interactive widgets. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/fastai/nbdev) (👨‍💻 20 · 🔀 360 · 📋 560 - 5% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/jupyter/jupyter-sphinx) (👨‍💻 28 · 🔀 60 · 📦 2.5K · 📋 150 - 28% open · ⏱️ 23.03.2024):
+
+	```
+	git clone https://github.com/jupyter/jupyter-sphinx
+	```
+- [PyPi](https://pypi.org/project/jupyter_sphinx) (📥 68K / month):
+	```
+	pip install jupyter_sphinx
+	```
+</details>
+<details><summary><b><a href="https://github.com/fastai/nbdev">nbdev</a></b> (🥈24 ·  ⭐ 4.7K) - Create delightful python projects using Jupyter Notebooks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/fastai/nbdev) (👨‍💻 47 · 🔀 460 · 📋 850 - 16% open · ⏱️ 04.03.2024):
 
 	```
 	git clone https://github.com/fastai/nbdev
 	```
-- [PyPi](https://pypi.org/project/nbdev) (📥 96K / month):
+- [PyPi](https://pypi.org/project/nbdev) (📥 62K / month):
 	```
 	pip install nbdev
 	```
 </details>
-<details><summary><b><a href="https://github.com/computationalmodelling/nbval">nbval</a></b> (🥈23 ·  ⭐ 390 · 💤) - 一个py.test插件，用于验证Jupyter笔记本。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter/jupyter_client">Jupyter Client</a></b> (🥈24 ·  ⭐ 350) - Jupyter protocol client APIs. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/computationalmodelling/nbval) (👨‍💻 29 · 🔀 42 · 📦 1.6K · 📋 98 - 36% open · ⏱️ 05.01.2022):
-
-	```
-	git clone https://github.com/computationalmodelling/nbval
-	```
-- [PyPi](https://pypi.org/project/nbval) (📥 110K / month):
-	```
-	pip install nbval
-	```
-- [Conda](https://anaconda.org/conda-forge/nbval) (📥 230K · ⏱️ 31.07.2020):
-	```
-	conda install -c conda-forge nbval
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter/jupyter_client">Jupyter Client</a></b> (🥈23 ·  ⭐ 280 · 📈) - Jupyter protocol client APIs. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter/jupyter_client) (👨‍💻 120 · 🔀 230 · 📥 320 · 📋 320 - 43% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/jupyter/jupyter_client) (👨‍💻 130 · 🔀 270 · 📥 1.5K · 📋 370 - 47% open · ⏱️ 12.03.2024):
 
 	```
 	git clone https://github.com/jupyter/jupyter_client
 	```
-- [PyPi](https://pypi.org/project/jupyter-client) (📥 12M / month):
+- [PyPi](https://pypi.org/project/jupyter-client) (📥 29M / month):
 	```
 	pip install jupyter-client
 	```
 </details>
-<details><summary><b><a href="https://github.com/twosigma/beakerx">BeakerX</a></b> (🥈22 ·  ⭐ 2.7K · 💀) - Jupyter Notebook的Beaker扩展。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/repo2docker">repo2docker</a></b> (🥈23 ·  ⭐ 1.6K) - Turn repositories into Jupyter-enabled Docker images. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/twosigma/beakerx) (👨‍💻 43 · 🔀 370 · 📥 31 · 📋 4.5K - 7% open · ⏱️ 21.01.2021):
+- [GitHub](https://github.com/jupyterhub/repo2docker) (👨‍💻 120 · 🔀 340 · 📦 210 · 📋 530 - 30% open · ⏱️ 02.04.2024):
+
+	```
+	git clone https://github.com/jupyterhub/repo2docker
+	```
+- [PyPi](https://pypi.org/project/jupyter-repo2docker) (📥 4.4K / month):
+	```
+	pip install jupyter-repo2docker
+	```
+</details>
+<details><summary><b><a href="https://github.com/computationalmodelling/nbval">nbval</a></b> (🥈23 ·  ⭐ 430) - A py.test plugin to validate Jupyter notebooks. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/computationalmodelling/nbval) (👨‍💻 33 · 🔀 46 · 📦 3K · 📋 110 - 37% open · ⏱️ 04.03.2024):
+
+	```
+	git clone https://github.com/computationalmodelling/nbval
+	```
+- [PyPi](https://pypi.org/project/nbval) (📥 170K / month):
+	```
+	pip install nbval
+	```
+- [Conda](https://anaconda.org/conda-forge/nbval) (📥 430K · ⏱️ 04.03.2024):
+	```
+	conda install -c conda-forge nbval
+	```
+</details>
+<details><summary><b><a href="https://github.com/twosigma/beakerx">BeakerX</a></b> (🥈22 ·  ⭐ 2.8K · 💀) - Beaker Extensions for Jupyter Notebook. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/twosigma/beakerx) (👨‍💻 44 · 🔀 380 · 📥 35 · 📋 4.5K - 7% open · ⏱️ 21.01.2021):
 
 	```
 	git clone https://github.com/twosigma/beakerx
 	```
-- [PyPi](https://pypi.org/project/beakerx) (📥 4.8K / month):
+- [PyPi](https://pypi.org/project/beakerx) (📥 5K / month):
 	```
 	pip install beakerx
 	```
-- [Conda](https://anaconda.org/conda-forge/beakerx) (📥 530K · ⏱️ 18.11.2021):
+- [Conda](https://anaconda.org/conda-forge/beakerx) (📥 620K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge beakerx
 	```
-- [NPM](https://www.npmjs.com/package/beakerx) (📥 610 / month):
+- [NPM](https://www.npmjs.com/package/beakerx) (📥 120 / month):
 	```
 	npm install beakerx
 	```
@@ -2234,205 +2258,165 @@ _与笔记本文件一起工作或可以在笔记本文件中使用的库和工�
 	docker pull beakerx/beakerx
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter/jupyter-sphinx">Jupyter Sphinx</a></b> (🥈22 ·  ⭐ 150) - Sphinx扩展，用于呈现Jupyter交互式小部件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/nbQA-dev/nbQA">nbQA</a></b> (🥈22 ·  ⭐ 960) - Run any standard Python code quality tool on a Jupyter Notebook. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/jupyter-sphinx) (👨‍💻 25 · 🔀 50 · 📋 120 - 33% open · ⏱️ 25.06.2022):
-
-	```
-	git clone https://github.com/jupyter/jupyter-sphinx
-	```
-- [PyPi](https://pypi.org/project/jupyter_sphinx) (📥 130K / month):
-	```
-	pip install jupyter_sphinx
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterhub/repo2docker">repo2docker</a></b> (🥈21 ·  ⭐ 1.4K) - 将存储库转换为支持Jupyter的Docker映像。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterhub/repo2docker) (👨‍💻 110 · 🔀 300 · 📦 160 · 📋 470 - 31% open · ⏱️ 24.08.2022):
-
-	```
-	git clone https://github.com/jupyterhub/repo2docker
-	```
-- [PyPi](https://pypi.org/project/jupyter-repo2docker) (📥 5K / month):
-	```
-	pip install jupyter-repo2docker
-	```
-</details>
-<details><summary><b><a href="https://github.com/chmp/ipytest">ipytest</a></b> (🥈20 ·  ⭐ 230 · 📈) - IPython笔记本中的Pytest。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/chmp/ipytest) (👨‍💻 4 · 🔀 19 · 📦 200 · 📋 50 - 4% open · ⏱️ 20.02.2022):
-
-	```
-	git clone https://github.com/chmp/ipytest
-	```
-- [PyPi](https://pypi.org/project/ipytest) (📥 41K / month):
-	```
-	pip install ipytest
-	```
-</details>
-<details><summary><b><a href="https://github.com/ReviewNB/treon">treon</a></b> (🥈19 ·  ⭐ 280) - Jupyter Notebooks易于使用的测试框架。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/ReviewNB/treon) (👨‍💻 5 · 🔀 21 · 📦 55 · 📋 13 - 23% open · ⏱️ 04.08.2022):
-
-	```
-	git clone https://github.com/ReviewNB/treon
-	```
-- [PyPi](https://pypi.org/project/treon) (📥 9.4K / month):
-	```
-	pip install treon
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter/nbformat">nbformat</a></b> (🥈19 ·  ⭐ 180 · 📉) - Jupyter Notebook格式的参考实现。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/jupyter/nbformat) (👨‍💻 67 · 🔀 130 · 📋 120 - 39% open · ⏱️ 19.08.2022):
-
-	```
-	git clone https://github.com/jupyter/nbformat
-	```
-- [PyPi](https://pypi.org/project/nbformat) (📥 9.9M / month):
-	```
-	pip install nbformat
-	```
-- [Conda](https://anaconda.org/conda-forge/nbformat) (📥 9.8M · ⏱️ 03.05.2022):
-	```
-	conda install -c conda-forge nbformat
-	```
-</details>
-<details><summary><b><a href="https://github.com/ipython/ipyparallel">ipyparallel</a></b> (🥉18 ·  ⭐ 2.3K) - Python中的交互式并行计算。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/ipython/ipyparallel) (👨‍💻 110 · 🔀 870 · 📋 330 - 15% open · ⏱️ 16.08.2022):
-
-	```
-	git clone https://github.com/ipython/ipyparallel
-	```
-- [PyPi](https://pypi.org/project/ipyparallel) (📥 110K / month):
-	```
-	pip install ipyparallel
-	```
-- [Conda](https://anaconda.org/conda-forge/ipyparallel) (📥 660K · ⏱️ 21.06.2022):
-	```
-	conda install -c conda-forge ipyparallel
-	```
-</details>
-<details><summary><b><a href="https://github.com/nbQA-dev/nbQA">nbQA</a></b> (🥉17 ·  ⭐ 560) - 在Jupyter Notebook上运行任何标准的Python代码质量工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/nbQA-dev/nbQA) (👨‍💻 20 · 🔀 31 · 📋 250 - 0% open · ⏱️ 24.08.2022):
+- [GitHub](https://github.com/nbQA-dev/nbQA) (👨‍💻 27 · 🔀 38 · 📥 2 · 📋 290 - 3% open · ⏱️ 08.04.2024):
 
 	```
 	git clone https://github.com/nbQA-dev/nbQA
 	```
-- [PyPi](https://pypi.org/project/nbqa) (📥 37K / month):
+- [PyPi](https://pypi.org/project/nbqa) (📥 150K / month):
 	```
 	pip install nbqa
 	```
 </details>
-<details><summary><b><a href="https://github.com/QuantEcon/sphinxcontrib-jupyter">sphinxcontrib.jupyter</a></b> (🥉17 ·  ⭐ 72 · 💀) - 用于生成Jupyter笔记本的Sphinx扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/chmp/ipytest">ipytest</a></b> (🥉21 ·  ⭐ 280) - Pytest in IPython notebooks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/QuantEcon/sphinxcontrib-jupyter) (👨‍💻 13 · 🔀 23 · 📦 26 · 📋 180 - 48% open · ⏱️ 18.06.2020):
+- [GitHub](https://github.com/chmp/ipytest) (👨‍💻 5 · 🔀 17 · 📦 400 · 📋 59 - 3% open · ⏱️ 18.02.2024):
+
+	```
+	git clone https://github.com/chmp/ipytest
+	```
+- [PyPi](https://pypi.org/project/ipytest) (📥 47K / month):
+	```
+	pip install ipytest
+	```
+</details>
+<details><summary><b><a href="https://github.com/ipython/ipyparallel">ipyparallel</a></b> (🥉18 ·  ⭐ 2.5K) - Interactive Parallel Computing in Python. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/ipython/ipyparallel) (👨‍💻 110 · 🔀 970 · 📋 360 - 16% open · ⏱️ 05.04.2024):
+
+	```
+	git clone https://github.com/ipython/ipyparallel
+	```
+- [PyPi](https://pypi.org/project/ipyparallel) (📥 300K / month):
+	```
+	pip install ipyparallel
+	```
+- [Conda](https://anaconda.org/conda-forge/ipyparallel) (📥 980K · ⏱️ 05.04.2024):
+	```
+	conda install -c conda-forge ipyparallel
+	```
+</details>
+<details><summary><b><a href="https://github.com/ReviewNB/treon">treon</a></b> (🥉18 ·  ⭐ 290 · 💀) - Easy to use test framework for Jupyter Notebooks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/ReviewNB/treon) (👨‍💻 5 · 🔀 23 · 📦 110 · 📋 13 - 23% open · ⏱️ 04.08.2022):
+
+	```
+	git clone https://github.com/ReviewNB/treon
+	```
+- [PyPi](https://pypi.org/project/treon) (📥 31K / month):
+	```
+	pip install treon
+	```
+</details>
+<details><summary><b><a href="https://github.com/QuantEcon/sphinxcontrib-jupyter">sphinxcontrib.jupyter</a></b> (🥉18 ·  ⭐ 74 · 💀) - A Sphinx Extension for Generating Jupyter Notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/QuantEcon/sphinxcontrib-jupyter) (👨‍💻 13 · 🔀 23 · 📦 38 · 📋 180 - 48% open · ⏱️ 18.06.2020):
 
 	```
 	git clone https://github.com/QuantEcon/sphinxcontrib-jupyter
 	```
-- [PyPi](https://pypi.org/project/sphinxcontrib-jupyter) (📥 740 / month):
+- [PyPi](https://pypi.org/project/sphinxcontrib-jupyter) (📥 1.7K / month):
 	```
 	pip install sphinxcontrib-jupyter
 	```
 </details>
-<details><summary><b><a href="https://github.com/tweag/jupyterWith">JupyterWith</a></b> (🥉14 ·  ⭐ 350) - 声明性和可复制的Jupyter环境-由Nix提供支持。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/takluyver/nbopen">nbopen</a></b> (🥉17 ·  ⭐ 300 · 💤) - Open a Jupyter notebook in the best available server. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/tweag/jupyterWith) (👨‍💻 31 · 🔀 79 · 📋 110 - 9% open · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/takluyver/nbopen) (👨‍💻 11 · 🔀 56 · 📦 130 · 📋 65 - 58% open · ⏱️ 08.09.2023):
 
 	```
-	git clone https://github.com/tweag/jupyterWith
+	git clone https://github.com/takluyver/nbopen
+	```
+- [PyPi](https://pypi.org/project/nbopen) (📥 1.7K / month):
+	```
+	pip install nbopen
 	```
 </details>
-<details><summary><b><a href="https://github.com/nteract/testbook">testbook</a></b> (🥉14 ·  ⭐ 320) - 以正确的方式对Jupyter笔记本进行单元测试。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-naas/naas">naas</a></b> (🥉15 ·  ⭐ 280) - Schedule notebooks, run them like APIs, expose securely your assets:.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
 
-- [GitHub](https://github.com/nteract/testbook) (👨‍💻 14 · 🔀 30 · 📦 140 · 📋 87 - 47% open · ⏱️ 12.08.2022):
+- [GitHub](https://github.com/jupyter-naas/naas) (👨‍💻 21 · 🔀 23 · 📦 4 · 📋 190 - 22% open · ⏱️ 19.03.2024):
+
+	```
+	git clone https://github.com/jupyter-naas/naas
+	```
+- [PyPi](https://pypi.org/project/naas) (📥 2.5K / month):
+	```
+	pip install naas
+	```
+</details>
+<details><summary><b><a href="https://github.com/nteract/testbook">testbook</a></b> (🥉14 ·  ⭐ 400 · 💀) - Unit test your Jupyter Notebooks the right way. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/nteract/testbook) (👨‍💻 15 · 🔀 38 · 📦 350 · 📋 92 - 48% open · ⏱️ 29.11.2022):
 
 	```
 	git clone https://github.com/nteract/testbook
 	```
 </details>
-<details><summary><b><a href="https://github.com/treebeardtech/nbmake-action">nbmake-action</a></b> (🥉14 ·  ⭐ 160 · 💤) - GitHub用于测试笔记本的动作。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/treebeardtech/nbmake-action">nbmake-action</a></b> (🥉14 ·  ⭐ 150 · 💀) - GitHub Action for testing notebooks. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/treebeardtech/nbmake-action) (👨‍💻 2 · 🔀 6 · 📦 27 · ⏱️ 21.09.2021):
+- [GitHub](https://github.com/treebeardtech/nbmake-action) (👨‍💻 2 · 🔀 6 · 📦 33 · ⏱️ 21.09.2021):
 
 	```
 	git clone https://github.com/treebeardtech/nbmake-action
 	```
 </details>
-<details><summary><b><a href="https://github.com/takluyver/nbopen">nbopen</a></b> (🥉13 ·  ⭐ 280 · 💀) - Open a Jupyter notebook in the best available server. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/tweag/jupyenv">JupyterWith</a></b> (🥉13 ·  ⭐ 600) - declarative and reproducible Jupyter environments - powered by Nix. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/takluyver/nbopen) (👨‍💻 10 · 🔀 53 · 📋 63 - 58% open · ⏱️ 25.04.2018):
+- [GitHub](https://github.com/tweag/jupyenv) (👨‍💻 37 · 🔀 120 · 📋 200 - 22% open · ⏱️ 17.10.2023):
 
 	```
-	git clone https://github.com/takluyver/nbopen
-	```
-- [PyPi](https://pypi.org/project/nbopen) (📥 760 / month):
-	```
-	pip install nbopen
+	git clone https://github.com/tweag/jupyterWith
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-naas/naas">naas</a></b> (🥉13 ·  ⭐ 200) - Notebook调度工具，像API一样运行它们。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
-
-- [GitHub](https://github.com/jupyter-naas/naas) (👨‍💻 18 · 🔀 20 · 📦 3 · 📋 140 - 18% open · ⏱️ 25.08.2022):
-
-	```
-	git clone https://github.com/jupyter-naas/naas
-	```
-- [PyPi](https://pypi.org/project/naas) (📥 2.7K / month):
-	```
-	pip install naas
-	```
-</details>
-<details><summary><b><a href="https://github.com/takluyver/jupyter_kernel_mgmt">Kernel Management</a></b> (🥉12 ·  ⭐ 13 · 💀) - 针对Jupyter的实验性新内核管理框架。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/takluyver/jupyter_kernel_mgmt) (👨‍💻 74 · 🔀 7 · 📥 17 · 📋 25 - 44% open · ⏱️ 29.01.2020):
-
-	```
-	git clone https://github.com/takluyver/jupyter_kernel_mgmt
-	```
-- [PyPi](https://pypi.org/project/jupyter-kernel-mgmt) (📥 38 / month):
-	```
-	pip install jupyter-kernel-mgmt
-	```
-</details>
-<details><summary><b><a href="https://github.com/datitran/jupyter2slides">jupyter2slides</a></b> (🥉11 ·  ⭐ 770 · 💀) - 使用Jupyter Notebook的Cloud Native演示幻灯片<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/datitran/jupyter2slides) (🔀 170 · 📋 15 - 73% open · ⏱️ 28.12.2018):
-
-	```
-	git clone https://github.com/datitran/jupyter2slides
-	```
-</details>
-<details><summary><b><a href="https://github.com/stas00/ipyexperiments">ipyexperiments</a></b> (🥉11 ·  ⭐ 150 · 💤) - 适用于GPU和一般设备的jupyter / ipython实验容器。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/stas00/ipyexperiments) (👨‍💻 3 · 🔀 11 · 📦 6 · ⏱️ 07.12.2021):
-
-	```
-	git clone https://github.com/stas00/ipyexperiments
-	```
-- [PyPi](https://pypi.org/project/ipyexperiments) (📥 110 / month):
-	```
-	pip install ipyexperiments
-	```
-</details>
-<details><summary><b><a href="https://github.com/krassowski/jupyter-helpers">Jupyter Helpers</a></b> (🥉11 ·  ⭐ 40 · 💀) - Jupyter/IPython的帮助程序集合。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/krassowski/jupyter-helpers">Jupyter Helpers</a></b> (🥉12 ·  ⭐ 45 · 💀) - A collection of helpers for Jupyter/IPython. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
 - [GitHub](https://github.com/krassowski/jupyter-helpers) (👨‍💻 2 · 🔀 3 · 📋 5 - 60% open · ⏱️ 31.07.2021):
 
 	```
 	git clone https://github.com/krassowski/jupyter-helpers
 	```
-- [PyPi](https://pypi.org/project/jupyter_helpers) (📥 110 / month):
+- [PyPi](https://pypi.org/project/jupyter_helpers) (📥 150 / month):
 	```
 	pip install jupyter_helpers
 	```
 </details>
-<details><summary><b><a href="https://github.com/Invictify/Jupter-Notebook-REST-API">Jupter-Notebook-REST-API</a></b> (🥉7 ·  ⭐ 51 · 💀) - 将jupyter笔记本作为REST API端点运行。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/takluyver/jupyter_kernel_mgmt">Kernel Management</a></b> (🥉12 ·  ⭐ 15 · 💀) - Experimental new kernel management framework for.. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/Invictify/Jupter-Notebook-REST-API) (👨‍💻 2 · 🔀 4 · ⏱️ 31.03.2020):
+- [GitHub](https://github.com/takluyver/jupyter_kernel_mgmt) (👨‍💻 74 · 🔀 8 · 📥 17 · 📋 25 - 44% open · ⏱️ 29.01.2020):
+
+	```
+	git clone https://github.com/takluyver/jupyter_kernel_mgmt
+	```
+- [PyPi](https://pypi.org/project/jupyter-kernel-mgmt) (📥 51 / month):
+	```
+	pip install jupyter-kernel-mgmt
+	```
+</details>
+<details><summary><b><a href="https://github.com/datitran/jupyter2slides">jupyter2slides</a></b> (🥉11 ·  ⭐ 790 · 💀) - Cloud Native Presentation Slides with Jupyter Notebook +.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/datitran/jupyter2slides) (🔀 160 · 📋 15 - 73% open · ⏱️ 28.12.2018):
+
+	```
+	git clone https://github.com/datitran/jupyter2slides
+	```
+</details>
+<details><summary><b><a href="https://github.com/stas00/ipyexperiments">ipyexperiments</a></b> (🥉10 ·  ⭐ 190) - jupyter/ipython experiment containers for GPU and.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/stas00/ipyexperiments) (👨‍💻 3 · 🔀 12 · 📦 8 · ⏱️ 15.12.2023):
+
+	```
+	git clone https://github.com/stas00/ipyexperiments
+	```
+- [PyPi](https://pypi.org/project/ipyexperiments) (📥 18 / month):
+	```
+	pip install ipyexperiments
+	```
+</details>
+<details><summary><b><a href="https://github.com/Invictify/Jupter-Notebook-REST-API">Jupter-Notebook-REST-API</a></b> (🥉6 ·  ⭐ 75 · 💀) - Run your jupyter notebooks as a REST API endpoint... <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/Invictify/Jupter-Notebook-REST-API) (👨‍💻 2 · 🔀 9 · ⏱️ 31.03.2020):
 
 	```
 	git clone https://github.com/Invictify/Jupter-Notebook-REST-API
@@ -2440,1093 +2424,1093 @@ _与笔记本文件一起工作或可以在笔记本文件中使用的库和工�
 </details>
 <br>
 
-## JupyterLab渲染器
+## JupyterLab Renderer
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_可以呈现和显示特定MIME类型文件的扩展名。_
+_Extensions that can render and display files of specific MIME types._
 
-<details><summary><b><a href="https://github.com/plotly/jupyterlab-dash">JupyterLab Dash</a></b> (🥇20 ·  ⭐ 360 · 💀) - An Extension for the Interactive development of Dash apps in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/QuantStack/jupyterlab-drawio">JupyterLab Drawio</a></b> (🥇19 ·  ⭐ 590 · 💀) - A standalone embedding of the FOSS drawio / mxgraph.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/plotly/jupyterlab-dash) (👨‍💻 7 · 🔀 57 · 📦 260 · 📋 28 - 71% open · ⏱️ 19.05.2020):
-
-	```
-	git clone https://github.com/plotly/jupyterlab-dash
-	```
-- [PyPi](https://pypi.org/project/jupyterlab-dash) (📥 1.3K / month):
-	```
-	pip install jupyterlab-dash
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-dash) (📥 12K / month):
-	```
-	npm install jupyterlab-dash
-	```
-</details>
-<details><summary><b><a href="https://github.com/QuantStack/jupyterlab-drawio">JupyterLab Drawio</a></b> (🥈19 ·  ⭐ 540 · 💀) - FOSS drawio/mxgraph程序包的独立嵌入。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/QuantStack/jupyterlab-drawio) (👨‍💻 15 · 🔀 63 · 📦 530 · 📋 65 - 61% open · ⏱️ 29.06.2021):
+- [GitHub](https://github.com/QuantStack/jupyterlab-drawio) (👨‍💻 15 · 🔀 69 · 📦 1.4K · 📋 68 - 63% open · ⏱️ 29.06.2021):
 
 	```
 	git clone https://github.com/QuantStack/jupyterlab-drawio
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-drawio) (📥 4.3K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-drawio) (📥 1.9K / month):
 	```
 	npm install jupyterlab-drawio
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-latex">JupyterLab Latex</a></b> (🥈18 ·  ⭐ 530) - JupyterLab扩展，用于实时编辑LaTeX文档。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/plotly/jupyterlab-dash">JupyterLab Dash</a></b> (🥇19 ·  ⭐ 360 · 💀) - An Extension for the Interactive development of Dash apps in.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyterlab-latex) (👨‍💻 22 · 🔀 59 · 📦 2 · 📋 82 - 32% open · ⏱️ 18.08.2022):
+- [GitHub](https://github.com/plotly/jupyterlab-dash) (👨‍💻 7 · 🔀 55 · 📦 660 · 📋 28 - 71% open · ⏱️ 19.05.2020):
+
+	```
+	git clone https://github.com/plotly/jupyterlab-dash
+	```
+- [PyPi](https://pypi.org/project/jupyterlab-dash) (📥 2.4K / month):
+	```
+	pip install jupyterlab-dash
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-dash) (📥 2.1K / month):
+	```
+	npm install jupyterlab-dash
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-latex">JupyterLab Latex</a></b> (🥈18 ·  ⭐ 600) - JupyterLab extension for live editing of LaTeX documents. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/jupyterlab-latex) (👨‍💻 23 · 🔀 67 · 📋 91 - 37% open · ⏱️ 31.10.2023):
 
 	```
 	git clone https://github.com/jupyterlab/jupyterlab-latex
 	```
-- [PyPi](https://pypi.org/project/jupyterlab_latex) (📥 3.9K / month):
+- [PyPi](https://pypi.org/project/jupyterlab_latex) (📥 1.8K / month):
 	```
 	pip install jupyterlab_latex
 	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/latex) (📥 1.2K / month):
+- [NPM](https://www.npmjs.com/package/@jupyterlab/latex) (📥 320 / month):
 	```
 	npm install @jupyterlab/latex
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyter-renderers">JupyterLab Renderers</a></b> (🥉17 ·  ⭐ 440) - JupyterLab的渲染器和渲染器扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyter-renderers">JupyterLab Renderers</a></b> (🥉14 ·  ⭐ 480) - Renderers and renderer extensions for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyter-renderers) (👨‍💻 25 · 🔀 67 · 📦 1 · 📋 100 - 29% open · ⏱️ 08.07.2022):
+- [GitHub](https://github.com/jupyterlab/jupyter-renderers) (👨‍💻 30 · 🔀 75 · 📋 110 - 32% open · ⏱️ 20.03.2024):
 
 	```
 	git clone https://github.com/jupyterlab/jupyter-renderers
 	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/geojson-extension) (📥 1.4K / month):
+- [NPM](https://www.npmjs.com/package/@jupyterlab/geojson-extension) (📥 410 / month):
 	```
 	npm install @jupyterlab/geojson-extension
 	```
 </details>
-<details><summary><b><a href="https://github.com/plotly/jupyterlab-chart-editor">JupyterLab Chart Editor</a></b> (🥉16 ·  ⭐ 210 · 💀) - JupyterLab扩展，用于实时编辑LaTeX文档。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/plotly/jupyterlab-chart-editor">JupyterLab Chart Editor</a></b> (🥉14 ·  ⭐ 220 · 💀) - JupyterLab extension for Plotly's react-chart-editor. <code>❗Unlicensed</code></summary>
 
-- [GitHub](https://github.com/plotly/jupyterlab-chart-editor) (👨‍💻 5 · 🔀 22 · 📦 3 · 📋 31 - 38% open · ⏱️ 10.03.2021):
+- [GitHub](https://github.com/plotly/jupyterlab-chart-editor) (👨‍💻 5 · 🔀 24 · 📦 7 · 📋 31 - 38% open · ⏱️ 10.03.2021):
 
 	```
 	git clone https://github.com/plotly/jupyterlab-chart-editor
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-chart-editor) (📥 1.1K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-chart-editor) (📥 340 / month):
 	```
 	npm install jupyterlab-chart-editor
 	```
 </details>
-<details><summary><b><a href="https://github.com/quigleyj97/jupyterlab-spreadsheet">JupyterLab Spreadsheet</a></b> (🥉16 ·  ⭐ 160) - JupyterLab插件，用于查看电子表格。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/quigleyj97/jupyterlab-spreadsheet">JupyterLab Spreadsheet</a></b> (🥉14 ·  ⭐ 190 · 💀) - JupyterLab plugin for viewing spreadsheets, such as.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/quigleyj97/jupyterlab-spreadsheet) (👨‍💻 4 · 🔀 14 · 📦 3 · 📋 23 - 21% open · ⏱️ 18.07.2022):
+- [GitHub](https://github.com/quigleyj97/jupyterlab-spreadsheet) (👨‍💻 4 · 🔀 16 · 📦 6 · 📋 27 - 33% open · ⏱️ 18.07.2022):
 
 	```
 	git clone https://github.com/quigleyj97/jupyterlab-spreadsheet
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-spreadsheet) (📥 4K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-spreadsheet) (📥 700 / month):
 	```
 	npm install jupyterlab-spreadsheet
 	```
 </details>
-<details><summary><b><a href="https://github.com/altair-viz/jupyterlab_voyager">JupyterLab Voyager</a></b> (🥉13 ·  ⭐ 270 · 💀) - JupyterLab extension visualize data with Voyager. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/altair-viz/jupyterlab_voyager">JupyterLab Voyager</a></b> (🥉13 ·  ⭐ 290 · 💀) - JupyterLab extension visualize data with Voyager. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/altair-viz/jupyterlab_voyager) (👨‍💻 6 · 🔀 32 · 📋 60 - 66% open · ⏱️ 14.08.2019):
+- [GitHub](https://github.com/altair-viz/jupyterlab_voyager) (👨‍💻 6 · 🔀 35 · 📦 3 · 📋 60 - 66% open · ⏱️ 14.08.2019):
 
 	```
 	git clone https://github.com/altair-viz/jupyterlab_voyager
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_voyager) (📥 68 / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab_voyager) (📥 23 / month):
 	```
 	npm install jupyterlab_voyager
 	```
 </details>
 <br>
 
-## JupyterLab主题
+## JupyterLab Themes
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_可以自定义JupyterLab外观的扩展。_
+_Extensions that can customize the appearance of JupyterLab._
 
-<details><summary><b><a href="https://github.com/telamonian/theme-darcula">Darcula Theme</a></b> (🥇19 ·  ⭐ 150) - A handsome Darcula theme for Jupyterlab. The first jlab theme to.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/telamonian/theme-darcula">Darcula Theme</a></b> (🥇17 ·  ⭐ 200 · 💀) - A handsome Darcula theme for Jupyterlab. The first jlab.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/telamonian/theme-darcula) (👨‍💻 7 · 🔀 22 · 📦 500 · 📋 23 - 30% open · ⏱️ 20.07.2022):
+- [GitHub](https://github.com/telamonian/theme-darcula) (👨‍💻 7 · 🔀 28 · 📦 1.3K · 📋 25 - 32% open · ⏱️ 20.07.2022):
 
 	```
 	git clone https://github.com/telamonian/theme-darcula
 	```
-- [NPM](https://www.npmjs.com/package/@telamonian/theme-darcula) (📥 1.4K / month):
+- [NPM](https://www.npmjs.com/package/@telamonian/theme-darcula) (📥 84 / month):
 	```
 	npm install @telamonian/theme-darcula
 	```
 </details>
-<details><summary><b><a href="https://github.com/AllanChain/jupyterlab-theme-solarized-dark">jupyterlab-theme-solarized-dark</a></b> (🥈14 ·  ⭐ 66) - JupyterLab 2.x Solarized Dark扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/AllanChain/jupyterlab-theme-solarized-dark">jupyterlab-theme-solarized-dark</a></b> (🥈16 ·  ⭐ 92) - JupyterLab 2.x Solarized Dark extension. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/AllanChain/jupyterlab-theme-solarized-dark) (👨‍💻 2 · 🔀 9 · 📋 3 - 33% open · ⏱️ 21.07.2022):
+- [GitHub](https://github.com/AllanChain/jupyterlab-theme-solarized-dark) (👨‍💻 2 · 🔀 11 · 📥 31 · 📦 3 · 📋 4 - 50% open · ⏱️ 11.04.2024):
 
 	```
 	git clone https://github.com/AllanChain/jupyterlab-theme-solarized-dark
 	```
-- [PyPi](https://pypi.org/project/jupyterlab_theme_solarized_dark) (📥 6.3K / month):
+- [PyPi](https://pypi.org/project/jupyterlab_theme_solarized_dark) (📥 11K / month):
 	```
 	pip install jupyterlab_theme_solarized_dark
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-theme-solarized-dark) (📥 3.8K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-theme-solarized-dark) (📥 1.9K / month):
 	```
 	npm install jupyterlab-theme-solarized-dark
 	```
 </details>
-<details><summary><b><a href="https://github.com/yeebc/jupyterlab-neon-theme">Neon Theme</a></b> (🥈13 ·  ⭐ 120 · 💀) - JupyterLab的扁平，80年代霓虹灯启发主题。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mohirio/jupyterlab-horizon-theme">Horizon Theme</a></b> (🥈16 ·  ⭐ 84) - VSCode Horizon Theme port for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/yeebc/jupyterlab-neon-theme) (👨‍💻 3 · 🔀 9 · 📦 1 · 📋 12 - 16% open · ⏱️ 07.03.2021):
-
-	```
-	git clone https://github.com/yeebc/jupyterlab-neon-theme
-	```
-- [NPM](https://www.npmjs.com/package/@yeebc/jupyterlab_neon_theme) (📥 1.1K / month):
-	```
-	npm install @yeebc/jupyterlab_neon_theme
-	```
-</details>
-<details><summary><b><a href="https://github.com/oriolmirosa/jupyterlab_materialdarker">Material Darker Theme</a></b> (🥉12 ·  ⭐ 130 · 💤) - JupyterLab的Material Darker主题。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/oriolmirosa/jupyterlab_materialdarker) (👨‍💻 2 · 🔀 15 · 📦 4 · 📋 17 - 17% open · ⏱️ 31.08.2021):
-
-	```
-	git clone https://github.com/oriolmirosa/jupyterlab_materialdarker
-	```
-- [NPM](https://www.npmjs.com/package/@oriolmirosa/jupyterlab_materialdarker) (📥 670 / month):
-	```
-	npm install @oriolmirosa/jupyterlab_materialdarker
-	```
-</details>
-<details><summary><b><a href="https://github.com/mohirio/jupyterlab-horizon-theme">Horizon Theme</a></b> (🥉12 ·  ⭐ 52 · 💀) - JupyterLab的VSCode Horizo​​n主题端口。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/mohirio/jupyterlab-horizon-theme) (🔀 3 · 📋 5 - 20% open · ⏱️ 11.04.2021):
+- [GitHub](https://github.com/mohirio/jupyterlab-horizon-theme) (👨‍💻 3 · 🔀 9 · 📥 42 · 📦 3 · 📋 9 - 11% open · ⏱️ 22.11.2023):
 
 	```
 	git clone https://github.com/mohirio/jupyterlab-horizon-theme
 	```
-- [NPM](https://www.npmjs.com/package/@mohirio/jupyterlab-horizon-theme) (📥 2.7K / month):
+- [NPM](https://www.npmjs.com/package/@mohirio/jupyterlab-horizon-theme) (📥 180 / month):
 	```
 	npm install @mohirio/jupyterlab-horizon-theme
 	```
 </details>
-<details><summary><b><a href="https://github.com/jtpio/jupyterlab-theme-toggle">Theme Toggle</a></b> (🥉10 ·  ⭐ 11 · 💀) - JupyterLab extension to toggle the theme in the Top Bar area. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/yeebc/jupyterlab-neon-theme">Neon Theme</a></b> (🥉12 ·  ⭐ 150 · 💀) - A flat, 80's neon inspired theme for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jtpio/jupyterlab-theme-toggle) (👨‍💻 2 · 🔀 3 · 📦 2 · 📋 3 - 66% open · ⏱️ 16.06.2021):
+- [GitHub](https://github.com/yeebc/jupyterlab-neon-theme) (👨‍💻 4 · 🔀 10 · 📦 4 · 📋 13 - 15% open · ⏱️ 28.08.2022):
 
 	```
-	git clone https://github.com/jtpio/jupyterlab-theme-toggle
+	git clone https://github.com/yeebc/jupyterlab-neon-theme
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-theme-toggle) (📥 1.5K / month):
+- [NPM](https://www.npmjs.com/package/@yeebc/jupyterlab_neon_theme) (📥 60 / month):
 	```
-	npm install jupyterlab-theme-toggle
+	npm install @yeebc/jupyterlab_neon_theme
 	```
 </details>
-<details><summary><b><a href="https://github.com/Rahlir/theme-gruvbox">Gruvbox Theme</a></b> (🥉9 ·  ⭐ 48 · 💀) - Jupyter Lab的Gruvbox黑暗主题。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/oriolmirosa/jupyterlab_materialdarker">Material Darker Theme</a></b> (🥉11 ·  ⭐ 150 · 💀) - The Material Darker theme for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/Rahlir/theme-gruvbox) (👨‍💻 3 · 🔀 10 · ⏱️ 12.04.2020):
+- [GitHub](https://github.com/oriolmirosa/jupyterlab_materialdarker) (👨‍💻 2 · 🔀 17 · 📦 8 · 📋 18 - 16% open · ⏱️ 16.12.2022):
+
+	```
+	git clone https://github.com/oriolmirosa/jupyterlab_materialdarker
+	```
+- [NPM](https://www.npmjs.com/package/@oriolmirosa/jupyterlab_materialdarker) (📥 63 / month):
+	```
+	npm install @oriolmirosa/jupyterlab_materialdarker
+	```
+</details>
+<details><summary><b><a href="https://github.com/Rahlir/theme-gruvbox">Gruvbox Theme</a></b> (🥉9 ·  ⭐ 52 · 💀) - Gruvbox dark theme for Jupyter Lab. Modeled on classic.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/Rahlir/theme-gruvbox) (👨‍💻 3 · 🔀 9 · 📦 4 · ⏱️ 12.04.2020):
 
 	```
 	git clone https://github.com/Rahlir/theme-gruvbox
 	```
-- [NPM](https://www.npmjs.com/package/@rahlir/theme-gruvbox) (📥 160 / month):
+- [NPM](https://www.npmjs.com/package/@rahlir/theme-gruvbox) (📥 36 / month):
 	```
 	npm install @rahlir/theme-gruvbox
 	```
 </details>
-<details><summary><b><a href="https://github.com/kenshohara/theme-nord-extension">Nord Theme</a></b> (🥉6 ·  ⭐ 24 · 💀) - JupyterLab-Nord主题。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jtpio/jupyterlab-theme-toggle">Theme Toggle</a></b> (🥉9 ·  ⭐ 11 · 💀) - JupyterLab extension to toggle the theme in the Top Bar area. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/kenshohara/theme-nord-extension) (🔀 1 · 📋 5 - 20% open · ⏱️ 20.09.2020):
+- [GitHub](https://github.com/jtpio/jupyterlab-theme-toggle) (👨‍💻 2 · 🔀 3 · 📦 5 · 📋 5 - 20% open · ⏱️ 16.06.2021):
+
+	```
+	git clone https://github.com/jtpio/jupyterlab-theme-toggle
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-theme-toggle) (📥 380 / month):
+	```
+	npm install jupyterlab-theme-toggle
+	```
+</details>
+<details><summary><b><a href="https://github.com/kenshohara/theme-nord-extension">Nord Theme</a></b> (🥉6 ·  ⭐ 26 · 💀) - JupyterLab - Nord Theme. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/kenshohara/theme-nord-extension) (🔀 1 · 📦 3 · 📋 5 - 20% open · ⏱️ 20.09.2020):
 
 	```
 	git clone https://github.com/kenshohara/theme-nord-extension
 	```
-- [NPM](https://www.npmjs.com/package/@kenshohara/theme-nord-extension) (📥 61 / month):
+- [NPM](https://www.npmjs.com/package/@kenshohara/theme-nord-extension) (📥 8 / month):
 	```
 	npm install @kenshohara/theme-nord-extension
 	```
 </details>
 <br>
 
-## JupyterLab扩展
+## JupyterLab Extensions
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_扩展JupyterLab自身功能的应用程序插件。_
+_Application plugins that extend the functionality of JupyterLab itself._
 
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-git">JupyterLab Git</a></b> (🥇27 ·  ⭐ 1.1K) - JupyterLab的Git扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-git">JupyterLab Git</a></b> (🥇27 ·  ⭐ 1.4K) - A Git extension for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyterlab-git) (👨‍💻 76 · 🔀 230 · 📦 15 · 📋 530 - 15% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/jupyterlab/jupyterlab-git) (👨‍💻 94 · 🔀 280 · 📥 180 · 📦 2.7K · 📋 580 - 15% open · ⏱️ 21.02.2024):
 
 	```
 	git clone https://github.com/jupyterlab/jupyterlab-git
 	```
-- [PyPi](https://pypi.org/project/jupyterlab-git) (📥 150K / month):
+- [PyPi](https://pypi.org/project/jupyterlab-git) (📥 130K / month):
 	```
 	pip install jupyterlab-git
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyterlab-git) (📥 240K · ⏱️ 19.08.2022):
+- [Conda](https://anaconda.org/conda-forge/jupyterlab-git) (📥 530K · ⏱️ 07.02.2024):
 	```
 	conda install -c conda-forge jupyterlab-git
 	```
 </details>
-<details><summary><b><a href="https://github.com/elyra-ai/elyra">elyra</a></b> (🥇22 ·  ⭐ 1.4K) - Elyra以AI为中心的方法对JupyterLab笔记本进行拓展。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/finos/perspective">Perspective</a></b> (🥇26 ·  ⭐ 7.5K) - Streaming pivot visualization via WebAssembly. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/elyra-ai/elyra) (👨‍💻 54 · 🔀 260 · 📦 32 · 📋 1.5K - 14% open · ⏱️ 24.08.2022):
-
-	```
-	git clone https://github.com/elyra-ai/elyra
-	```
-- [PyPi](https://pypi.org/project/elyra) (📥 3.6K / month):
-	```
-	pip install elyra
-	```
-- [Conda](https://anaconda.org/conda-forge/elyra) (📥 17K · ⏱️ 24.08.2022):
-	```
-	conda install -c conda-forge elyra
-	```
-</details>
-<details><summary><b><a href="https://github.com/finos/perspective">Perspective</a></b> (🥇21 ·  ⭐ 4.8K) - 通过WebAssembly进行流式透视显示。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/finos/perspective) (👨‍💻 72 · 🔀 490 · 📦 4 · 📋 540 - 14% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/finos/perspective) (👨‍💻 93 · 🔀 960 · 📥 2.5K · 📦 120 · 📋 740 - 12% open · ⏱️ 26.03.2024):
 
 	```
 	git clone https://github.com/finos/perspective
 	```
-- [PyPi](https://pypi.org/project/perspective-python) (📥 3K / month):
+- [PyPi](https://pypi.org/project/perspective-python) (📥 4.4K / month):
 	```
 	pip install perspective-python
 	```
-- [NPM](https://www.npmjs.com/package/@finos/perspective-jupyterlab) (📥 1.4K / month):
+- [NPM](https://www.npmjs.com/package/@finos/perspective-jupyterlab) (📥 2.4K / month):
 	```
 	npm install @finos/perspective-jupyterlab
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/debugger">JupyterLab Debugger</a></b> (🥇20 ·  ⭐ 540 · 💀) - 适用于Jupyter笔记本电脑，控制台等的可视调试器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/elyra-ai/elyra">elyra</a></b> (🥇22 ·  ⭐ 1.8K) - Elyra extends JupyterLab Notebooks with an AI centric approach. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/debugger) (👨‍💻 11 · 🔀 37 · 📋 260 - 6% open · ⏱️ 31.03.2021):
+- [GitHub](https://github.com/elyra-ai/elyra) (👨‍💻 63 · 🔀 320 · 📦 54 · 📋 1.6K - 15% open · ⏱️ 08.03.2024):
+
+	```
+	git clone https://github.com/elyra-ai/elyra
+	```
+- [PyPi](https://pypi.org/project/elyra) (📥 3.5K / month):
+	```
+	pip install elyra
+	```
+- [Conda](https://anaconda.org/conda-forge/elyra) (📥 44K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge elyra
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/debugger">JupyterLab Debugger</a></b> (🥇20 ·  ⭐ 560 · 💀) - A visual debugger for Jupyter notebooks, consoles,.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/debugger) (👨‍💻 11 · 🔀 41 · 📋 260 - 6% open · ⏱️ 31.03.2021):
 
 	```
 	git clone https://github.com/jupyterlab/debugger
 	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/debugger) (📥 170K / month):
+- [NPM](https://www.npmjs.com/package/@jupyterlab/debugger) (📥 71K / month):
 	```
 	npm install @jupyterlab/debugger
 	```
 </details>
-<details><summary><b><a href="https://github.com/lckr/jupyterlab-variableInspector">Variable Inspector</a></b> (🥇19 ·  ⭐ 930) - Jupyterlab的变量查看器扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/finos/jupyterlab_templates">JupyterLab Templates</a></b> (🥇20 ·  ⭐ 370) - Support for jupyter notebook templates in jupyterlab. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/lckr/jupyterlab-variableInspector) (👨‍💻 18 · 🔀 84 · 📦 3 · 📋 160 - 27% open · ⏱️ 01.08.2022):
+- [GitHub](https://github.com/finos/jupyterlab_templates) (👨‍💻 21 · 🔀 63 · 📦 8 · 📋 92 - 9% open · ⏱️ 27.03.2024):
+
+	```
+	git clone https://github.com/jpmorganchase/jupyterlab_templates
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_templates) (📥 23K / month):
+	```
+	pip install jupyterlab_templates
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_templates) (📥 3.7K / month):
+	```
+	npm install jupyterlab_templates
+	```
+</details>
+<details><summary><b><a href="https://github.com/jtpio/ipylab">ipylab</a></b> (🥇20 ·  ⭐ 180) - Control JupyterLab from Python Notebooks with Jupyter Widgets. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jtpio/ipylab) (👨‍💻 7 · 🔀 13 · 📥 130 · 📦 110 · 📋 47 - 53% open · ⏱️ 09.10.2023):
+
+	```
+	git clone https://github.com/jtpio/ipylab
+	```
+- [PyPi](https://pypi.org/project/ipylab) (📥 120K / month):
+	```
+	pip install ipylab
+	```
+- [Conda](https://anaconda.org/conda-forge/ipylab) (📥 29K · ⏱️ 11.08.2023):
+	```
+	conda install -c conda-forge ipylab
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab-contrib/jupyterlab-variableInspector">Variable Inspector</a></b> (🥈19 ·  ⭐ 1.1K) - Variable Inspector extension for Jupyterlab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab-contrib/jupyterlab-variableInspector) (👨‍💻 22 · 🔀 87 · 📥 61 · 📦 6 · 📋 170 - 24% open · ⏱️ 21.02.2024):
 
 	```
 	git clone https://github.com/lckr/jupyterlab-variableInspector
 	```
-- [NPM](https://www.npmjs.com/package/@lckr/jupyterlab_variableinspector) (📥 5.7K / month):
+- [NPM](https://www.npmjs.com/package/@lckr/jupyterlab_variableinspector) (📥 1.1K / month):
 	```
 	npm install @lckr/jupyterlab_variableinspector
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-toc">JupyterLab TOC</a></b> (🥇19 ·  ⭐ 720 · 💤) - Table of Contents extension for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/dask/dask-labextension">dask-labextension</a></b> (🥈19 ·  ⭐ 300 · 💤) - JupyterLab extension for Dask. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/dask/dask-labextension) (👨‍💻 24 · 🔀 60 · 📦 3 · 📋 150 - 30% open · ⏱️ 04.08.2023):
+
+	```
+	git clone https://github.com/dask/dask-labextension
+	```
+- [PyPi](https://pypi.org/project/dask-labextension) (📥 10K / month):
+	```
+	pip install dask-labextension
+	```
+- [Conda](https://anaconda.org/conda-forge/dask-labextension) (📥 950K · ⏱️ 04.08.2023):
+	```
+	conda install -c conda-forge dask-labextension
+	```
+- [NPM](https://www.npmjs.com/package/dask-labextension) (📥 230 / month):
+	```
+	npm install dask-labextension
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab-contrib/spellchecker">JupyterLab Spellchecker</a></b> (🥈19 ·  ⭐ 200 · 💤) - Spellchecker for JupyterLab notebook markdown cells.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab-contrib/spellchecker) (👨‍💻 6 · 🔀 19 · 📦 230 · 📋 57 - 31% open · ⏱️ 28.07.2023):
+
+	```
+	git clone https://github.com/ijmbarr/jupyterlab_spellchecker
+	```
+- [NPM](https://www.npmjs.com/package/@ijmbarr/jupyterlab_spellchecker) (📥 250 / month):
+	```
+	npm install @ijmbarr/jupyterlab_spellchecker
+	```
+</details>
+<details><summary><b><a href="https://github.com/ryantam626/jupyterlab_code_formatter">Code Formatter</a></b> (🥈18 ·  ⭐ 790 · 💤) - A universal code formatter for JupyterLab. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/ryantam626/jupyterlab_code_formatter) (👨‍💻 42 · 🔀 53 · 📋 200 - 15% open · ⏱️ 18.06.2023):
+
+	```
+	git clone https://github.com/ryantam626/jupyterlab_code_formatter
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_code_formatter) (📥 72K / month):
+	```
+	pip install jupyterlab_code_formatter
+	```
+- [NPM](https://www.npmjs.com/package/@ryantam626/jupyterlab_code_formatter) (📥 1.5K / month):
+	```
+	npm install @ryantam626/jupyterlab_code_formatter
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-toc">JupyterLab TOC</a></b> (🥈18 ·  ⭐ 720 · 💀) - Table of Contents extension for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jupyterlab/jupyterlab-toc) (👨‍💻 14 · 🔀 100 · 📋 120 - 55% open · ⏱️ 10.08.2021):
 
 	```
 	git clone https://github.com/jupyterlab/jupyterlab-toc
 	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/toc) (📥 180K / month):
+- [NPM](https://www.npmjs.com/package/@jupyterlab/toc) (📥 120K / month):
 	```
 	npm install @jupyterlab/toc
 	```
 </details>
-<details><summary><b><a href="https://github.com/jtpio/jupyterlab-system-monitor">JupyterLab System Monitor</a></b> (🥇19 ·  ⭐ 250) - JupyterLab扩展以显示系统指标。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/rapidsai/jupyterlab-nvdashboard">GPU Dashboards</a></b> (🥈18 ·  ⭐ 550) - A JupyterLab extension for displaying dashboards of GPU.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jtpio/jupyterlab-system-monitor) (👨‍💻 7 · 🔀 29 · 📦 48 · 📋 42 - 52% open · ⏱️ 15.02.2022):
-
-	```
-	git clone https://github.com/jtpio/jupyterlab-system-monitor
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-system-monitor) (📥 3.7K / month):
-	```
-	npm install jupyterlab-system-monitor
-	```
-</details>
-<details><summary><b><a href="https://github.com/ryantam626/jupyterlab_code_formatter">Code Formatter</a></b> (🥈18 ·  ⭐ 600) - JupyterLab的通用代码格式化工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/ryantam626/jupyterlab_code_formatter) (👨‍💻 37 · 🔀 49 · 📋 160 - 13% open · ⏱️ 11.08.2022):
-
-	```
-	git clone https://github.com/ryantam626/jupyterlab_code_formatter
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_code_formatter) (📥 34K / month):
-	```
-	pip install jupyterlab_code_formatter
-	```
-- [NPM](https://www.npmjs.com/package/@ryantam626/jupyterlab_code_formatter) (📥 4.6K / month):
-	```
-	npm install @ryantam626/jupyterlab_code_formatter
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-github">JupyterLab GitHub</a></b> (🥈18 ·  ⭐ 330 · 💤) - GitHub integration for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterlab/jupyterlab-github) (👨‍💻 15 · 🔀 88 · 📦 2 · 📋 57 - 36% open · ⏱️ 10.12.2021):
-
-	```
-	git clone https://github.com/jupyterlab/jupyterlab-github
-	```
-- [PyPi](https://pypi.org/project/jupyterlab-github) (📥 1.1K / month):
-	```
-	pip install jupyterlab-github
-	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/github) (📥 1.6K / month):
-	```
-	npm install @jupyterlab/github
-	```
-</details>
-<details><summary><b><a href="https://github.com/jpmorganchase/jupyterlab_templates">JupyterLab Templates</a></b> (🥈18 ·  ⭐ 310) - 在jupyterlab的jupyter-Notebook各种模板。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/jpmorganchase/jupyterlab_templates) (👨‍💻 14 · 🔀 50 · 📦 4 · 📋 78 - 8% open · ⏱️ 25.08.2022):
-
-	```
-	git clone https://github.com/jpmorganchase/jupyterlab_templates
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_templates) (📥 7.2K / month):
-	```
-	pip install jupyterlab_templates
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_templates) (📥 2.9K / month):
-	```
-	npm install jupyterlab_templates
-	```
-</details>
-<details><summary><b><a href="https://github.com/dask/dask-labextension">dask-labextension</a></b> (🥈18 ·  ⭐ 270) - JupyterLab扩展，用于实时编辑LaTeX文档。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/dask/dask-labextension) (👨‍💻 19 · 🔀 51 · 📋 130 - 28% open · ⏱️ 21.06.2022):
-
-	```
-	git clone https://github.com/dask/dask-labextension
-	```
-- [PyPi](https://pypi.org/project/dask-labextension) (📥 13K / month):
-	```
-	pip install dask-labextension
-	```
-- [Conda](https://anaconda.org/conda-forge/dask-labextension) (📥 620K · ⏱️ 22.06.2022):
-	```
-	conda install -c conda-forge dask-labextension
-	```
-- [NPM](https://www.npmjs.com/package/dask-labextension) (📥 1.8K / month):
-	```
-	npm install dask-labextension
-	```
-</details>
-<details><summary><b><a href="https://github.com/jwkvam/jupyterlab-vim">JupyterLab Vim</a></b> (🥈17 ·  ⭐ 920 · 💀) - 用于JupyterLab的Vim笔记本cell绑定。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/jwkvam/jupyterlab-vim) (👨‍💻 8 · 🔀 73 · 📦 3 · 📋 97 - 56% open · ⏱️ 16.07.2019):
-
-	```
-	git clone https://github.com/jwkvam/jupyterlab-vim
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_vim) (📥 280 / month):
-	```
-	npm install jupyterlab_vim
-	```
-</details>
-<details><summary><b><a href="https://github.com/rapidsai/jupyterlab-nvdashboard">GPU Dashboards</a></b> (🥈17 ·  ⭐ 470) - 一个JupyterLab扩展，用于显示GPU的仪表板。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/rapidsai/jupyterlab-nvdashboard) (👨‍💻 17 · 🔀 59 · 📋 54 - 42% open · ⏱️ 23.06.2022):
+- [GitHub](https://github.com/rapidsai/jupyterlab-nvdashboard) (👨‍💻 21 · 🔀 71 · 📦 3 · 📋 77 - 45% open · ⏱️ 02.04.2024):
 
 	```
 	git clone https://github.com/rapidsai/jupyterlab-nvdashboard
 	```
-- [PyPi](https://pypi.org/project/jupyterlab-nvdashboard) (📥 1.6K / month):
+- [PyPi](https://pypi.org/project/jupyterlab-nvdashboard) (📥 6.8K / month):
 	```
 	pip install jupyterlab-nvdashboard
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-nvdashboard) (📥 1.1K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-nvdashboard) (📥 170 / month):
 	```
 	npm install jupyterlab-nvdashboard
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-google-drive">JupyterLab Google Drive</a></b> (🥈17 ·  ⭐ 370) - 使用Google云端硬盘的JupyterLab的云存储。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jtpio/jupyterlab-system-monitor">JupyterLab System Monitor</a></b> (🥈18 ·  ⭐ 290 · 💤) - JupyterLab extension to display system metrics. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyterlab-google-drive) (👨‍💻 16 · 🔀 72 · 📦 2 · 📋 98 - 33% open · ⏱️ 28.04.2022):
+- [GitHub](https://github.com/jtpio/jupyterlab-system-monitor) (👨‍💻 7 · 🔀 30 · 📦 170 · ⏱️ 28.07.2023):
 
 	```
-	git clone https://github.com/jupyterlab/jupyterlab-google-drive
+	git clone https://github.com/jtpio/jupyterlab-system-monitor
 	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/google-drive) (📥 1.1K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-system-monitor) (📥 1.5K / month):
 	```
-	npm install @jupyterlab/google-drive
+	npm install jupyterlab-system-monitor
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-widgets/jupyterlab-sidecar">JupyterLab SideCar</a></b> (🥈17 ·  ⭐ 200 · 💀) - JupyterLab的sidecar输出小部件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter-widgets/jupyterlab-sidecar">JupyterLab SideCar</a></b> (🥈18 ·  ⭐ 240 · 💤) - A sidecar output widget for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter-widgets/jupyterlab-sidecar) (👨‍💻 13 · 🔀 36 · 📦 3 · 📋 32 - 68% open · ⏱️ 04.07.2021):
+- [GitHub](https://github.com/jupyter-widgets/jupyterlab-sidecar) (👨‍💻 16 · 🔀 39 · 📦 7 · 📋 35 - 62% open · ⏱️ 30.08.2023):
 
 	```
 	git clone https://github.com/jupyter-widgets/jupyterlab-sidecar
 	```
-- [PyPi](https://pypi.org/project/sidecar) (📥 4.5K / month):
+- [PyPi](https://pypi.org/project/sidecar) (📥 8.3K / month):
 	```
 	pip install sidecar
 	```
-- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-sidecar) (📥 550 / month):
+- [NPM](https://www.npmjs.com/package/@jupyter-widgets/jupyterlab-sidecar) (📥 110 / month):
 	```
 	npm install @jupyter-widgets/jupyterlab-sidecar
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab-contrib/spellchecker">JupyterLab Spellchecker</a></b> (🥈17 ·  ⭐ 160) - JupyterLab笔记本降价单元的拼写检查器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-github">JupyterLab GitHub</a></b> (🥈17 ·  ⭐ 400) - GitHub integration for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab-contrib/spellchecker) (👨‍💻 6 · 🔀 18 · 📦 1 · 📋 49 - 32% open · ⏱️ 22.02.2022):
+- [GitHub](https://github.com/jupyterlab/jupyterlab-github) (👨‍💻 18 · 🔀 100 · 📥 30 · 📦 6 · 📋 62 - 33% open · ⏱️ 25.03.2024):
 
 	```
-	git clone https://github.com/ijmbarr/jupyterlab_spellchecker
+	git clone https://github.com/jupyterlab/jupyterlab-github
 	```
-- [NPM](https://www.npmjs.com/package/@ijmbarr/jupyterlab_spellchecker) (📥 1.7K / month):
+- [PyPi](https://pypi.org/project/jupyterlab-github) (📥 2.8K / month):
 	```
-	npm install @ijmbarr/jupyterlab_spellchecker
+	pip install jupyterlab-github
+	```
+- [NPM](https://www.npmjs.com/package/@jupyterlab/github) (📥 560 / month):
+	```
+	npm install @jupyterlab/github
 	```
 </details>
-<details><summary><b><a href="https://github.com/krassowski/jupyterlab-go-to-definition">JupyterLab Go-To-Definition</a></b> (🥈16 ·  ⭐ 220 · 💀) - 变量的定义查看器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-google-drive">JupyterLab Google Drive</a></b> (🥈17 ·  ⭐ 400 · 💤) - Cloud storage for JupyterLab using Google Drive. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/krassowski/jupyterlab-go-to-definition) (👨‍💻 2 · 🔀 8 · 📦 11 · 📋 23 - 43% open · ⏱️ 28.07.2021):
+- [GitHub](https://github.com/jupyterlab/jupyterlab-google-drive) (👨‍💻 17 · 🔀 75 · 📦 5 · ⏱️ 03.08.2023):
 
 	```
-	git clone https://github.com/krassowski/jupyterlab-go-to-definition
+	git clone https://github.com/jupyterlab/jupyterlab-google-drive
 	```
-- [NPM](https://www.npmjs.com/package/@krassowski/jupyterlab_go_to_definition) (📥 2.5K / month):
+- [NPM](https://www.npmjs.com/package/@jupyterlab/google-drive) (📥 290 / month):
 	```
-	npm install @krassowski/jupyterlab_go_to_definition
+	npm install @jupyterlab/google-drive
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-data-explorer">JupyterLab Data Explorer</a></b> (🥈16 ·  ⭐ 170 · 💀) - JupyterLab中的一流数据集。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jpmorganchase/jupyter-fs">jupyter-fs</a></b> (🥈17 ·  ⭐ 180) - A filesystem-like contents manager for multiple backends in.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyterlab-data-explorer) (👨‍💻 9 · 🔀 34 · 📦 10 · 📋 91 - 62% open · ⏱️ 24.05.2020):
-
-	```
-	git clone https://github.com/jupyterlab/jupyterlab-data-explorer
-	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/dataregistry-extension) (📥 180 / month):
-	```
-	npm install @jupyterlab/dataregistry-extension
-	```
-</details>
-<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_iframe">JupyterLab IFrame</a></b> (🥈16 ·  ⭐ 81) - JupyterLab iframe小部件。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/timkpaine/jupyterlab_iframe) (👨‍💻 5 · 🔀 15 · 📦 3 · 📋 66 - 6% open · ⏱️ 21.07.2022):
-
-	```
-	git clone https://github.com/timkpaine/jupyterlab_iframe
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_iframe) (📥 960 / month):
-	```
-	pip install jupyterlab_iframe
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_iframe) (📥 920 / month):
-	```
-	npm install jupyterlab_iframe
-	```
-</details>
-<details><summary><b><a href="https://github.com/timkpaine/lantern">Lantern</a></b> (🥈15 ·  ⭐ 320) - 数据探索工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/timkpaine/lantern) (👨‍💻 3 · 🔀 20 · 📦 17 · 📋 200 - 5% open · ⏱️ 13.06.2022):
-
-	```
-	git clone https://github.com/timkpaine/lantern
-	```
-- [PyPi](https://pypi.org/project/pylantern) (📥 56 / month):
-	```
-	pip install pylantern
-	```
-</details>
-<details><summary><b><a href="https://github.com/chaoleili/jupyterlab_tensorboard">JupyterLab Tensorboard</a></b> (🥈15 ·  ⭐ 300) - Jupyterlab的Tensorboard扩展。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/chaoleili/jupyterlab_tensorboard) (👨‍💻 7 · 🔀 32 · 📦 2 · 📋 27 - 62% open · ⏱️ 18.07.2022):
-
-	```
-	git clone https://github.com/chaoleili/jupyterlab_tensorboard
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_tensorboard) (📥 6.2K / month):
-	```
-	npm install jupyterlab_tensorboard
-	```
-</details>
-<details><summary><b><a href="https://github.com/deshaw/jupyterlab-execute-time">jupyterlab-execute-time</a></b> (🥈15 ·  ⭐ 230) - 为Jupyter Lab执行时间插件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/deshaw/jupyterlab-execute-time) (👨‍💻 11 · 🔀 32 · 📋 34 - 11% open · ⏱️ 12.08.2022):
-
-	```
-	git clone https://github.com/deshaw/jupyterlab-execute-time
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-execute-time) (📥 2.7K / month):
-	```
-	npm install jupyterlab-execute-time
-	```
-</details>
-<details><summary><b><a href="https://github.com/bokeh/jupyter_bokeh">Jupyter Bokeh</a></b> (🥈15 ·  ⭐ 200) - 用于在JupyterLab笔记本中呈现Bokeh内容的扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/bokeh/jupyter_bokeh) (👨‍💻 17 · 🔀 41 · 📋 89 - 12% open · ⏱️ 12.08.2022):
-
-	```
-	git clone https://github.com/bokeh/jupyter_bokeh
-	```
-- [PyPi](https://pypi.org/project/jupyter-bokeh) (📥 45K / month):
-	```
-	pip install jupyter-bokeh
-	```
-- [NPM](https://www.npmjs.com/package/@bokeh/jupyter_bokeh) (📥 7.2K / month):
-	```
-	npm install @bokeh/jupyter_bokeh
-	```
-</details>
-<details><summary><b><a href="https://github.com/jtpio/ipylab">ipylab</a></b> (🥈15 ·  ⭐ 110) - 使用Jupyter小部件从Python笔记本控制JupyterLab。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jtpio/ipylab) (👨‍💻 6 · 🔀 7 · 📥 35 · 📋 30 - 36% open · ⏱️ 25.08.2022):
-
-	```
-	git clone https://github.com/jtpio/ipylab
-	```
-- [PyPi](https://pypi.org/project/ipylab) (📥 4.3K / month):
-	```
-	pip install ipylab
-	```
-- [Conda](https://anaconda.org/conda-forge/ipylab) (📥 13K · ⏱️ 25.08.2022):
-	```
-	conda install -c conda-forge ipylab
-	```
-</details>
-<details><summary><b><a href="https://github.com/vatlab/jupyterlab-sos">jupyterlab-sos</a></b> (🥈15 ·  ⭐ 54) - 适用于SoS Polyglot笔记本和工作流程的Jupyterlab扩展<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/vatlab/jupyterlab-sos) (👨‍💻 4 · 🔀 3 · 📋 59 - 15% open · ⏱️ 02.08.2022):
-
-	```
-	git clone https://github.com/vatlab/jupyterlab-sos
-	```
-- [Conda](https://anaconda.org/conda-forge/jupyterlab-sos) (📥 18K · ⏱️ 03.08.2022):
-	```
-	conda install -c conda-forge jupyterlab-sos
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-sos) (📥 140 / month):
-	```
-	npm install jupyterlab-sos
-	```
-</details>
-<details><summary><b><a href="https://github.com/microsoft/gather">nbgather</a></b> (🥉14 ·  ⭐ 450 · 💀) - Jupyter笔记本分割工具。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/microsoft/gather) (👨‍💻 12 · 🔀 29 · 📋 27 - 40% open · ⏱️ 14.02.2020):
-
-	```
-	git clone https://github.com/microsoft/gather
-	```
-- [NPM](https://www.npmjs.com/package/nbgather) (📥 51 / month):
-	```
-	npm install nbgather
-	```
-</details>
-<details><summary><b><a href="https://github.com/pbugnion/jupyterlab-sql">JupyterLab SQL</a></b> (🥉14 ·  ⭐ 380 · 💀) - JupyterLab的SQL GUI。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/pbugnion/jupyterlab-sql) (👨‍💻 2 · 🔀 44 · 📋 74 - 50% open · ⏱️ 04.01.2020):
-
-	```
-	git clone https://github.com/pbugnion/jupyterlab-sql
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_sql) (📥 450 / month):
-	```
-	pip install jupyterlab_sql
-	```
-</details>
-<details><summary><b><a href="https://github.com/aquirdTurtle/Collapsible_Headings">Collapsible Headings</a></b> (🥉14 ·  ⭐ 170 · 💀) - 为Jupyter实验室笔记本实现可折叠页眉。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/aquirdTurtle/Collapsible_Headings) (👨‍💻 6 · 🔀 7 · 📋 31 - 29% open · ⏱️ 22.05.2021):
-
-	```
-	git clone https://github.com/aquirdTurtle/Collapsible_Headings
-	```
-- [NPM](https://www.npmjs.com/package/@aquirdturtle/collapsible_headings) (📥 1.6K / month):
-	```
-	npm install @aquirdturtle/collapsible_headings
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-hdf5">JupyterLab HDF5</a></b> (🥉14 ·  ⭐ 95) - 在JupyterLab中打开和浏览HDF5文件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterlab/jupyterlab-hdf5) (👨‍💻 6 · 🔀 19 · 📋 44 - 25% open · ⏱️ 21.02.2022):
-
-	```
-	git clone https://github.com/jupyterlab/jupyterlab-hdf5
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_hdf) (📥 1K / month):
-	```
-	pip install jupyterlab_hdf
-	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/hdf5) (📥 680 / month):
-	```
-	npm install @jupyterlab/hdf5
-	```
-</details>
-<details><summary><b><a href="https://github.com/parente/jupyterlab-quickopen">JupyterLab Quickopen</a></b> (🥉14 ·  ⭐ 75 · 💤) - 通过在JupyterLab中键入文件的一部分来快速打开文件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/parente/jupyterlab-quickopen) (👨‍💻 5 · 🔀 8 · ⏱️ 12.12.2021):
-
-	```
-	git clone https://github.com/parente/jupyterlab-quickopen
-	```
-- [PyPi](https://pypi.org/project/jupyterlab-quickopen) (📥 430 / month):
-	```
-	pip install jupyterlab-quickopen
-	```
-- [NPM](https://www.npmjs.com/package/@parente/jupyterlab-quickopen) (📥 59 / month):
-	```
-	npm install @parente/jupyterlab-quickopen
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterlab-contrib/jupyterlab-kernelspy">JupyterLab Kernelspy</a></b> (🥉14 ·  ⭐ 68) - Jupyter Lab扩展，用于检查往返于邮件的信息。<code>❗Unlicensed</code></summary>
-
-- [GitHub](https://github.com/jupyterlab-contrib/jupyterlab-kernelspy) (👨‍💻 4 · 🔀 9 · 📦 3 · 📋 13 - 15% open · ⏱️ 20.07.2022):
-
-	```
-	git clone https://github.com/jupyterlab-contrib/jupyterlab-kernelspy
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-kernelspy) (📥 190 / month):
-	```
-	npm install jupyterlab-kernelspy
-	```
-</details>
-<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_autoversion">JupyterLab Autoversion</a></b> (🥉14 ·  ⭐ 58) - 在JupyterLab中Jupyter笔记本的自动版本控制。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/timkpaine/jupyterlab_autoversion) (👨‍💻 5 · 🔀 9 · 📋 32 - 9% open · ⏱️ 21.07.2022):
-
-	```
-	git clone https://github.com/timkpaine/jupyterlab_autoversion
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_autoversion) (📥 84 / month):
-	```
-	pip install jupyterlab_autoversion
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_autoversion) (📥 69 / month):
-	```
-	npm install jupyterlab_autoversion
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-shortcutui">JupyterLab Shortcutui</a></b> (🥉14 ·  ⭐ 55 · 💀) - 一个JupyterLab扩展，用于显示GPU的仪表板。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterlab/jupyterlab-shortcutui) (👨‍💻 8 · 🔀 14 · 📋 13 - 53% open · ⏱️ 17.01.2020):
-
-	```
-	git clone https://github.com/jupyterlab/jupyterlab-shortcutui
-	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/shortcutui) (📥 300 / month):
-	```
-	npm install @jupyterlab/shortcutui
-	```
-</details>
-<details><summary><b><a href="https://github.com/itsjafer/jupyterlab-sparkmonitor">jupyterlab-sparkmonitor</a></b> (🥉13 ·  ⭐ 78) - JupyterLab扩展，可启动监控。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/itsjafer/jupyterlab-sparkmonitor) (👨‍💻 10 · 🔀 20 · 📋 16 - 50% open · ⏱️ 01.04.2022):
-
-	```
-	git clone https://github.com/itsjafer/jupyterlab-sparkmonitor
-	```
-- [PyPi](https://pypi.org/project/jupyterlab-sparkmonitor) (📥 3.4K / month):
-	```
-	pip install jupyterlab-sparkmonitor
-	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_sparkmonitor) (📥 68 / month):
-	```
-	npm install jupyterlab_sparkmonitor
-	```
-- [Docker Hub](https://hub.docker.com/r/itsjafer/sparkmonitor) (📥 290 · ⏱️ 02.06.2021):
-	```
-	docker pull itsjafer/sparkmonitor
-	```
-</details>
-<details><summary><b><a href="https://github.com/jpmorganchase/jupyter-fs">jupyter-fs</a></b> (🥉12 ·  ⭐ 120) - 类似文件系统的内容管理器，用于Jupyter中的多个后端。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/jpmorganchase/jupyter-fs) (👨‍💻 9 · 🔀 24 · 📋 55 - 23% open · ⏱️ 29.04.2022):
+- [GitHub](https://github.com/jpmorganchase/jupyter-fs) (👨‍💻 15 · 🔀 33 · 📦 6 · 📋 76 - 22% open · ⏱️ 11.11.2023):
 
 	```
 	git clone https://github.com/jpmorganchase/jupyter-fs
 	```
-- [PyPi](https://pypi.org/project/jupyter-fs) (📥 300 / month):
+- [PyPi](https://pypi.org/project/jupyter-fs) (📥 850 / month):
 	```
 	pip install jupyter-fs
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-commenting">JupyterLab Commenting</a></b> (🥉12 ·  ⭐ 93 · 💀) - JupyterLab的注释和注释。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/timkpaine/lantern">Lantern</a></b> (🥈16 ·  ⭐ 340) - Data exploration glue. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyterlab-commenting) (👨‍💻 10 · 🔀 22 · 📋 34 - 70% open · ⏱️ 01.05.2020):
+- [GitHub](https://github.com/timkpaine/lantern) (👨‍💻 3 · 🔀 21 · 📦 19 · 📋 200 - 2% open · ⏱️ 05.02.2024):
 
 	```
-	git clone https://github.com/jupyterlab/jupyterlab-commenting
+	git clone https://github.com/timkpaine/lantern
 	```
-- [NPM](https://www.npmjs.com/package/@jupyterlab/commenting-extension) (📥 140 / month):
+- [PyPi](https://pypi.org/project/pylantern) (📥 54 / month):
 	```
-	npm install @jupyterlab/commenting-extension
+	pip install pylantern
 	```
 </details>
-<details><summary><b><a href="https://github.com/jpmorganchase/nbcelltests">nbcelltests</a></b> (🥉12 ·  ⭐ 64) - 用于Jupyter笔记本的逐个cell测试工具。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/bokeh/jupyter_bokeh">Jupyter Bokeh</a></b> (🥈16 ·  ⭐ 240) - An extension for rendering Bokeh content in JupyterLab notebooks. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jpmorganchase/nbcelltests) (👨‍💻 7 · 🔀 16 · 📋 110 - 27% open · ⏱️ 25.08.2022):
+- [GitHub](https://github.com/bokeh/jupyter_bokeh) (👨‍💻 19 · 🔀 46 · 📦 3 · 📋 100 - 17% open · ⏱️ 30.03.2024):
 
 	```
-	git clone https://github.com/jpmorganchase/nbcelltests
+	git clone https://github.com/bokeh/jupyter_bokeh
 	```
-- [PyPi](https://pypi.org/project/nbcelltests) (📥 24 / month):
+- [PyPi](https://pypi.org/project/jupyter-bokeh) (📥 37K / month):
 	```
-	pip install nbcelltests
+	pip install jupyter-bokeh
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_celltests) (📥 23 / month):
+- [NPM](https://www.npmjs.com/package/@bokeh/jupyter_bokeh) (📥 3.1K / month):
 	```
-	npm install jupyterlab_celltests
+	npm install @bokeh/jupyter_bokeh
 	```
 </details>
-<details><summary><b><a href="https://github.com/jtpio/jupyterlab-python-file">JupyterLab Python Files</a></b> (🥉12 ·  ⭐ 52 · 💤) - JupyterLab扩展来创建Python文件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/itsjafer/jupyterlab-sparkmonitor">jupyterlab-sparkmonitor</a></b> (🥈16 ·  ⭐ 91 · 💀) - JupyterLab extension that enables monitoring launched.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jtpio/jupyterlab-python-file) (👨‍💻 4 · 🔀 10 · 📥 77 · 📋 9 - 11% open · ⏱️ 27.08.2021):
+- [GitHub](https://github.com/itsjafer/jupyterlab-sparkmonitor) (👨‍💻 10 · 🔀 25 · 📦 3 · 📋 16 - 50% open · ⏱️ 01.04.2022):
 
 	```
-	git clone https://github.com/jtpio/jupyterlab-python-file
+	git clone https://github.com/itsjafer/jupyterlab-sparkmonitor
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-python-file) (📥 660 / month):
+- [PyPi](https://pypi.org/project/jupyterlab-sparkmonitor) (📥 11K / month):
 	```
-	npm install jupyterlab-python-file
+	pip install jupyterlab-sparkmonitor
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_sparkmonitor) (📥 13 / month):
+	```
+	npm install jupyterlab_sparkmonitor
+	```
+- [Docker Hub](https://hub.docker.com/r/itsjafer/sparkmonitor) (📥 350 · ⏱️ 02.06.2021):
+	```
+	docker pull itsjafer/sparkmonitor
 	```
 </details>
-<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_email">JupyterLab Flake8</a></b> (🥉12 ·  ⭐ 51) - 一个jupyterlab扩展，可以直接从中发送电子邮件笔记本。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jwkvam/jupyterlab-vim">JupyterLab Vim</a></b> (🥉15 ·  ⭐ 960 · 💀) - Vim notebook cell bindings for JupyterLab. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/timkpaine/jupyterlab_email) (👨‍💻 2 · 🔀 2 · 📋 36 - 11% open · ⏱️ 21.07.2022):
+- [GitHub](https://github.com/jwkvam/jupyterlab-vim) (👨‍💻 8 · 🔀 73 · 📦 3 · 📋 100 - 55% open · ⏱️ 16.07.2019):
 
 	```
-	git clone https://github.com/timkpaine/jupyterlab_email
+	git clone https://github.com/jwkvam/jupyterlab-vim
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-flake8) (📥 200 / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab_vim) (📥 130 / month):
 	```
-	npm install jupyterlab-flake8
+	npm install jupyterlab_vim
 	```
 </details>
-<details><summary><b><a href="https://github.com/timkpaine/knowledgelab">KnowledgeLab</a></b> (🥉12 ·  ⭐ 45) - KnowledgeRepo + JupyterLab. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/deshaw/jupyterlab-execute-time">jupyterlab-execute-time</a></b> (🥉15 ·  ⭐ 330) - Execute Time Plugin for Jupyter Lab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/timkpaine/knowledgelab) (👨‍💻 3 · 🔀 6 · 📦 2 · 📋 27 - 11% open · ⏱️ 13.06.2022):
+- [GitHub](https://github.com/deshaw/jupyterlab-execute-time) (👨‍💻 17 · 🔀 45 · 📦 4 · 📋 65 - 13% open · ⏱️ 27.03.2024):
 
 	```
-	git clone https://github.com/timkpaine/knowledgelab
+	git clone https://github.com/deshaw/jupyterlab-execute-time
 	```
-- [PyPi](https://pypi.org/project/knowledgelab) (📥 10 / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-execute-time) (📥 1.1K / month):
 	```
-	pip install knowledgelab
-	```
-- [NPM](https://www.npmjs.com/package/knowledgelab) (📥 12 / month):
-	```
-	npm install knowledgelab
+	npm install jupyterlab-execute-time
 	```
 </details>
-<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_commands">jupyterlab_commands</a></b> (🥉12 ·  ⭐ 37) - Add arbitrary python commands to the jupyterlab.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/chesterli29/jupyterlab_tensorboard">JupyterLab Tensorboard</a></b> (🥉15 ·  ⭐ 310 · 💀) - Tensorboard extension for jupyterlab. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/timkpaine/jupyterlab_commands) (👨‍💻 2 · 🔀 5 · 📦 3 · 📋 24 - 8% open · ⏱️ 21.07.2022):
+- [GitHub](https://github.com/chesterli29/jupyterlab_tensorboard) (👨‍💻 7 · 🔀 33 · 📦 5 · 📋 30 - 66% open · ⏱️ 18.07.2022):
 
 	```
-	git clone https://github.com/timkpaine/jupyterlab_commands
+	git clone https://github.com/chaoleili/jupyterlab_tensorboard
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_tensorboard) (📥 7.7K / month):
+	```
+	npm install jupyterlab_tensorboard
 	```
 </details>
-<details><summary><b><a href="https://github.com/krassowski/jupyterlab-lsp">JupyterLab LSP</a></b> (🥉12 · 📉) - JupyterLab的编码帮助（代码导航+悬停）。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/krassowski/jupyterlab-go-to-definition">JupyterLab Go-To-Definition</a></b> (🥉15 ·  ⭐ 220 · 💀) - Navigate to variable's definition with a click in.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/krassowski/jupyterlab-lsp) (👨‍💻 43 · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/krassowski/jupyterlab-go-to-definition) (👨‍💻 2 · 🔀 9 · 📦 17 · 📋 23 - 43% open · ⏱️ 28.07.2021):
+
+	```
+	git clone https://github.com/krassowski/jupyterlab-go-to-definition
+	```
+- [NPM](https://www.npmjs.com/package/@krassowski/jupyterlab_go_to_definition) (📥 280 / month):
+	```
+	npm install @krassowski/jupyterlab_go_to_definition
+	```
+</details>
+<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_iframe">JupyterLab IFrame</a></b> (🥉15 ·  ⭐ 100) - JupyterLab iframe widget. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/timkpaine/jupyterlab_iframe) (👨‍💻 5 · 🔀 18 · 📦 6 · 📋 68 - 5% open · ⏱️ 06.02.2024):
+
+	```
+	git clone https://github.com/timkpaine/jupyterlab_iframe
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_iframe) (📥 1.4K / month):
+	```
+	pip install jupyterlab_iframe
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_iframe) (📥 91 / month):
+	```
+	npm install jupyterlab_iframe
+	```
+</details>
+<details><summary><b><a href="https://github.com/vatlab/jupyterlab-sos">jupyterlab-sos</a></b> (🥉15 ·  ⭐ 68 · 💤) - Jupyterlab extension for SoS Polyglot Notebook and Workflow.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/vatlab/jupyterlab-sos) (👨‍💻 4 · 🔀 6 · 📦 3 · 📋 63 - 17% open · ⏱️ 30.09.2023):
+
+	```
+	git clone https://github.com/vatlab/jupyterlab-sos
+	```
+- [Conda](https://anaconda.org/conda-forge/jupyterlab-sos) (📥 33K · ⏱️ 16.06.2023):
+	```
+	conda install -c conda-forge jupyterlab-sos
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-sos) (📥 33 / month):
+	```
+	npm install jupyterlab-sos
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-data-explorer">JupyterLab Data Explorer</a></b> (🥉14 ·  ⭐ 180 · 💤) - First class datasets in JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/jupyterlab-data-explorer) (👨‍💻 10 · 🔀 37 · 📦 14 · ⏱️ 08.08.2023):
+
+	```
+	git clone https://github.com/jupyterlab/jupyterlab-data-explorer
+	```
+- [NPM](https://www.npmjs.com/package/@jupyterlab/dataregistry-extension) (📥 12 / month):
+	```
+	npm install @jupyterlab/dataregistry-extension
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-hdf5">JupyterLab HDF5</a></b> (🥉14 ·  ⭐ 120) - Open and explore HDF5 files in JupyterLab. Can handle very.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/jupyterlab-hdf5) (👨‍💻 9 · 🔀 26 · 📦 3 · 📋 50 - 28% open · ⏱️ 11.10.2023):
+
+	```
+	git clone https://github.com/jupyterlab/jupyterlab-hdf5
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_hdf) (📥 420 / month):
+	```
+	pip install jupyterlab_hdf
+	```
+- [NPM](https://www.npmjs.com/package/@jupyterlab/hdf5) (📥 57 / month):
+	```
+	npm install @jupyterlab/hdf5
+	```
+</details>
+<details><summary><b><a href="https://github.com/krassowski/jupyterlab-lsp">JupyterLab LSP</a></b> (🥉14 ·  ⭐ 91) - Coding assistance for JupyterLab (code navigation + hover.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/krassowski/jupyterlab-lsp) (👨‍💻 51 · 📦 26 · ⏱️ 04.02.2024):
 
 	```
 	git clone https://github.com/krassowski/jupyterlab-lsp
 	```
-- [NPM](https://www.npmjs.com/package/@krassowski/jupyterlab-lsp) (📥 4.4K / month):
+- [NPM](https://www.npmjs.com/package/@krassowski/jupyterlab-lsp) (📥 1.2K / month):
 	```
 	npm install @krassowski/jupyterlab-lsp
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-celltags">jupyterlab-celltags</a></b> (🥉11 ·  ⭐ 110 · 💀) - 一个JupyterLab扩展，用于显示GPU的仪表板。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/parente/jupyterlab-quickopen">JupyterLab Quickopen</a></b> (🥉14 ·  ⭐ 76 · 💀) - Quickly open a file in JupyterLab by typing part of.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterlab/jupyterlab-celltags) (👨‍💻 10 · 🔀 25 · 📋 18 - 61% open · ⏱️ 29.04.2020):
+- [GitHub](https://github.com/parente/jupyterlab-quickopen) (👨‍💻 5 · 🔀 10 · 📦 3 · ⏱️ 12.12.2021):
+
+	```
+	git clone https://github.com/parente/jupyterlab-quickopen
+	```
+- [PyPi](https://pypi.org/project/jupyterlab-quickopen) (📥 300 / month):
+	```
+	pip install jupyterlab-quickopen
+	```
+- [NPM](https://www.npmjs.com/package/@parente/jupyterlab-quickopen) (📥 100 / month):
+	```
+	npm install @parente/jupyterlab-quickopen
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-shortcutui">JupyterLab Shortcutui</a></b> (🥉14 ·  ⭐ 54 · 💤) - A JupyterLab extension for managing keyboard shortcuts. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/jupyterlab-shortcutui) (👨‍💻 9 · 🔀 14 · 📦 3 · ⏱️ 08.08.2023):
+
+	```
+	git clone https://github.com/jupyterlab/jupyterlab-shortcutui
+	```
+- [NPM](https://www.npmjs.com/package/@jupyterlab/shortcutui) (📥 91 / month):
+	```
+	npm install @jupyterlab/shortcutui
+	```
+</details>
+<details><summary><b><a href="https://github.com/microsoft/gather">nbgather</a></b> (🥉13 ·  ⭐ 520 · 💀) - Spit shine for Jupyter notebooks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/microsoft/gather) (👨‍💻 13 · 🔀 35 · 📦 3 · 📋 28 - 35% open · ⏱️ 28.11.2022):
+
+	```
+	git clone https://github.com/microsoft/gather
+	```
+- [NPM](https://www.npmjs.com/package/nbgather) (📥 18 / month):
+	```
+	npm install nbgather
+	```
+</details>
+<details><summary><b><a href="https://github.com/pbugnion/jupyterlab-sql">JupyterLab SQL</a></b> (🥉13 ·  ⭐ 410 · 💀) - SQL GUI for JupyterLab. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/pbugnion/jupyterlab-sql) (👨‍💻 2 · 🔀 48 · 📋 75 - 50% open · ⏱️ 04.01.2020):
+
+	```
+	git clone https://github.com/pbugnion/jupyterlab-sql
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_sql) (📥 340 / month):
+	```
+	pip install jupyterlab_sql
+	```
+</details>
+<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_autoversion">JupyterLab Autoversion</a></b> (🥉13 ·  ⭐ 71) - Automatically version jupyter notebooks in JupyterLab. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/timkpaine/jupyterlab_autoversion) (👨‍💻 5 · 🔀 9 · 📋 35 - 17% open · ⏱️ 10.04.2024):
+
+	```
+	git clone https://github.com/timkpaine/jupyterlab_autoversion
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_autoversion) (📥 150 / month):
+	```
+	pip install jupyterlab_autoversion
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_autoversion) (📥 19 / month):
+	```
+	npm install jupyterlab_autoversion
+	```
+</details>
+<details><summary><b><a href="https://github.com/aquirdTurtle/Collapsible_Headings">Collapsible Headings</a></b> (🥉12 ·  ⭐ 180 · 💀) - Implements Collapsible Headers for Jupyter Lab.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/aquirdTurtle/Collapsible_Headings) (👨‍💻 6 · 🔀 8 · 📋 33 - 33% open · ⏱️ 22.05.2021):
+
+	```
+	git clone https://github.com/aquirdTurtle/Collapsible_Headings
+	```
+- [NPM](https://www.npmjs.com/package/@aquirdturtle/collapsible_headings) (📥 300 / month):
+	```
+	npm install @aquirdturtle/collapsible_headings
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-commenting">JupyterLab Commenting</a></b> (🥉12 ·  ⭐ 99 · 💀) - Commenting and annotation for JupyterLab. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/jupyterlab-commenting) (👨‍💻 10 · 🔀 23 · 📦 3 · 📋 35 - 71% open · ⏱️ 01.05.2020):
+
+	```
+	git clone https://github.com/jupyterlab/jupyterlab-commenting
+	```
+- [NPM](https://www.npmjs.com/package/@jupyterlab/commenting-extension) (📥 6 / month):
+	```
+	npm install @jupyterlab/commenting-extension
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab-contrib/jupyterlab-kernelspy">JupyterLab Kernelspy</a></b> (🥉12 ·  ⭐ 79) - A Jupyter Lab extension for inspecting messages.. <code>❗Unlicensed</code></summary>
+
+- [GitHub](https://github.com/jupyterlab-contrib/jupyterlab-kernelspy) (👨‍💻 6 · 🔀 12 · 📥 29 · 📦 7 · 📋 13 - 15% open · ⏱️ 08.10.2023):
+
+	```
+	git clone https://github.com/jupyterlab-contrib/jupyterlab-kernelspy
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-kernelspy) (📥 31 / month):
+	```
+	npm install jupyterlab-kernelspy
+	```
+</details>
+<details><summary><b><a href="https://github.com/jtpio/jupyterlab-python-file">JupyterLab Python Files</a></b> (🥉12 ·  ⭐ 52 · 💀) - JupyterLab extension to create Python files. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jtpio/jupyterlab-python-file) (👨‍💻 4 · 🔀 11 · 📥 99 · 📦 3 · 📋 9 - 11% open · ⏱️ 27.08.2021):
+
+	```
+	git clone https://github.com/jtpio/jupyterlab-python-file
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-python-file) (📥 82 / month):
+	```
+	npm install jupyterlab-python-file
+	```
+</details>
+<details><summary><b><a href="https://github.com/timkpaine/knowledgelab">KnowledgeLab</a></b> (🥉12 ·  ⭐ 47) - KnowledgeRepo + JupyterLab. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/timkpaine/knowledgelab) (👨‍💻 3 · 🔀 6 · 📦 6 · 📋 27 - 11% open · ⏱️ 01.03.2024):
+
+	```
+	git clone https://github.com/timkpaine/knowledgelab
+	```
+- [PyPi](https://pypi.org/project/knowledgelab) (📥 6 / month):
+	```
+	pip install knowledgelab
+	```
+- [NPM](https://www.npmjs.com/package/knowledgelab) (📥 10 / month):
+	```
+	npm install knowledgelab
+	```
+</details>
+<details><summary><b><a href="https://github.com/jtpio/jupyterlab-topbar">JupyterLab Top Bar</a></b> (🥉12 ·  ⭐ 5) - JupyterLab Top Bar extension. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jtpio/jupyterlab-topbar) (👨‍💻 5 · 🔀 2 · 📦 40 · ⏱️ 21.02.2024):
+
+	```
+	git clone https://github.com/jtpio/jupyterlab-topbar
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab-topbar-extension) (📥 1.6K / month):
+	```
+	npm install jupyterlab-topbar-extension
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterlab/jupyterlab-celltags">jupyterlab-celltags</a></b> (🥉11 ·  ⭐ 110 · 💀) - A JupyterLab extension for notebook cell tags. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterlab/jupyterlab-celltags) (👨‍💻 10 · 🔀 27 · 📋 18 - 61% open · ⏱️ 29.04.2020):
 
 	```
 	git clone https://github.com/jupyterlab/jupyterlab-celltags
 	```
 </details>
-<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_email">JupyterLab Email</a></b> (🥉11 ·  ⭐ 51) - 一个jupyterlab扩展，可以直接从中发送电子邮件笔记本。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/jpmorganchase/nbcelltests">nbcelltests</a></b> (🥉11 ·  ⭐ 81 · 💀) - Cell-by-cell testing for production Jupyter notebooks in.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/timkpaine/jupyterlab_email) (👨‍💻 2 · 🔀 2 · 📋 36 - 11% open · ⏱️ 21.07.2022):
+- [GitHub](https://github.com/jpmorganchase/nbcelltests) (👨‍💻 7 · 🔀 20 · 📦 3 · 📋 120 - 26% open · ⏱️ 07.12.2022):
 
 	```
-	git clone https://github.com/timkpaine/jupyterlab_email
+	git clone https://github.com/jpmorganchase/nbcelltests
 	```
-- [PyPi](https://pypi.org/project/jupyterlab_email) (📥 61 / month):
+- [PyPi](https://pypi.org/project/nbcelltests) (📥 15 / month):
 	```
-	pip install jupyterlab_email
+	pip install nbcelltests
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_email) (📥 21 / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab_celltests) (📥 4 / month):
 	```
-	npm install jupyterlab_email
+	npm install jupyterlab_celltests
 	```
 </details>
-<details><summary><b><a href="https://github.com/mlshapiro/jupyterlab-flake8">jupyterlab-flake8</a></b> (🥉10 ·  ⭐ 110 · 💤) - Jupyterlab用于笔记本和文本文件的python连接器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mlshapiro/jupyterlab-flake8">jupyterlab-flake8</a></b> (🥉10 ·  ⭐ 110 · 💀) - Jupyterlab python linter for notebooks and text files.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/mlshapiro/jupyterlab-flake8) (👨‍💻 5 · 🔀 10 · 📋 39 - 15% open · ⏱️ 16.09.2021):
+- [GitHub](https://github.com/mlshapiro/jupyterlab-flake8) (👨‍💻 5 · 🔀 10 · 📦 3 · 📋 41 - 19% open · ⏱️ 16.09.2021):
 
 	```
 	git clone https://github.com/mlshapiro/jupyterlab-flake8
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-flake8) (📥 200 / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-flake8) (📥 47 / month):
 	```
 	npm install jupyterlab-flake8
 	```
 </details>
-<details><summary><b><a href="https://github.com/ReviewNB/jupyterlab-gitplus">jupyterlab-gitplus</a></b> (🥉9 ·  ⭐ 94 · 💤) - JupyterLab扩展来创建Python文件。<code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/jtpio/jupyterlab-python-bytecode">JupyterLab Bytecode</a></b> (🥉10 ·  ⭐ 62 · 💀) - JupyterLab extension to explore CPython Bytecode. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/ReviewNB/jupyterlab-gitplus) (👨‍💻 2 · 🔀 7 · 📋 10 - 20% open · ⏱️ 06.08.2021):
-
-	```
-	git clone https://github.com/ReviewNB/jupyterlab-gitplus
-	```
-- [PyPi](https://pypi.org/project/jupyterlab_gitplus) (📥 150 / month):
-	```
-	pip install jupyterlab_gitplus
-	```
-- [NPM](https://www.npmjs.com/package/@reviewnb/jupyterlab_gitplus) (📥 95 / month):
-	```
-	npm install @reviewnb/jupyterlab_gitplus
-	```
-</details>
-<details><summary><b><a href="https://github.com/jtpio/jupyterlab-python-bytecode">JupyterLab Bytecode</a></b> (🥉9 ·  ⭐ 59 · 💀) - JupyterLab扩展，以探索CPython字节码。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jtpio/jupyterlab-python-bytecode) (👨‍💻 2 · 🔀 6 · 📋 5 - 40% open · ⏱️ 16.10.2020):
+- [GitHub](https://github.com/jtpio/jupyterlab-python-bytecode) (👨‍💻 2 · 🔀 6 · 📦 3 · 📋 5 - 40% open · ⏱️ 16.10.2020):
 
 	```
 	git clone https://github.com/jtpio/jupyterlab-python-bytecode
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-python-bytecode) (📥 19 / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-python-bytecode) (📥 24 / month):
 	```
 	npm install jupyterlab-python-bytecode
 	```
 </details>
-<details><summary><b><a href="https://github.com/manuzhang/jupyterlab_spark">JupyterLab Spark</a></b> (🥉9 ·  ⭐ 9 · 💤) - JupyterLab的Spark应用程序UI扩展。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_email">JupyterLab Email</a></b> (🥉10 ·  ⭐ 52) - A jupyterlab extension to email notebooks directly from.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/manuzhang/jupyterlab_spark) (👨‍💻 2 · 🔀 2 · 📋 5 - 40% open · ⏱️ 05.09.2021):
+- [GitHub](https://github.com/timkpaine/jupyterlab_email) (👨‍💻 2 · 🔀 2 · 📦 1 · 📋 38 - 5% open · ⏱️ 06.02.2024):
 
 	```
-	git clone https://github.com/manuzhang/jupyterlab_spark
+	git clone https://github.com/timkpaine/jupyterlab_email
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab_spark) (📥 69 / month):
+- [PyPi](https://pypi.org/project/jupyterlab_email) (📥 60 / month):
 	```
-	npm install jupyterlab_spark
+	pip install jupyterlab_email
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_email) (📥 29 / month):
+	```
+	npm install jupyterlab_email
 	```
 </details>
-<details><summary><b><a href="https://github.com/jtpio/jupyterlab-topbar">JupyterLab Top Bar</a></b> (🥉9 ·  ⭐ 3 · 💤) - JupyterLab顶部栏扩展。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_email">JupyterLab Flake8</a></b> (🥉10 ·  ⭐ 52) - A jupyterlab extension to email notebooks directly from.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jtpio/jupyterlab-topbar) (👨‍💻 4 · 🔀 1 · ⏱️ 07.12.2021):
+- [GitHub](https://github.com/timkpaine/jupyterlab_email) (👨‍💻 2 · 🔀 2 · 📦 1 · 📋 38 - 5% open · ⏱️ 06.02.2024):
 
 	```
-	git clone https://github.com/jtpio/jupyterlab-topbar
+	git clone https://github.com/timkpaine/jupyterlab_email
 	```
-- [NPM](https://www.npmjs.com/package/jupyterlab-topbar-extension) (📥 3.9K / month):
+- [NPM](https://www.npmjs.com/package/jupyterlab-flake8) (📥 47 / month):
 	```
-	npm install jupyterlab-topbar-extension
+	npm install jupyterlab-flake8
 	```
 </details>
-<details><summary><b><a href="https://github.com/gavincyi/jupyterlab-executor">jupyterlab-executor</a></b> (🥉8 ·  ⭐ 5 · 💀) - JupyterLab扩展，以探索CPython字节码。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/timkpaine/jupyterlab_commands">jupyterlab_commands</a></b> (🥉10 ·  ⭐ 50) - Add arbitrary python commands to the jupyterlab.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/gavincyi/jupyterlab-executor) (👨‍💻 2 · 📥 3 · ⏱️ 24.03.2021):
+- [GitHub](https://github.com/timkpaine/jupyterlab_commands) (👨‍💻 2 · 🔀 6 · 📋 24 - 4% open · ⏱️ 05.02.2024):
+
+	```
+	git clone https://github.com/timkpaine/jupyterlab_commands
+	```
+</details>
+<details><summary><b><a href="https://github.com/gavincyi/jupyterlab-executor">jupyterlab-executor</a></b> (🥉10 ·  ⭐ 13 · 💤) - JupyterLab extension to execute the scripts from the.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/gavincyi/jupyterlab-executor) (👨‍💻 2 · 🔀 1 · 📥 4 · 📦 3 · 📋 3 - 33% open · ⏱️ 10.09.2023):
 
 	```
 	git clone https://github.com/gavincyi/jupyterlab-executor
 	```
-- [PyPi](https://pypi.org/project/jupyterlab-executor) (📥 53 / month):
+- [PyPi](https://pypi.org/project/jupyterlab-executor) (📥 400 / month):
 	```
 	pip install jupyterlab-executor
 	```
-- [NPM](https://www.npmjs.com/package/@gavincyi/jupyterlab-executor) (📥 34 / month):
+- [NPM](https://www.npmjs.com/package/@gavincyi/jupyterlab-executor) (📥 13 / month):
 	```
 	npm install @gavincyi/jupyterlab-executor
 	```
 </details>
+<details><summary><b><a href="https://github.com/ReviewNB/jupyterlab-gitplus">jupyterlab-gitplus</a></b> (🥉9 ·  ⭐ 110 · 💀) - JupyterLab extension to create GitHub commits & pull.. <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/ReviewNB/jupyterlab-gitplus) (👨‍💻 2 · 🔀 8 · 📦 3 · 📋 11 - 18% open · ⏱️ 28.02.2023):
+
+	```
+	git clone https://github.com/ReviewNB/jupyterlab-gitplus
+	```
+- [PyPi](https://pypi.org/project/jupyterlab_gitplus) (📥 21 / month):
+	```
+	pip install jupyterlab_gitplus
+	```
+- [NPM](https://www.npmjs.com/package/@reviewnb/jupyterlab_gitplus) (📥 7 / month):
+	```
+	npm install @reviewnb/jupyterlab_gitplus
+	```
+</details>
+<details><summary><b><a href="https://github.com/manuzhang/jupyterlab_spark">JupyterLab Spark</a></b> (🥉9 ·  ⭐ 9 · 💀) - Spark Application UI extension for JupyterLab. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/manuzhang/jupyterlab_spark) (👨‍💻 2 · 🔀 2 · 📦 3 · 📋 5 - 40% open · ⏱️ 05.09.2021):
+
+	```
+	git clone https://github.com/manuzhang/jupyterlab_spark
+	```
+- [NPM](https://www.npmjs.com/package/jupyterlab_spark) (📥 13 / month):
+	```
+	npm install jupyterlab_spark
+	```
+</details>
 <br>
 
-## JupyterHub认证
+## JupyterHub Authenticators
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_管理和控制用户如何访问JupyterHub部署的身份验证模块。_
+_Authentication modules that manage and control how users can access the JupyterHub deployment._
 
-<details><summary><b><a href="https://github.com/jupyterhub/oauthenticator">OAuthenticator</a></b> (🥇22 ·  ⭐ 340) - OAuth + JupyterHub Authenticator = OAuthenticator. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/oauthenticator">OAuthenticator</a></b> (🥇22 ·  ⭐ 400) - OAuth + JupyterHub Authenticator = OAuthenticator. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/oauthenticator) (👨‍💻 110 · 🔀 310 · 📦 290 · 📋 230 - 13% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/jupyterhub/oauthenticator) (👨‍💻 120 · 🔀 340 · 📦 410 · 📋 300 - 15% open · ⏱️ 02.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/oauthenticator
 	```
-- [PyPi](https://pypi.org/project/oauthenticator) (📥 40K / month):
+- [PyPi](https://pypi.org/project/oauthenticator) (📥 41K / month):
 	```
 	pip install oauthenticator
 	```
-- [Conda](https://anaconda.org/conda-forge/oauthenticator) (📥 27K · ⏱️ 09.06.2022):
+- [Conda](https://anaconda.org/conda-forge/oauthenticator) (📥 48K · ⏱️ 20.03.2024):
 	```
 	conda install -c conda-forge oauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/ldapauthenticator">LDAP Authenticator</a></b> (🥇22 ·  ⭐ 180 · 💀) - 用于Jupyter的LDAP Authenticator插件。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/ldapauthenticator">LDAP Authenticator</a></b> (🥇22 ·  ⭐ 200) - LDAP Authenticator Plugin for Jupyter. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/ldapauthenticator) (👨‍💻 31 · 🔀 150 · 📦 95 · 📋 140 - 41% open · ⏱️ 27.06.2021):
+- [GitHub](https://github.com/jupyterhub/ldapauthenticator) (👨‍💻 32 · 🔀 170 · 📦 130 · 📋 150 - 43% open · ⏱️ 02.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/ldapauthenticator
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-ldapauthenticator) (📥 6.5K / month):
+- [PyPi](https://pypi.org/project/jupyterhub-ldapauthenticator) (📥 16K / month):
 	```
 	pip install jupyterhub-ldapauthenticator
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyterhub-ldapauthenticator) (📥 26K · ⏱️ 28.08.2020):
+- [Conda](https://anaconda.org/conda-forge/jupyterhub-ldapauthenticator) (📥 34K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge jupyterhub-ldapauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/ltiauthenticator">LTI Authenticator</a></b> (🥈18 ·  ⭐ 55) - 用于LTI的JupyterHub身份验证器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/nativeauthenticator">Native Authenticator</a></b> (🥈20 ·  ⭐ 69) - JupyterHub-native user authenticator. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/ltiauthenticator) (👨‍💻 15 · 🔀 42 · 📦 78 · ⏱️ 22.08.2022):
-
-	```
-	git clone https://github.com/jupyterhub/ltiauthenticator
-	```
-- [PyPi](https://pypi.org/project/jupyterhub-ltiauthenticator) (📥 2.6K / month):
-	```
-	pip install jupyterhub-ltiauthenticator
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyterhub/nativeauthenticator">Native Authenticator</a></b> (🥈18 ·  ⭐ 53) - JupyterHub本地用户身份验证器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyterhub/nativeauthenticator) (👨‍💻 21 · 🔀 52 · 📦 40 · 📋 93 - 25% open · ⏱️ 03.08.2022):
+- [GitHub](https://github.com/jupyterhub/nativeauthenticator) (👨‍💻 22 · 🔀 62 · 📦 76 · 📋 110 - 31% open · ⏱️ 02.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/nativeauthenticator
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-nativeauthenticator) (📥 4.8K / month):
+- [PyPi](https://pypi.org/project/jupyterhub-nativeauthenticator) (📥 13K / month):
 	```
 	pip install jupyterhub-nativeauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/firstuseauthenticator">First Use Authenticator</a></b> (🥈16 ·  ⭐ 40 · 💤) - JupyterHub Authenticator，可以让用户进行设置。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/ltiauthenticator">LTI Authenticator</a></b> (🥈18 ·  ⭐ 63) - A JupyterHub authenticator for LTI. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/firstuseauthenticator) (👨‍💻 12 · 🔀 21 · 📦 66 · 📋 23 - 26% open · ⏱️ 28.10.2021):
+- [GitHub](https://github.com/jupyterhub/ltiauthenticator) (👨‍💻 18 · 🔀 49 · 📦 110 · 📋 50 - 6% open · ⏱️ 02.04.2024):
+
+	```
+	git clone https://github.com/jupyterhub/ltiauthenticator
+	```
+- [PyPi](https://pypi.org/project/jupyterhub-ltiauthenticator) (📥 4.8K / month):
+	```
+	pip install jupyterhub-ltiauthenticator
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterhub/firstuseauthenticator">First Use Authenticator</a></b> (🥈17 ·  ⭐ 48 · 💤) - JupyterHub Authenticator that lets users set.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterhub/firstuseauthenticator) (👨‍💻 12 · 🔀 29 · 📦 99 · 📋 26 - 34% open · ⏱️ 30.06.2023):
 
 	```
 	git clone https://github.com/jupyterhub/firstuseauthenticator
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-firstuseauthenticator) (📥 3.8K / month):
+- [PyPi](https://pypi.org/project/jupyterhub-firstuseauthenticator) (📥 9.4K / month):
 	```
 	pip install jupyterhub-firstuseauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/dummyauthenticator">dummyauthenticator</a></b> (🥈14 ·  ⭐ 28 · 💀) - 虚拟的JupyterHub Authenticator使测试变得容易。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/mogthesprog/jwtauthenticator">JWT Authenticator</a></b> (🥈14 ·  ⭐ 53 · 💀) - A Token Authenticator for JupyterHub. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/dummyauthenticator) (🔀 14 · 📦 100 · 📋 7 - 71% open · ⏱️ 12.02.2021):
-
-	```
-	git clone https://github.com/jupyterhub/dummyauthenticator
-	```
-- [PyPi](https://pypi.org/project/jupyterhub-dummyauthenticator) (📥 4.2K / month):
-	```
-	pip install jupyterhub-dummyauthenticator
-	```
-</details>
-<details><summary><b><a href="https://github.com/mogthesprog/jwtauthenticator">JWT Authenticator</a></b> (🥉13 ·  ⭐ 41 · 💀) - JupyterHub的令牌验证器。<code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
-
-- [GitHub](https://github.com/mogthesprog/jwtauthenticator) (👨‍💻 7 · 🔀 37 · 📦 8 · 📋 17 - 52% open · ⏱️ 13.02.2019):
+- [GitHub](https://github.com/mogthesprog/jwtauthenticator) (👨‍💻 7 · 🔀 41 · 📦 15 · 📋 17 - 52% open · ⏱️ 13.02.2019):
 
 	```
 	git clone https://github.com/mogthesprog/jwtauthenticator
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-jwtauthenticator) (📥 290 / month):
+- [PyPi](https://pypi.org/project/jupyterhub-jwtauthenticator) (📥 190 / month):
 	```
 	pip install jupyterhub-jwtauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/nullauthenticator">Null Authenticator</a></b> (🥉13 ·  ⭐ 7) - Null Authenticator for JupyterHub instances that should have.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/HewlettPackard/jupyterhub-samlauthenticator">SAML Authenticator</a></b> (🥈14 ·  ⭐ 36 · 💀) - jupyterhub-samlauthenticator. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/nullauthenticator) (👨‍💻 7 · 🔀 9 · 📦 83 · ⏱️ 17.05.2022):
-
-	```
-	git clone https://github.com/jupyterhub/nullauthenticator
-	```
-- [PyPi](https://pypi.org/project/nullauthenticator) (📥 2.2K / month):
-	```
-	pip install nullauthenticator
-	```
-</details>
-<details><summary><b><a href="https://github.com/HewlettPackard/jupyterhub-samlauthenticator">SAML Authenticator</a></b> (🥉12 ·  ⭐ 33) - jupyterhub-samlauthenticator。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
-
-- [GitHub](https://github.com/HewlettPackard/jupyterhub-samlauthenticator) (👨‍💻 7 · 🔀 20 · 📥 13 · 📋 28 - 50% open · ⏱️ 21.03.2022):
+- [GitHub](https://github.com/HewlettPackard/jupyterhub-samlauthenticator) (👨‍💻 7 · 🔀 22 · 📥 13 · 📋 32 - 53% open · ⏱️ 21.03.2022):
 
 	```
 	git clone https://github.com/HewlettPackard/jupyterhub-samlauthenticator
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-samlauthenticator) (📥 460 / month):
+- [PyPi](https://pypi.org/project/jupyterhub-samlauthenticator) (📥 1.1K / month):
 	```
 	pip install jupyterhub-samlauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/cwaldbieser/jhub_remote_user_authenticator">Remote User Auth</a></b> (🥉11 ·  ⭐ 33 · 💀) - Jupyterhub的REMOTE_USER身份验证器。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/dummyauthenticator">dummyauthenticator</a></b> (🥈14 ·  ⭐ 28 · 💀) - A Dummy JupyterHub Authenticator to make testing easy. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/cwaldbieser/jhub_remote_user_authenticator) (👨‍💻 5 · 🔀 25 · 📋 19 - 42% open · ⏱️ 16.04.2019):
+- [GitHub](https://github.com/jupyterhub/dummyauthenticator) (🔀 14 · 📦 120 · 📋 7 - 71% open · ⏱️ 12.02.2021):
+
+	```
+	git clone https://github.com/jupyterhub/dummyauthenticator
+	```
+- [PyPi](https://pypi.org/project/jupyterhub-dummyauthenticator) (📥 2K / month):
+	```
+	pip install jupyterhub-dummyauthenticator
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterhub/nullauthenticator">Null Authenticator</a></b> (🥉13 ·  ⭐ 9 · 💀) - Null Authenticator for JupyterHub instances that should.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/jupyterhub/nullauthenticator) (👨‍💻 7 · 🔀 10 · 📦 120 · ⏱️ 17.05.2022):
+
+	```
+	git clone https://github.com/jupyterhub/nullauthenticator
+	```
+- [PyPi](https://pypi.org/project/nullauthenticator) (📥 5.2K / month):
+	```
+	pip install nullauthenticator
+	```
+</details>
+<details><summary><b><a href="https://github.com/cwaldbieser/jhub_remote_user_authenticator">Remote User Auth</a></b> (🥉12 ·  ⭐ 40 · 💀) - REMOTE_USER authenticator for Jupyterhub. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/cwaldbieser/jhub_remote_user_authenticator) (👨‍💻 5 · 🔀 26 · 📋 20 - 45% open · ⏱️ 16.04.2019):
 
 	```
 	git clone https://github.com/cwaldbieser/jhub_remote_user_authenticator
 	```
-- [PyPi](https://pypi.org/project/jhub_remote_user_authenticator) (📥 290 / month):
+- [PyPi](https://pypi.org/project/jhub_remote_user_authenticator) (📥 1.2K / month):
 	```
 	pip install jhub_remote_user_authenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/cwaldbieser/jhub_cas_authenticator">CAS Authenticator</a></b> (🥉10 ·  ⭐ 18) - Jupyterhub的CAS验证器。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+<details><summary><b><a href="https://github.com/ucphhpc/jhub-authenticators">Remote Authenticator</a></b> (🥉11 ·  ⭐ 1) - A collection of JupyterHub Authenticators, including.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
 
-- [GitHub](https://github.com/cwaldbieser/jhub_cas_authenticator) (👨‍💻 4 · 🔀 10 · 📋 12 - 16% open · ⏱️ 28.07.2022):
-
-	```
-	git clone https://github.com/cwaldbieser/jhub_cas_authenticator
-	```
-- [PyPi](https://pypi.org/project/jhub_cas_authenticator) (📥 220 / month):
-	```
-	pip install jhub_cas_authenticator
-	```
-</details>
-<details><summary><b><a href="https://github.com/thedataincubator/jupyterhub-hashauthenticator">Hash Authenticator</a></b> (🥉9 ·  ⭐ 4 · 💀) - 使用从其生成的密码对用户进行身份验证。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/thedataincubator/jupyterhub-hashauthenticator) (👨‍💻 3 · 🔀 3 · ⏱️ 09.03.2021):
-
-	```
-	git clone https://github.com/thedataincubator/jupyterhub-hashauthenticator
-	```
-- [PyPi](https://pypi.org/project/jupyterhub-hashauthenticator) (📥 36 / month):
-	```
-	pip install jupyterhub-hashauthenticator
-	```
-</details>
-<details><summary><b><a href="https://github.com/ucphhpc/jhub-authenticators">Remote Authenticator</a></b> (🥉9 ·  ⭐ 1) - JupyterHub Authenticators的集合。<code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
-
-- [GitHub](https://github.com/ucphhpc/jhub-authenticators) (👨‍💻 5 · 🔀 1 · 📦 1 · ⏱️ 15.04.2022):
+- [GitHub](https://github.com/ucphhpc/jhub-authenticators) (👨‍💻 6 · 🔀 1 · 📦 1 · ⏱️ 21.03.2024):
 
 	```
 	git clone https://github.com/rasmunk/jhub-authenticators
 	```
-- [PyPi](https://pypi.org/project/jhub-authenticators) (📥 78 / month):
+- [PyPi](https://pypi.org/project/jhub-authenticators) (📥 380 / month):
 	```
 	pip install jhub-authenticators
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/kerberosauthenticator">Keberos Authenticator</a></b> (🥉8 ·  ⭐ 10 · 💀) - 用于LTI的JupyterHub身份验证器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/cwaldbieser/jhub_cas_authenticator">CAS Authenticator</a></b> (🥉10 ·  ⭐ 22 · 💀) - CAS authenticator for Jupyterhub. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/cwaldbieser/jhub_cas_authenticator) (👨‍💻 4 · 🔀 11 · 📋 15 - 20% open · ⏱️ 17.03.2023):
+
+	```
+	git clone https://github.com/cwaldbieser/jhub_cas_authenticator
+	```
+- [PyPi](https://pypi.org/project/jhub_cas_authenticator) (📥 240 / month):
+	```
+	pip install jhub_cas_authenticator
+	```
+</details>
+<details><summary><b><a href="https://github.com/jupyterhub/kerberosauthenticator">Keberos Authenticator</a></b> (🥉9 ·  ⭐ 11 · 💀) - A JupyterHub authenticator using Kerberos. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/jupyterhub/kerberosauthenticator) (👨‍💻 2 · 🔀 5 · 📋 5 - 60% open · ⏱️ 16.07.2019):
 
 	```
 	git clone https://github.com/jupyterhub/kerberosauthenticator
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-kerberosauthenticator) (📥 74 / month):
+- [PyPi](https://pypi.org/project/jupyterhub-kerberosauthenticator) (📥 260 / month):
 	```
 	pip install jupyterhub-kerberosauthenticator
 	```
 </details>
-<details><summary><b><a href="https://github.com/andreas-h/sshauthenticator">SSH Authenticator</a></b> (🥉6 ·  ⭐ 6 · 💀) - JupyterHub的简单SSH身份验证器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/thedataincubator/jupyterhub-hashauthenticator">Hash Authenticator</a></b> (🥉8 ·  ⭐ 4) - Authenticate users with passwords generated from their.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/thedataincubator/jupyterhub-hashauthenticator) (👨‍💻 3 · 🔀 3 · ⏱️ 04.01.2024):
+
+	```
+	git clone https://github.com/thedataincubator/jupyterhub-hashauthenticator
+	```
+- [PyPi](https://pypi.org/project/jupyterhub-hashauthenticator) (📥 17 / month):
+	```
+	pip install jupyterhub-hashauthenticator
+	```
+</details>
+<details><summary><b><a href="https://github.com/andreas-h/sshauthenticator">SSH Authenticator</a></b> (🥉6 ·  ⭐ 6 · 💀) - A simple SSH authenticator for JupyterHub. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
 - [GitHub](https://github.com/andreas-h/sshauthenticator) (🔀 1 · ⏱️ 03.09.2019):
 
@@ -3536,164 +3520,164 @@ _管理和控制用户如何访问JupyterHub部署的身份验证模块。_
 </details>
 <br>
 
-## JupyterHub容器等
+## JupyterHub Spawners
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_启动、监视和停止单用户笔记本服务器的派生模块。_
+_Spawner modules that start, monitor, and stop single-user notebook servers._
 
-<details><summary><b><a href="https://github.com/jupyterhub/dockerspawner">DockerSpawner</a></b> (🥇21 ·  ⭐ 430) - 在Docker容器中生成JupyterHub单用户服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/dockerspawner">DockerSpawner</a></b> (🥇21 ·  ⭐ 470) - Spawns JupyterHub single user servers in Docker containers. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/dockerspawner) (👨‍💻 64 · 🔀 270 · 📦 130 · 📋 260 - 6% open · ⏱️ 05.07.2022):
+- [GitHub](https://github.com/jupyterhub/dockerspawner) (👨‍💻 69 · 🔀 290 · 📦 190 · 📋 280 - 8% open · ⏱️ 01.02.2024):
 
 	```
 	git clone https://github.com/jupyterhub/dockerspawner
 	```
-- [PyPi](https://pypi.org/project/dockerspawner) (📥 8.6K / month):
+- [PyPi](https://pypi.org/project/dockerspawner) (📥 36K / month):
 	```
 	pip install dockerspawner
 	```
-- [Conda](https://anaconda.org/conda-forge/dockerspawner) (📥 13K · ⏱️ 17.08.2021):
+- [Conda](https://anaconda.org/conda-forge/dockerspawner) (📥 21K · ⏱️ 21.11.2023):
 	```
 	conda install -c conda-forge dockerspawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/kubespawner">KubeSpawner</a></b> (🥈20 ·  ⭐ 420) - Kubernetes spawner for JupyterHub. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/kubespawner">KubeSpawner</a></b> (🥈20 ·  ⭐ 520) - Kubernetes spawner for JupyterHub. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/kubespawner) (👨‍💻 73 · 🔀 250 · 📦 110 · 📋 290 - 17% open · ⏱️ 13.08.2022):
+- [GitHub](https://github.com/jupyterhub/kubespawner) (👨‍💻 84 · 🔀 290 · 📦 160 · 📋 360 - 20% open · ⏱️ 02.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/kubespawner
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-kubespawner) (📥 33K / month):
+- [PyPi](https://pypi.org/project/jupyterhub-kubespawner) (📥 14K / month):
 	```
 	pip install jupyterhub-kubespawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/batchspawner">BatchSpawner</a></b> (🥈20 ·  ⭐ 140) - 用于Jupyterhub的自定义Spawner，可按计划批量启动服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/batchspawner">BatchSpawner</a></b> (🥈20 ·  ⭐ 170) - Custom Spawner for Jupyterhub to start servers in batch scheduled.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/batchspawner) (👨‍💻 40 · 🔀 98 · 📦 21 · 📋 120 - 40% open · ⏱️ 14.04.2022):
+- [GitHub](https://github.com/jupyterhub/batchspawner) (👨‍💻 49 · 🔀 120 · 📦 34 · 📋 140 - 37% open · ⏱️ 02.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/batchspawner
 	```
-- [PyPi](https://pypi.org/project/batchspawner) (📥 3.3K / month):
+- [PyPi](https://pypi.org/project/batchspawner) (📥 4.2K / month):
 	```
 	pip install batchspawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/systemdspawner">SystemdSpawner</a></b> (🥉17 ·  ⭐ 79) - 使用Systemd生成JupyterHub单用户笔记本服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/systemdspawner">SystemdSpawner</a></b> (🥉16 ·  ⭐ 88) - Spawn JupyterHub single-user notebook servers with systemd. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/systemdspawner) (👨‍💻 17 · 🔀 40 · 📦 21 · 📋 59 - 45% open · ⏱️ 22.04.2022):
+- [GitHub](https://github.com/jupyterhub/systemdspawner) (👨‍💻 21 · 🔀 46 · 📦 41 · 📋 70 - 30% open · ⏱️ 01.02.2024):
 
 	```
 	git clone https://github.com/jupyterhub/systemdspawner
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-systemdspawner) (📥 1.5K / month):
+- [PyPi](https://pypi.org/project/jupyterhub-systemdspawner) (📥 4.6K / month):
 	```
 	pip install jupyterhub-systemdspawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/wrapspawner">WrapSpawner</a></b> (🥉14 ·  ⭐ 54) - JupyterHub的生成器的运行时配置机制。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/wrapspawner">WrapSpawner</a></b> (🥉15 ·  ⭐ 59) - Mechanism for runtime configuration of spawners for JupyterHub. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/wrapspawner) (👨‍💻 16 · 🔀 49 · 📦 7 · 📋 31 - 54% open · ⏱️ 04.03.2022):
+- [GitHub](https://github.com/jupyterhub/wrapspawner) (👨‍💻 19 · 🔀 57 · 📦 11 · 📋 33 - 51% open · ⏱️ 08.04.2024):
 
 	```
 	git clone https://github.com/jupyterhub/wrapspawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/sudospawner">SudoSpawner</a></b> (🥉14 ·  ⭐ 44 · 💤) - 使用Systemd生成JupyterHub单用户笔记本服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/sudospawner">SudoSpawner</a></b> (🥉15 ·  ⭐ 50) - Spawn JupyterHub single-user servers with sudo. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/sudospawner) (👨‍💻 14 · 🔀 36 · 📦 40 · 📋 37 - 45% open · ⏱️ 10.09.2021):
+- [GitHub](https://github.com/jupyterhub/sudospawner) (👨‍💻 15 · 🔀 39 · 📦 67 · 📋 40 - 45% open · ⏱️ 14.12.2023):
 
 	```
 	git clone https://github.com/jupyterhub/sudospawner
 	```
-- [PyPi](https://pypi.org/project/sudospawner) (📥 820 / month):
+- [PyPi](https://pypi.org/project/sudospawner) (📥 2.3K / month):
 	```
 	pip install sudospawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/uktrade/fargatespawner">FargateSpawner</a></b> (🥉11 ·  ⭐ 36 · 💀) - 在Docker容器中生成JupyterHub单用户服务器。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/uktrade/fargatespawner">FargateSpawner</a></b> (🥉13 ·  ⭐ 44 · 💀) - Spawns JupyterHub single user servers in Docker containers.. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
 
-- [GitHub](https://github.com/uktrade/fargatespawner) (👨‍💻 3 · 🔀 20 · 📦 1 · 📋 11 - 54% open · ⏱️ 28.06.2020):
+- [GitHub](https://github.com/uktrade/fargatespawner) (👨‍💻 3 · 🔀 21 · 📦 4 · 📋 11 - 54% open · ⏱️ 28.06.2020):
 
 	```
 	git clone https://github.com/uktrade/fargatespawner
 	```
-- [PyPi](https://pypi.org/project/fargatespawner) (📥 240 / month):
+- [PyPi](https://pypi.org/project/fargatespawner) (📥 390 / month):
 	```
 	pip install fargatespawner
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyterhub/yarnspawner">YarnSpawner</a></b> (🥉10 ·  ⭐ 19 · 💀) - 在Hadoop/YARN中生成JupyterHub单用户笔记本服务器。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyterhub/yarnspawner">YarnSpawner</a></b> (🥉10 ·  ⭐ 19 · 💀) - Spawn JupyterHub single user notebook servers in Hadoop/YARN.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyterhub/yarnspawner) (👨‍💻 2 · 🔀 9 · 📋 9 - 55% open · ⏱️ 16.07.2019):
+- [GitHub](https://github.com/jupyterhub/yarnspawner) (👨‍💻 2 · 🔀 12 · 📋 11 - 63% open · ⏱️ 16.07.2019):
 
 	```
 	git clone https://github.com/jupyterhub/yarnspawner
 	```
-- [PyPi](https://pypi.org/project/jupyterhub-yarnspawner) (📥 70 / month):
+- [PyPi](https://pypi.org/project/jupyterhub-yarnspawner) (📥 150 / month):
 	```
 	pip install jupyterhub-yarnspawner
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyterhub-yarnspawner) (📥 29K · ⏱️ 17.11.2021):
+- [Conda](https://anaconda.org/conda-forge/jupyterhub-yarnspawner) (📥 37K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge jupyterhub-yarnspawner
 	```
 </details>
 <br>
 
-## Jupyter组件
+## Jupyter Components
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-_Jupyter架构的核心组件。_
+_Core components of the Jupyter architecture._
 
-<details><summary><b><a href="https://github.com/ipython/ipython">ipython</a></b> (🥇34 ·  ⭐ 15K) - Official repository for IPython itself. Other repos in the IPython.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/ipython/ipython">ipython</a></b> (🥇36 ·  ⭐ 16K) - Official repository for IPython itself. Other repos in the IPython.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/ipython/ipython) (👨‍💻 890 · 🔀 4.2K · 📥 320K · 📦 300K · 📋 7K - 20% open · ⏱️ 22.08.2022):
+- [GitHub](https://github.com/ipython/ipython) (👨‍💻 980 · 🔀 4.3K · 📥 320K · 📦 530K · 📋 7.3K - 22% open · ⏱️ 09.04.2024):
 
 	```
 	git clone https://github.com/ipython/ipython
 	```
-- [PyPi](https://pypi.org/project/ipython) (📥 17M / month):
+- [PyPi](https://pypi.org/project/ipython) (📥 43M / month):
 	```
 	pip install ipython
 	```
-- [Conda](https://anaconda.org/conda-forge/ipython) (📥 13M · ⏱️ 28.05.2022):
+- [Conda](https://anaconda.org/conda-forge/ipython) (📥 27M · ⏱️ 04.03.2024):
 	```
 	conda install -c conda-forge ipython
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter-server/jupyter_server">jupyter_server</a></b> (🥉21 ·  ⭐ 330) - The backendi.e. core services, APIs, and REST.. <code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter-server/jupyter_server">jupyter_server</a></b> (🥉25 ·  ⭐ 440) - The backendi.e. core services, APIs, and REST endpointsto.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter-server/jupyter_server) (👨‍💻 480 · 🔀 180 · 📥 420 · 📋 290 - 35% open · ⏱️ 23.08.2022):
+- [GitHub](https://github.com/jupyter-server/jupyter_server) (👨‍💻 520 · 🔀 260 · 📥 2.7K · 📋 430 - 35% open · ⏱️ 08.04.2024):
 
 	```
 	git clone https://github.com/jupyter-server/jupyter_server
 	```
-- [PyPi](https://pypi.org/project/jupyter_server) (📥 1.7M / month):
+- [PyPi](https://pypi.org/project/jupyter_server) (📥 26M / month):
 	```
 	pip install jupyter_server
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyter_server) (📥 2M · ⏱️ 06.07.2022):
+- [Conda](https://anaconda.org/conda-forge/jupyter_server) (📥 11M · ⏱️ 04.03.2024):
 	```
 	conda install -c conda-forge jupyter_server
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter/jupyter-packaging">jupyter-packaging</a></b> (🥉19 ·  ⭐ 58) - 帮助构建和安装Jupyter Python软件包的工具。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter/jupyter-packaging">jupyter-packaging</a></b> (🥉19 ·  ⭐ 62) - Tools to help build and install Jupyter Python packages. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/jupyter-packaging) (👨‍💻 29 · 🔀 44 · 📥 28 · 📋 39 - 28% open · ⏱️ 09.08.2022):
+- [GitHub](https://github.com/jupyter/jupyter-packaging) (👨‍💻 30 · 🔀 46 · 📥 65 · 📋 41 - 26% open · ⏱️ 05.04.2024):
 
 	```
 	git clone https://github.com/jupyter/jupyter-packaging
 	```
-- [PyPi](https://pypi.org/project/jupyter-packaging) (📥 330K / month):
+- [PyPi](https://pypi.org/project/jupyter-packaging) (📥 470K / month):
 	```
 	pip install jupyter-packaging
 	```
-- [Conda](https://anaconda.org/conda-forge/jupyter-packaging) (📥 300K · ⏱️ 14.07.2022):
+- [Conda](https://anaconda.org/conda-forge/jupyter-packaging) (📥 550K · ⏱️ 16.06.2023):
 	```
 	conda install -c conda-forge jupyter-packaging
 	```
@@ -3702,62 +3686,62 @@ _Jupyter架构的核心组件。_
 
 ## Others
 
-<a href="#目录"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
+<a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/holoviz/panel">panel</a></b> (🥇31 ·  ⭐ 2.1K) - 适用于Python的高级应用程序和仪表板解决方案。<code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+<details><summary><b><a href="https://github.com/jupyter/qtconsole">qtconsole</a></b> (🥇32 ·  ⭐ 390) - Jupyter Qt Console. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/holoviz/panel) (👨‍💻 100 · 🔀 270 · 📦 4K · 📋 1.9K - 28% open · ⏱️ 25.08.2022):
-
-	```
-	git clone https://github.com/holoviz/panel
-	```
-- [PyPi](https://pypi.org/project/panel) (📥 410K / month):
-	```
-	pip install panel
-	```
-- [Conda](https://anaconda.org/conda-forge/panel) (📥 590K · ⏱️ 24.05.2022):
-	```
-	conda install -c conda-forge panel
-	```
-</details>
-<details><summary><b><a href="https://github.com/jupyter/qtconsole">qtconsole</a></b> (🥇31 ·  ⭐ 330) - Jupyter Qt Console. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
-
-- [GitHub](https://github.com/jupyter/qtconsole) (👨‍💻 120 · 🔀 170 · 📦 110K · 📋 310 - 30% open · ⏱️ 19.06.2022):
+- [GitHub](https://github.com/jupyter/qtconsole) (👨‍💻 120 · 🔀 190 · 📦 170K · 📋 340 - 31% open · ⏱️ 25.11.2023):
 
 	```
 	git clone https://github.com/jupyter/qtconsole
 	```
-- [PyPi](https://pypi.org/project/qtconsole) (📥 3.1M / month):
+- [PyPi](https://pypi.org/project/qtconsole) (📥 5.2M / month):
 	```
 	pip install qtconsole
 	```
-- [Conda](https://anaconda.org/conda-forge/qtconsole) (📥 2.8M · ⏱️ 05.06.2022):
+- [Conda](https://anaconda.org/conda-forge/qtconsole) (📥 4.7M · ⏱️ 16.11.2023):
 	```
 	conda install -c conda-forge qtconsole
 	```
 </details>
-<details><summary><b><a href="https://github.com/abhishekkrthakur/colabcode">colabcode</a></b> (🥉21 ·  ⭐ 1.8K · 💀) - 在Google Colab或Kaggle笔记本上运行VSCode（代码服务器）。<code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+<details><summary><b><a href="https://github.com/holoviz/panel">panel</a></b> (🥈30 ·  ⭐ 4.1K) - A high-level app and dashboarding solution for Python. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/abhishekkrthakur/colabcode) (👨‍💻 8 · 🔀 240 · 📦 78 · 📋 73 - 56% open · ⏱️ 11.06.2021):
+- [GitHub](https://github.com/holoviz/panel) (👨‍💻 170 · 🔀 450 · 📦 11K · 📋 3.3K - 29% open · ⏱️ 09.04.2024):
 
 	```
-	git clone https://github.com/abhishekkrthakur/colabcode
+	git clone https://github.com/holoviz/panel
 	```
-- [PyPi](https://pypi.org/project/colabcode) (📥 16K / month):
+- [PyPi](https://pypi.org/project/panel) (📥 580K / month):
 	```
-	pip install colabcode
+	pip install panel
+	```
+- [Conda](https://anaconda.org/conda-forge/panel) (📥 1.4M · ⏱️ 09.04.2024):
+	```
+	conda install -c conda-forge panel
 	```
 </details>
-<details><summary><b><a href="https://github.com/jupyter/jupyter_console">jupyter-console</a></b> (🥉20 ·  ⭐ 200) - Jupyter终端控制台。<code>❗Unlicensed</code></summary>
+<details><summary><b><a href="https://github.com/jupyter/jupyter_console">jupyter-console</a></b> (🥉20 ·  ⭐ 240 · 💀) - Jupyter Terminal Console. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
 
-- [GitHub](https://github.com/jupyter/jupyter_console) (👨‍💻 59 · 🔀 130 · 📥 61 · 📋 140 - 38% open · ⏱️ 22.06.2022):
+- [GitHub](https://github.com/jupyter/jupyter_console) (👨‍💻 60 · 🔀 140 · 📥 380 · 📋 160 - 39% open · ⏱️ 06.03.2023):
 
 	```
 	git clone https://github.com/jupyter/jupyter_console
 	```
-- [PyPi](https://pypi.org/project/jupyter-console) (📥 3.3M / month):
+- [PyPi](https://pypi.org/project/jupyter-console) (📥 4.4M / month):
 	```
 	pip install jupyter-console
+	```
+</details>
+<details><summary><b><a href="https://github.com/abhishekkrthakur/colabcode">colabcode</a></b> (🥉19 ·  ⭐ 2K · 💀) - Run VSCode (codeserver) on Google Colab or Kaggle Notebooks. <code><a href="http://bit.ly/34MBwT8">MIT</a></code></summary>
+
+- [GitHub](https://github.com/abhishekkrthakur/colabcode) (👨‍💻 8 · 🔀 260 · 📦 180 · 📋 76 - 56% open · ⏱️ 11.06.2021):
+
+	```
+	git clone https://github.com/abhishekkrthakur/colabcode
+	```
+- [PyPi](https://pypi.org/project/colabcode) (📥 3.8K / month):
+	```
+	pip install colabcode
 	```
 </details>
 
